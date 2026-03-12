@@ -5,16 +5,20 @@ on:
     - cron: '15 1 * * *'
   workflow_dispatch:
 
+# AGGIUNTO: Permessi necessari per scrivere nel repository
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4 # Aggiornato a v4
+      uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v5 # Aggiornato a v5
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
 
@@ -27,9 +31,11 @@ jobs:
       run: python update_epg.py
 
     - name: Commit and Push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add 04.epg
-        git commit -m "Update EPG $(date +'%Y-%m-%d %H:%M')" || exit 0
-        git push
+        # Il commit non fallisce se non ci sono cambiamenti
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update EPG $(date +'%Y-%m-%d %H:%M')" && git push)

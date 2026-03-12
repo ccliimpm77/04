@@ -10,28 +10,36 @@ EPG_URL = "https://iptvx.one/EPG.xml.gz"
 CHANNELS_FILE = "canali.txt"
 OUTPUT_FILE = "04.epg"
 
+# Cache per non tradurre due volte la stessa parola
+translation_cache = {}
+
 def translate_text(translator, text):
     if not text or len(str(text)) < 3:
         return text
+    
+    if text in translation_cache:
+        return translation_cache[text]
+    
     try:
-        # Piccolo delay per stabilità
-        time.sleep(0.1)
-        return translator.translate(text)
+        # Delay ridotto grazie alla cache
+        time.sleep(0.05)
+        translated = translator.translate(text)
+        translation_cache[text] = translated
+        return translated
     except:
         return text
 
 def main():
-    print("--- INIZIO PROCESSO EPG ---")
+    print("--- INIZIO PROCESSO EPG (CON CACHE) ---")
     translator = GoogleTranslator(source='auto', target='it')
 
-    # 1. Lettura canali da filtrare
+    # 1. Lettura canali
     if not os.path.exists(CHANNELS_FILE):
         print(f"ERRORE: {CHANNELS_FILE} non trovato!")
         return
     
     with open(CHANNELS_FILE, 'r', encoding='utf-8') as f:
         wanted_list = [line.strip() for line in f if line.strip()]
-    print(f"Canali richiesti da canali.txt: {len(wanted_list)}")
 
     # 2. Download
     headers = {'User-Agent': 'Mozilla/5.0'}
@@ -40,13 +48,11 @@ def main():
         r.raise_for_status()
         xml_content = gzip.decompress(r.content) if r.content.startswith(b'\x1f\x8b') else r.content
         tree = etree.fromstring(xml_content)
-        print("XML scaricato e analizzato.")
     except Exception as e:
-        print(f"ERRORE DOWNLOAD/PARSING: {e}")
+        print(f"ERRORE DOWNLOAD: {e}")
         return
 
-    # 3. Identificazione ID Canali corretti
-    # Dobbiamo mappare i nomi in canali.txt con gli ID reali del file XML
+    # 3. Identificazione ID
     real_channel_ids = []
     new_root = etree.Element("tv")
     new_root.set("generator-info-name", "Custom-IT-EPG")
@@ -54,49 +60,44 @@ def main():
     for channel in tree.xpath("//channel"):
         c_id = channel.get("id")
         display_name = channel.findtext("display-name")
-        
         if c_id in wanted_list or display_name in wanted_list:
             new_root.append(channel)
             real_channel_ids.append(c_id)
     
-    print(f"ID canali identificati nell'XML: {real_channel_ids}")
+    print(f"Canali trovati: {len(real_channel_ids)}")
 
-    # 4. Filtra e Traduce Programmi
-    # NOTA: Nei programmi l'attributo si chiama 'channel', non 'id'!
-    print("Ricerca e traduzione programmi...")
+    # 4. Traduzione con Cache
+    print("Inizio traduzione (molto più veloce con la cache)...")
     prog_count = 0
     
-    for prog in tree.xpath("//programme"):
-        channel_ref = prog.get("channel") # Questo era l'errore precedente
+    # Prendiamo solo i programmi dei canali scelti
+    programmes = [p for p in tree.xpath("//programme") if p.get("channel") in real_channel_ids]
+    total_to_process = len(programmes)
+    print(f"Programmi totali da elaborare: {total_to_process}")
+
+    for prog in programmes:
+        # Titolo
+        title = prog.find("title")
+        if title is not None and title.text:
+            title.text = translate_text(translator, title.text)
         
-        if channel_ref in real_channel_ids:
-            # Traduci Titolo
-            title = prog.find("title")
-            if title is not None and title.text:
-                title.text = translate_text(translator, title.text)
-            
-            # Traduci Descrizione
-            desc = prog.find("desc")
-            if desc is not None and desc.text:
-                desc.text = translate_text(translator, desc.text)
-            
-            new_root.append(prog)
-            prog_count += 1
-            
-            if prog_count % 50 == 0:
-                print(f"Processati {prog_count} programmi...")
-            
-            # Limite per non eccedere i tempi di GitHub Actions
-            if prog_count >= 1000:
-                break
+        # Descrizione
+        desc = prog.find("desc")
+        if desc is not None and desc.text:
+            desc.text = translate_text(translator, desc.text)
+        
+        new_root.append(prog)
+        prog_count += 1
+        
+        # Feedback ogni 50 programmi
+        if prog_count % 50 == 0:
+            print(f"Progressi: {prog_count}/{total_to_process} (Cache size: {len(translation_cache)})")
 
     # 5. Salvataggio
-    if prog_count > 0:
-        with open(OUTPUT_FILE, "wb") as f:
-            f.write(etree.tostring(new_root, encoding="utf-8", xml_declaration=True, pretty_print=True))
-        print(f"SUCCESSO: Generato {OUTPUT_FILE} con {prog_count} programmi.")
-    else:
-        print("ERRORE: Non ho trovato programmi. Verifica che gli ID corrispondano.")
+    with open(OUTPUT_FILE, "wb") as f:
+        f.write(etree.tostring(new_root, encoding="utf-8", xml_declaration=True, pretty_print=True))
+    
+    print(f"SUCCESSO: Generato {OUTPUT_FILE} con {prog_count} programmi.")
 
 if __name__ == "__main__":
     main()

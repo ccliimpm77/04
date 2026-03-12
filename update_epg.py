@@ -6,7 +6,6 @@ from deep_translator import GoogleTranslator
 import time
 
 # --- CONFIGURAZIONE ---
-# L'URL corretto deve avere EPG in maiuscolo
 EPG_URL = "https://iptvx.one/EPG.xml.gz" 
 CHANNELS_FILE = "canali.txt"
 OUTPUT_FILE = "04.epg"
@@ -15,10 +14,10 @@ def translate_text(translator, text):
     if not text or len(str(text)) < 3:
         return text
     try:
-        # Delay per evitare il blocco da parte di Google Translate
-        time.sleep(0.2)
+        # Piccolo delay per stabilità
+        time.sleep(0.1)
         return translator.translate(text)
-    except Exception:
+    except:
         return text
 
 def main():
@@ -31,63 +30,46 @@ def main():
         return
     
     with open(CHANNELS_FILE, 'r', encoding='utf-8') as f:
-        wanted_channels = [line.strip() for line in f if line.strip()]
-    print(f"Canali richiesti: {len(wanted_channels)}")
+        wanted_list = [line.strip() for line in f if line.strip()]
+    print(f"Canali richiesti da canali.txt: {len(wanted_list)}")
 
-    # 2. Download con User-Agent reale
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/110.0.0.0 Safari/537.36'}
-    print(f"Scaricamento da: {EPG_URL}...")
+    # 2. Download
+    headers = {'User-Agent': 'Mozilla/5.0'}
     try:
         r = requests.get(EPG_URL, headers=headers, timeout=60)
-        if r.status_code == 404:
-            print("ERRORE 404: L'URL non è corretto. Provo con l'estensione .xml...")
-            r = requests.get("https://iptvx.one/EPG.xml", headers=headers, timeout=60)
-        
         r.raise_for_status()
-        print("Download completato.")
+        xml_content = gzip.decompress(r.content) if r.content.startswith(b'\x1f\x8b') else r.content
+        tree = etree.fromstring(xml_content)
+        print("XML scaricato e analizzato.")
     except Exception as e:
-        print(f"ERRORE DOWNLOAD: {e}")
+        print(f"ERRORE DOWNLOAD/PARSING: {e}")
         return
 
-    # 3. Decompressione e Parsing
-    try:
-        # Se i primi byte sono quelli di un GZIP, decomprimi
-        if r.content.startswith(b'\x1f\x8b'):
-            xml_content = gzip.decompress(r.content)
-        else:
-            xml_content = r.content
-        
-        parser = etree.XMLParser(recover=True, encoding='utf-8')
-        tree = etree.fromstring(xml_content, parser=parser)
-        print("XML analizzato correttamente.")
-    except Exception as e:
-        print(f"ERRORE PARSING: {e}")
-        return
-
-    # 4. Creazione nuovo file XML
+    # 3. Identificazione ID Canali corretti
+    # Dobbiamo mappare i nomi in canali.txt con gli ID reali del file XML
+    real_channel_ids = []
     new_root = etree.Element("tv")
     new_root.set("generator-info-name", "Custom-IT-EPG")
 
-    # Filtra Canali
-    canali_trovati = 0
     for channel in tree.xpath("//channel"):
-        # Controlliamo se l'ID o il nome del canale è nella nostra lista
-        channel_id = channel.get("id")
+        c_id = channel.get("id")
         display_name = channel.findtext("display-name")
         
-        if channel_id in wanted_channels or display_name in wanted_channels:
+        if c_id in wanted_list or display_name in wanted_list:
             new_root.append(channel)
-            canali_trovati += 1
+            real_channel_ids.append(c_id)
     
-    print(f"Canali trovati nel file sorgente: {canali_trovati}")
+    print(f"ID canali identificati nell'XML: {real_channel_ids}")
 
-    # Filtra e Traduce Programmi
-    print("Traduzione programmi in corso (potrebbe richiedere tempo)...")
+    # 4. Filtra e Traduce Programmi
+    # NOTA: Nei programmi l'attributo si chiama 'channel', non 'id'!
+    print("Ricerca e traduzione programmi...")
     prog_count = 0
+    
     for prog in tree.xpath("//programme"):
-        channel_id = prog.get("id")
+        channel_ref = prog.get("channel") # Questo era l'errore precedente
         
-        if channel_id in wanted_channels:
+        if channel_ref in real_channel_ids:
             # Traduci Titolo
             title = prog.find("title")
             if title is not None and title.text:
@@ -101,22 +83,20 @@ def main():
             new_root.append(prog)
             prog_count += 1
             
-            # Debug ogni 20 programmi
-            if prog_count % 20 == 0:
-                print(f"Tradotti {prog_count} programmi...")
+            if prog_count % 50 == 0:
+                print(f"Processati {prog_count} programmi...")
             
-            # Limite massimo per evitare che GitHub blocchi lo script per troppa durata
-            if prog_count >= 300:
-                print("Raggiunto limite di 300 programmi per sicurezza.")
+            # Limite per non eccedere i tempi di GitHub Actions
+            if prog_count >= 1000:
                 break
 
     # 5. Salvataggio
     if prog_count > 0:
         with open(OUTPUT_FILE, "wb") as f:
             f.write(etree.tostring(new_root, encoding="utf-8", xml_declaration=True, pretty_print=True))
-        print(f"SUCCESSO: Creato file {OUTPUT_FILE} con {prog_count} programmi.")
+        print(f"SUCCESSO: Generato {OUTPUT_FILE} con {prog_count} programmi.")
     else:
-        print("ERRORE: Nessun programma trovato per i canali specificati. Verifica i nomi in canali.txt")
+        print("ERRORE: Non ho trovato programmi. Verifica che gli ID corrispondano.")
 
 if __name__ == "__main__":
     main()

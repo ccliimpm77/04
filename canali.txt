@@ -5,3 +5,10 @@ MAX Sport 1
 MAX Sport 2
 MAX Sport 3
 MAX Sport 4
+Eurosport 1
+Eurosport 2
+Setanta Sports 1 Georgia
+Setanta Sports 2 Georgia
+Setanta Sports
+Setanta Sports+
+

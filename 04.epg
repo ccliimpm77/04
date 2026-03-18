@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="IptvX|one" generator-info-url="https://iptvx.one/"><channel id="diema-sport-1"><display-name>Diema Sport</display-name><display-name>Diema Sport HD</display-name><display-name>Diema Sport 1</display-name><display-name>Diema Sport 1 HD</display-name><icon src="https://iptvx.one/picons/diema-sport-1.png"/></channel>
+<tv generator-info-name="IptvX|one" generator-info-url="https://iptvx.one/"><channel id="cnn"><display-name>CNN International</display-name><display-name>CNNI</display-name><display-name>CNN International HD</display-name><icon src="https://iptvx.one/picons/cnn.png"/></channel>
+<channel id="diema-sport-1"><display-name>Diema Sport</display-name><display-name>Diema Sport HD</display-name><display-name>Diema Sport 1</display-name><display-name>Diema Sport 1 HD</display-name><icon src="https://iptvx.one/picons/diema-sport-1.png"/></channel>
 <channel id="diema-sport-2"><display-name>Diema Sport 2</display-name><display-name>Diema Sport 2 HD</display-name><icon src="https://iptvx.one/picons/diema-sport-2.png"/></channel>
 <channel id="diema-sport-3"><display-name>Diema Sport 3</display-name><display-name>Diema Sport 3 HD</display-name><icon src="https://iptvx.one/picons/diema-sport-3.png"/></channel>
 <channel id="eurosport1"><display-name>Eurosport 1</display-name><display-name>Eurosport 1 HD</display-name><display-name>Eurosport 1 HD CEE</display-name><display-name>Eurosport 1 CEE</display-name><icon src="https://iptvx.one/picons/eurosport1.png"/></channel>
@@ -8,6 +9,294 @@
 <channel id="max-sport-2"><display-name>MAX Sport 2</display-name><display-name>MAX Sport 2 HD</display-name><icon src="https://iptvx.one/picons/max-sport-2.png"/></channel>
 <channel id="max-sport-3"><display-name>MAX Sport 3</display-name><display-name>MAX Sport 3 HD</display-name><icon src="https://iptvx.one/picons/max-sport-3.png"/></channel>
 <channel id="max-sport-4"><display-name>MAX Sport 4</display-name><display-name>MAX Sport 4 HD</display-name><icon src="https://iptvx.one/picons/max-sport-4.png"/></channel>
+<programme start="20260310200000 +0300" stop="20260310210000 +0300" channel="cnn"><title>Amanpour</title></programme>
+<programme start="20260310210000 +0300" stop="20260310220000 +0300" channel="cnn"><title>Isa Soares stasera</title></programme>
+<programme start="20260310220000 +0300" stop="20260310230000 +0300" channel="cnn"><title>Quello che sappiamo con Max Foster</title></programme>
+<programme start="20260310230000 +0300" stop="20260311000000 +0300" channel="cnn"><title>La ricerca significa affari</title></programme>
+<programme start="20260311000000 +0300" stop="20260311010000 +0300" channel="cnn"><title>Il protagonista con Jake Tapper</title></programme>
+<programme start="20260311010000 +0300" stop="20260311020000 +0300" channel="cnn"><title>Il Breve con Jim Sciutto</title></programme>
+<programme start="20260311020000 +0300" stop="20260311030000 +0300" channel="cnn"><title>Erin Burnett in prima fila</title></programme>
+<programme start="20260311030000 +0300" stop="20260311040000 +0300" channel="cnn"><title>AndersonCooper360</title></programme>
+<programme start="20260311040000 +0300" stop="20260311050000 +0300" channel="cnn"><title>La Fonte con Kaitlan Collins</title></programme>
+<programme start="20260311050000 +0300" stop="20260311060000 +0300" channel="cnn"><title>Notiziario della CNN</title></programme>
+<programme start="20260311060000 +0300" stop="20260311070000 +0300" channel="cnn"><title>Laura Coates dal vivo</title></programme>
+<programme start="20260311070000 +0300" stop="20260311090000 +0300" channel="cnn"><title>La storia è con Elex Michaelson</title></programme>
+<programme start="20260311090000 +0300" stop="20260311110000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260311110000 +0300" stop="20260311130000 +0300" channel="cnn"><title>Inizio anticipato</title></programme>
+<programme start="20260311130000 +0300" stop="20260311140000 +0300" channel="cnn"><title>CNN questa mattina</title></programme>
+<programme start="20260311140000 +0300" stop="20260311160000 +0300" channel="cnn"><title>Centrale di notizie della CNN</title></programme>
+<programme start="20260311160000 +0300" stop="20260311180000 +0300" channel="cnn"><title>Connetti il ​​mondo</title></programme>
+<programme start="20260311180000 +0300" stop="20260311200000 +0300" channel="cnn"><title>Un mondo</title></programme>
+<programme start="20260311200000 +0300" stop="20260311210000 +0300" channel="cnn"><title>Amanpour</title></programme>
+<programme start="20260311210000 +0300" stop="20260311220000 +0300" channel="cnn"><title>Isa Soares stasera</title></programme>
+<programme start="20260311220000 +0300" stop="20260311230000 +0300" channel="cnn"><title>Quello che sappiamo con Max Foster</title></programme>
+<programme start="20260311230000 +0300" stop="20260312000000 +0300" channel="cnn"><title>La ricerca significa affari</title></programme>
+<programme start="20260312000000 +0300" stop="20260312010000 +0300" channel="cnn"><title>Il protagonista con Jake Tapper</title></programme>
+<programme start="20260312010000 +0300" stop="20260312020000 +0300" channel="cnn"><title>Il Breve con Jim Sciutto</title></programme>
+<programme start="20260312020000 +0300" stop="20260312030000 +0300" channel="cnn"><title>Erin Burnett in prima fila</title></programme>
+<programme start="20260312030000 +0300" stop="20260312040000 +0300" channel="cnn"><title>AndersonCooper360</title></programme>
+<programme start="20260312040000 +0300" stop="20260312050000 +0300" channel="cnn"><title>La Fonte con Kaitlan Collins</title></programme>
+<programme start="20260312050000 +0300" stop="20260312060000 +0300" channel="cnn"><title>Notiziario della CNN</title></programme>
+<programme start="20260312060000 +0300" stop="20260312070000 +0300" channel="cnn"><title>Laura Coates dal vivo</title></programme>
+<programme start="20260312070000 +0300" stop="20260312090000 +0300" channel="cnn"><title>La storia è con Elex Michaelson</title></programme>
+<programme start="20260312090000 +0300" stop="20260312110000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260312110000 +0300" stop="20260312130000 +0300" channel="cnn"><title>Inizio anticipato</title></programme>
+<programme start="20260312130000 +0300" stop="20260312140000 +0300" channel="cnn"><title>CNN questa mattina</title></programme>
+<programme start="20260312140000 +0300" stop="20260312160000 +0300" channel="cnn"><title>Centrale di notizie della CNN</title></programme>
+<programme start="20260312160000 +0300" stop="20260312180000 +0300" channel="cnn"><title>Connetti il ​​mondo</title></programme>
+<programme start="20260312180000 +0300" stop="20260312200000 +0300" channel="cnn"><title>Un mondo</title></programme>
+<programme start="20260312200000 +0300" stop="20260312210000 +0300" channel="cnn"><title>Amanpour</title></programme>
+<programme start="20260312210000 +0300" stop="20260312220000 +0300" channel="cnn"><title>Isa Soares stasera</title></programme>
+<programme start="20260312220000 +0300" stop="20260312230000 +0300" channel="cnn"><title>Quello che sappiamo con Max Foster</title></programme>
+<programme start="20260312230000 +0300" stop="20260313000000 +0300" channel="cnn"><title>La ricerca significa affari</title></programme>
+<programme start="20260313000000 +0300" stop="20260313010000 +0300" channel="cnn"><title>Il protagonista con Jake Tapper</title></programme>
+<programme start="20260313010000 +0300" stop="20260313020000 +0300" channel="cnn"><title>Il Breve con Jim Sciutto</title></programme>
+<programme start="20260313020000 +0300" stop="20260313030000 +0300" channel="cnn"><title>Erin Burnett in prima fila</title></programme>
+<programme start="20260313030000 +0300" stop="20260313040000 +0300" channel="cnn"><title>AndersonCooper360</title></programme>
+<programme start="20260313040000 +0300" stop="20260313050000 +0300" channel="cnn"><title>La Fonte con Kaitlan Collins</title></programme>
+<programme start="20260313050000 +0300" stop="20260313060000 +0300" channel="cnn"><title>Notiziario della CNN</title></programme>
+<programme start="20260313060000 +0300" stop="20260313070000 +0300" channel="cnn"><title>Laura Coates dal vivo</title></programme>
+<programme start="20260313070000 +0300" stop="20260313090000 +0300" channel="cnn"><title>La storia è con Elex Michaelson</title></programme>
+<programme start="20260313090000 +0300" stop="20260313110000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260313110000 +0300" stop="20260313130000 +0300" channel="cnn"><title>Inizio anticipato</title></programme>
+<programme start="20260313130000 +0300" stop="20260313140000 +0300" channel="cnn"><title>CNN questa mattina</title></programme>
+<programme start="20260313140000 +0300" stop="20260313160000 +0300" channel="cnn"><title>Centrale di notizie della CNN</title></programme>
+<programme start="20260313160000 +0300" stop="20260313180000 +0300" channel="cnn"><title>Connetti il ​​mondo</title></programme>
+<programme start="20260313180000 +0300" stop="20260313200000 +0300" channel="cnn"><title>Un mondo</title></programme>
+<programme start="20260313200000 +0300" stop="20260313210000 +0300" channel="cnn"><title>Amanpour</title></programme>
+<programme start="20260313210000 +0300" stop="20260313220000 +0300" channel="cnn"><title>Isa Soares stasera</title></programme>
+<programme start="20260313220000 +0300" stop="20260313230000 +0300" channel="cnn"><title>Quello che sappiamo con Max Foster</title></programme>
+<programme start="20260313230000 +0300" stop="20260314000000 +0300" channel="cnn"><title>La ricerca significa affari</title></programme>
+<programme start="20260314000000 +0300" stop="20260314010000 +0300" channel="cnn"><title>Il protagonista con Jake Tapper</title></programme>
+<programme start="20260314010000 +0300" stop="20260314020000 +0300" channel="cnn"><title>Il Breve con Jim Sciutto</title></programme>
+<programme start="20260314020000 +0300" stop="20260314030000 +0300" channel="cnn"><title>Erin Burnett in prima fila</title></programme>
+<programme start="20260314030000 +0300" stop="20260314040000 +0300" channel="cnn"><title>AndersonCooper360</title></programme>
+<programme start="20260314040000 +0300" stop="20260314050000 +0300" channel="cnn"><title>La Fonte con Kaitlan Collins</title></programme>
+<programme start="20260314050000 +0300" stop="20260314060000 +0300" channel="cnn"><title>Notiziario della CNN</title></programme>
+<programme start="20260314060000 +0300" stop="20260314070000 +0300" channel="cnn"><title>Laura Coates dal vivo</title></programme>
+<programme start="20260314070000 +0300" stop="20260314090000 +0300" channel="cnn"><title>La storia è con Elex Michaelson</title></programme>
+<programme start="20260314090000 +0300" stop="20260314093000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260314093000 +0300" stop="20260314100000 +0300" channel="cnn"><title>Voci africane. E Zamzo Mbatha</title></programme>
+<programme start="20260314100000 +0300" stop="20260314103000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260314103000 +0300" stop="20260314110000 +0300" channel="cnn"><title>Collegare l'Africa. Marzo 2026</title></programme>
+<programme start="20260314110000 +0300" stop="20260314113000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260314113000 +0300" stop="20260314120000 +0300" channel="cnn"><title>Creatori della CNN</title></programme>
+<programme start="20260314120000 +0300" stop="20260314130000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260314130000 +0300" stop="20260314133000 +0300" channel="cnn"><title>Voci africane. E Zamzo Mbatha</title></programme>
+<programme start="20260314133000 +0300" stop="20260314140000 +0300" channel="cnn"><title>Stagioni. L'immaginazione culturale del Giappone</title></programme>
+<programme start="20260314140000 +0300" stop="20260314150000 +0300" channel="cnn"><title>CNN questo fine settimana mattutino</title></programme>
+<programme start="20260314150000 +0300" stop="20260314160000 +0300" channel="cnn"><title>Innanzitutto con Victor Blackwell</title></programme>
+<programme start="20260314160000 +0300" stop="20260314170000 +0300" channel="cnn"><title>Smerconish</title></programme>
+<programme start="20260314170000 +0300" stop="20260314173000 +0300" channel="cnn"><title>Creatori della CNN</title></programme>
+<programme start="20260314173000 +0300" stop="20260314180000 +0300" channel="cnn"><title>All'interno dell'Africa. Ep. 721</title></programme>
+<programme start="20260314180000 +0300" stop="20260314190000 +0300" channel="cnn"><title>L'ora di Amanpour</title></programme>
+<programme start="20260314190000 +0300" stop="20260314193000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260314193000 +0300" stop="20260314200000 +0300" channel="cnn"><title>Stagioni. L'immaginazione culturale del Giappone</title></programme>
+<programme start="20260314200000 +0300" stop="20260314210000 +0300" channel="cnn"><title>Smerconish</title></programme>
+<programme start="20260314210000 +0300" stop="20260314230000 +0300" channel="cnn"><title>Sabato nella sala stampa della CNN</title></programme>
+<programme start="20260314230000 +0300" stop="20260315000000 +0300" channel="cnn"><title>Tutta la storia con Anderson Cooper. L’ascesa del nazionalismo cristiano</title></programme>
+<programme start="20260315000000 +0300" stop="20260315003000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260315003000 +0300" stop="20260315010000 +0300" channel="cnn"><title>Creatori della CNN</title></programme>
+<programme start="20260315010000 +0300" stop="20260315030000 +0300" channel="cnn"><title>Sabato nella sala stampa della CNN</title></programme>
+<programme start="20260315030000 +0300" stop="20260315033000 +0300" channel="cnn"><title>All'interno dell'Africa. Ep. 721</title></programme>
+<programme start="20260315033000 +0300" stop="20260315040000 +0300" channel="cnn"><title>Voci africane. E Zamzo Mbatha</title></programme>
+<programme start="20260315040000 +0300" stop="20260315043000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260315043000 +0300" stop="20260315050000 +0300" channel="cnn"><title>Collegare l'Africa. Marzo 2026</title></programme>
+<programme start="20260315050000 +0300" stop="20260315060000 +0300" channel="cnn"><title>Hollywood e gli Oscar: ancora d'oro?</title></programme>
+<programme start="20260315060000 +0300" stop="20260315063000 +0300" channel="cnn"><title>Stagioni. L'immaginazione culturale del Giappone</title></programme>
+<programme start="20260315063000 +0300" stop="20260315064500 +0300" channel="cnn"><title>Mercato asiatico. Ep. 54</title></programme>
+<programme start="20260315064500 +0300" stop="20260315070000 +0300" channel="cnn"><title>Mercato Medio Oriente. Ep. 52</title></programme>
+<programme start="20260315070000 +0300" stop="20260315073000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260315073000 +0300" stop="20260315080000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260315080000 +0300" stop="20260315083000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260315083000 +0300" stop="20260315090000 +0300" channel="cnn"><title>All'interno dell'Africa. Ep. 721</title></programme>
+<programme start="20260315090000 +0300" stop="20260315093000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260315093000 +0300" stop="20260315094500 +0300" channel="cnn"><title>Mercato asiatico. Ep. 54</title></programme>
+<programme start="20260315094500 +0300" stop="20260315100000 +0300" channel="cnn"><title>Mercato Medio Oriente. Ep. 52</title></programme>
+<programme start="20260315100000 +0300" stop="20260315130000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260315130000 +0300" stop="20260315150000 +0300" channel="cnn"><title>CNN questo fine settimana mattutino</title></programme>
+<programme start="20260315150000 +0300" stop="20260315160000 +0300" channel="cnn"><title>Dentro la politica con Manu Raju</title></programme>
+<programme start="20260315160000 +0300" stop="20260315170000 +0300" channel="cnn"><title>Stato dell'Unione con Jake Tapper e Dana Bash</title></programme>
+<programme start="20260315170000 +0300" stop="20260315180000 +0300" channel="cnn"><title>Fareed Zakaria GPS</title></programme>
+<programme start="20260315180000 +0300" stop="20260315190000 +0300" channel="cnn"><title>Dentro la politica con Manu Raju</title></programme>
+<programme start="20260315190000 +0300" stop="20260315200000 +0300" channel="cnn"><title>Stato dell'Unione con Jake Tapper e Dana Bash</title></programme>
+<programme start="20260315200000 +0300" stop="20260315210000 +0300" channel="cnn"><title>Fareed Zakaria GPS</title></programme>
+<programme start="20260315210000 +0300" stop="20260315230000 +0300" channel="cnn"><title>Domenica nella sala stampa della CNN</title></programme>
+<programme start="20260315230000 +0300" stop="20260316000000 +0300" channel="cnn"><title>L'ora di Amanpour</title></programme>
+<programme start="20260316000000 +0300" stop="20260316010000 +0300" channel="cnn"><title>Fareed Zakaria GPS</title></programme>
+<programme start="20260316010000 +0300" stop="20260316013000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260316013000 +0300" stop="20260316033000 +0300" channel="cnn"><title>Domenica nella sala stampa della CNN</title></programme>
+<programme start="20260316033000 +0300" stop="20260316050000 +0300" channel="cnn"><title>Domenica nella sala stampa della CNN</title></programme>
+<programme start="20260316050000 +0300" stop="20260316084500 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260316084500 +0300" stop="20260316090000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260316090000 +0300" stop="20260316104500 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260316104500 +0300" stop="20260316110000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260316110000 +0300" stop="20260316130000 +0300" channel="cnn"><title>Inizio anticipato</title></programme>
+<programme start="20260316130000 +0300" stop="20260316140000 +0300" channel="cnn"><title>CNN questa mattina</title></programme>
+<programme start="20260316140000 +0300" stop="20260316160000 +0300" channel="cnn"><title>Centrale di notizie della CNN</title></programme>
+<programme start="20260316160000 +0300" stop="20260316164500 +0300" channel="cnn"><title>Connetti il ​​mondo</title></programme>
+<programme start="20260316164500 +0300" stop="20260316170000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260316170000 +0300" stop="20260316180000 +0300" channel="cnn"><title>Connetti il ​​mondo</title></programme>
+<programme start="20260316180000 +0300" stop="20260316200000 +0300" channel="cnn"><title>Un mondo</title></programme>
+<programme start="20260316200000 +0300" stop="20260316210000 +0300" channel="cnn"><title>Amanpour</title></programme>
+<programme start="20260316210000 +0300" stop="20260316220000 +0300" channel="cnn"><title>Isa Soares stasera</title></programme>
+<programme start="20260316220000 +0300" stop="20260316230000 +0300" channel="cnn"><title>Quello che sappiamo con Max Foster</title></programme>
+<programme start="20260316230000 +0300" stop="20260317000000 +0300" channel="cnn"><title>La ricerca significa affari</title></programme>
+<programme start="20260317000000 +0300" stop="20260317010000 +0300" channel="cnn"><title>Il protagonista con Jake Tapper</title></programme>
+<programme start="20260317010000 +0300" stop="20260317020000 +0300" channel="cnn"><title>Il Breve con Jim Sciutto</title></programme>
+<programme start="20260317020000 +0300" stop="20260317030000 +0300" channel="cnn"><title>Erin Burnett in prima fila</title></programme>
+<programme start="20260317030000 +0300" stop="20260317040000 +0300" channel="cnn"><title>AndersonCooper360</title></programme>
+<programme start="20260317040000 +0300" stop="20260317050000 +0300" channel="cnn"><title>La Fonte con Kaitlan Collins</title></programme>
+<programme start="20260317050000 +0300" stop="20260317060000 +0300" channel="cnn"><title>Notiziario della CNN</title></programme>
+<programme start="20260317060000 +0300" stop="20260317070000 +0300" channel="cnn"><title>Laura Coates dal vivo</title></programme>
+<programme start="20260317070000 +0300" stop="20260317084500 +0300" channel="cnn"><title>La storia è con Elex Michaelson</title></programme>
+<programme start="20260317084500 +0300" stop="20260317090000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260317090000 +0300" stop="20260317104500 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260317104500 +0300" stop="20260317110000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260317110000 +0300" stop="20260317130000 +0300" channel="cnn"><title>Inizio anticipato</title></programme>
+<programme start="20260317130000 +0300" stop="20260317140000 +0300" channel="cnn"><title>CNN questa mattina</title></programme>
+<programme start="20260317140000 +0300" stop="20260317160000 +0300" channel="cnn"><title>Centrale di notizie della CNN</title></programme>
+<programme start="20260317160000 +0300" stop="20260317164500 +0300" channel="cnn"><title>Connetti il ​​mondo</title></programme>
+<programme start="20260317164500 +0300" stop="20260317170000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260317170000 +0300" stop="20260317180000 +0300" channel="cnn"><title>Connetti il ​​mondo</title></programme>
+<programme start="20260317180000 +0300" stop="20260317200000 +0300" channel="cnn"><title>Un mondo</title></programme>
+<programme start="20260317200000 +0300" stop="20260317210000 +0300" channel="cnn"><title>Amanpour</title></programme>
+<programme start="20260317210000 +0300" stop="20260317220000 +0300" channel="cnn"><title>Isa Soares stasera</title></programme>
+<programme start="20260317220000 +0300" stop="20260317230000 +0300" channel="cnn"><title>Quello che sappiamo con Max Foster</title></programme>
+<programme start="20260317230000 +0300" stop="20260318000000 +0300" channel="cnn"><title>La ricerca significa affari</title></programme>
+<programme start="20260318000000 +0300" stop="20260318010000 +0300" channel="cnn"><title>Il protagonista con Jake Tapper</title></programme>
+<programme start="20260318010000 +0300" stop="20260318020000 +0300" channel="cnn"><title>Il Breve con Jim Sciutto</title></programme>
+<programme start="20260318020000 +0300" stop="20260318030000 +0300" channel="cnn"><title>Erin Burnett in prima fila</title></programme>
+<programme start="20260318030000 +0300" stop="20260318040000 +0300" channel="cnn"><title>AndersonCooper360</title></programme>
+<programme start="20260318040000 +0300" stop="20260318050000 +0300" channel="cnn"><title>La Fonte con Kaitlan Collins</title></programme>
+<programme start="20260318050000 +0300" stop="20260318060000 +0300" channel="cnn"><title>Notiziario della CNN</title></programme>
+<programme start="20260318060000 +0300" stop="20260318070000 +0300" channel="cnn"><title>Laura Coates dal vivo</title></programme>
+<programme start="20260318070000 +0300" stop="20260318084500 +0300" channel="cnn"><title>La storia è con Elex Michaelson</title></programme>
+<programme start="20260318084500 +0300" stop="20260318090000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260318090000 +0300" stop="20260318104500 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260318104500 +0300" stop="20260318110000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260318110000 +0300" stop="20260318130000 +0300" channel="cnn"><title>Inizio anticipato</title></programme>
+<programme start="20260318130000 +0300" stop="20260318140000 +0300" channel="cnn"><title>CNN questa mattina</title></programme>
+<programme start="20260318140000 +0300" stop="20260318160000 +0300" channel="cnn"><title>Centrale di notizie della CNN</title></programme>
+<programme start="20260318160000 +0300" stop="20260318164500 +0300" channel="cnn"><title>Connetti il ​​mondo</title></programme>
+<programme start="20260318164500 +0300" stop="20260318170000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260318170000 +0300" stop="20260318180000 +0300" channel="cnn"><title>Connetti il ​​mondo</title></programme>
+<programme start="20260318180000 +0300" stop="20260318200000 +0300" channel="cnn"><title>Un mondo</title></programme>
+<programme start="20260318200000 +0300" stop="20260318210000 +0300" channel="cnn"><title>Amanpour</title></programme>
+<programme start="20260318210000 +0300" stop="20260318220000 +0300" channel="cnn"><title>Isa Soares stasera</title></programme>
+<programme start="20260318220000 +0300" stop="20260318230000 +0300" channel="cnn"><title>Quello che sappiamo con Max Foster</title></programme>
+<programme start="20260318230000 +0300" stop="20260319000000 +0300" channel="cnn"><title>La ricerca significa affari</title></programme>
+<programme start="20260319000000 +0300" stop="20260319010000 +0300" channel="cnn"><title>Il protagonista con Jake Tapper</title></programme>
+<programme start="20260319010000 +0300" stop="20260319020000 +0300" channel="cnn"><title>Il Breve con Jim Sciutto</title></programme>
+<programme start="20260319020000 +0300" stop="20260319030000 +0300" channel="cnn"><title>Erin Burnett in prima fila</title></programme>
+<programme start="20260319030000 +0300" stop="20260319040000 +0300" channel="cnn"><title>AndersonCooper360</title></programme>
+<programme start="20260319040000 +0300" stop="20260319050000 +0300" channel="cnn"><title>La Fonte con Kaitlan Collins</title></programme>
+<programme start="20260319050000 +0300" stop="20260319060000 +0300" channel="cnn"><title>Notiziario della CNN</title></programme>
+<programme start="20260319060000 +0300" stop="20260319070000 +0300" channel="cnn"><title>Laura Coates dal vivo</title></programme>
+<programme start="20260319070000 +0300" stop="20260319084500 +0300" channel="cnn"><title>La storia è con Elex Michaelson</title></programme>
+<programme start="20260319084500 +0300" stop="20260319090000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260319090000 +0300" stop="20260319104500 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260319104500 +0300" stop="20260319110000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260319110000 +0300" stop="20260319130000 +0300" channel="cnn"><title>Inizio anticipato</title></programme>
+<programme start="20260319130000 +0300" stop="20260319140000 +0300" channel="cnn"><title>CNN questa mattina</title></programme>
+<programme start="20260319140000 +0300" stop="20260319160000 +0300" channel="cnn"><title>Centrale di notizie della CNN</title></programme>
+<programme start="20260319160000 +0300" stop="20260319164500 +0300" channel="cnn"><title>Connetti il ​​mondo</title></programme>
+<programme start="20260319164500 +0300" stop="20260319170000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260319170000 +0300" stop="20260319180000 +0300" channel="cnn"><title>Connetti il ​​mondo</title></programme>
+<programme start="20260319180000 +0300" stop="20260319200000 +0300" channel="cnn"><title>Un mondo</title></programme>
+<programme start="20260319200000 +0300" stop="20260319210000 +0300" channel="cnn"><title>Amanpour</title></programme>
+<programme start="20260319210000 +0300" stop="20260319220000 +0300" channel="cnn"><title>Isa Soares stasera</title></programme>
+<programme start="20260319220000 +0300" stop="20260319230000 +0300" channel="cnn"><title>Quello che sappiamo con Max Foster</title></programme>
+<programme start="20260319230000 +0300" stop="20260320000000 +0300" channel="cnn"><title>La ricerca significa affari</title></programme>
+<programme start="20260320000000 +0300" stop="20260320010000 +0300" channel="cnn"><title>Il protagonista con Jake Tapper</title></programme>
+<programme start="20260320010000 +0300" stop="20260320020000 +0300" channel="cnn"><title>Il Breve con Jim Sciutto</title></programme>
+<programme start="20260320020000 +0300" stop="20260320030000 +0300" channel="cnn"><title>Erin Burnett in prima fila</title></programme>
+<programme start="20260320030000 +0300" stop="20260320040000 +0300" channel="cnn"><title>AndersonCooper360</title></programme>
+<programme start="20260320040000 +0300" stop="20260320050000 +0300" channel="cnn"><title>La Fonte con Kaitlan Collins</title></programme>
+<programme start="20260320050000 +0300" stop="20260320060000 +0300" channel="cnn"><title>Notiziario della CNN</title></programme>
+<programme start="20260320060000 +0300" stop="20260320070000 +0300" channel="cnn"><title>Laura Coates dal vivo</title></programme>
+<programme start="20260320070000 +0300" stop="20260320084500 +0300" channel="cnn"><title>La storia è con Elex Michaelson</title></programme>
+<programme start="20260320084500 +0300" stop="20260320090000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260320090000 +0300" stop="20260320104500 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260320104500 +0300" stop="20260320110000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260320110000 +0300" stop="20260320130000 +0300" channel="cnn"><title>Inizio anticipato</title></programme>
+<programme start="20260320130000 +0300" stop="20260320140000 +0300" channel="cnn"><title>CNN questa mattina</title></programme>
+<programme start="20260320140000 +0300" stop="20260320160000 +0300" channel="cnn"><title>Centrale di notizie della CNN</title></programme>
+<programme start="20260320160000 +0300" stop="20260320164500 +0300" channel="cnn"><title>Connetti il ​​mondo</title></programme>
+<programme start="20260320164500 +0300" stop="20260320170000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260320170000 +0300" stop="20260320180000 +0300" channel="cnn"><title>Connetti il ​​mondo</title></programme>
+<programme start="20260320180000 +0300" stop="20260320200000 +0300" channel="cnn"><title>Un mondo</title></programme>
+<programme start="20260320200000 +0300" stop="20260320210000 +0300" channel="cnn"><title>Amanpour</title></programme>
+<programme start="20260320210000 +0300" stop="20260320220000 +0300" channel="cnn"><title>Isa Soares stasera</title></programme>
+<programme start="20260320220000 +0300" stop="20260320230000 +0300" channel="cnn"><title>Quello che sappiamo con Max Foster</title></programme>
+<programme start="20260320230000 +0300" stop="20260321000000 +0300" channel="cnn"><title>La ricerca significa affari</title></programme>
+<programme start="20260321000000 +0300" stop="20260321010000 +0300" channel="cnn"><title>Il protagonista con Jake Tapper</title></programme>
+<programme start="20260321010000 +0300" stop="20260321020000 +0300" channel="cnn"><title>Il Breve con Jim Sciutto</title></programme>
+<programme start="20260321020000 +0300" stop="20260321030000 +0300" channel="cnn"><title>Erin Burnett in prima fila</title></programme>
+<programme start="20260321030000 +0300" stop="20260321040000 +0300" channel="cnn"><title>AndersonCooper360</title></programme>
+<programme start="20260321040000 +0300" stop="20260321050000 +0300" channel="cnn"><title>La Fonte con Kaitlan Collins</title></programme>
+<programme start="20260321050000 +0300" stop="20260321060000 +0300" channel="cnn"><title>Notiziario della CNN</title></programme>
+<programme start="20260321060000 +0300" stop="20260321070000 +0300" channel="cnn"><title>Laura Coates dal vivo</title></programme>
+<programme start="20260321070000 +0300" stop="20260321090000 +0300" channel="cnn"><title>La storia è con Elex Michaelson</title></programme>
+<programme start="20260321090000 +0300" stop="20260321093000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260321093000 +0300" stop="20260321100000 +0300" channel="cnn"><title>Playmaker di voci africane. Marzo 2026</title></programme>
+<programme start="20260321100000 +0300" stop="20260321103000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260321103000 +0300" stop="20260321110000 +0300" channel="cnn"><title>Il prossimo grande viaggio. L'Angola</title></programme>
+<programme start="20260321110000 +0300" stop="20260321113000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260321113000 +0300" stop="20260321120000 +0300" channel="cnn"><title>Creatori della CNN</title></programme>
+<programme start="20260321120000 +0300" stop="20260321130000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260321130000 +0300" stop="20260321133000 +0300" channel="cnn"><title>Playmaker di voci africane. Marzo 2026</title></programme>
+<programme start="20260321133000 +0300" stop="20260321140000 +0300" channel="cnn"><title>Il mondo delle meraviglie di Quest. Marzo 2026</title></programme>
+<programme start="20260321140000 +0300" stop="20260321150000 +0300" channel="cnn"><title>CNN questo fine settimana mattutino</title></programme>
+<programme start="20260321150000 +0300" stop="20260321160000 +0300" channel="cnn"><title>Innanzitutto con Victor Blackwell</title></programme>
+<programme start="20260321160000 +0300" stop="20260321170000 +0300" channel="cnn"><title>Smerconish</title></programme>
+<programme start="20260321170000 +0300" stop="20260321173000 +0300" channel="cnn"><title>Creatori della CNN</title></programme>
+<programme start="20260321173000 +0300" stop="20260321180000 +0300" channel="cnn"><title>All'interno dell'Africa. Il Progetto Ebony: Camerun</title></programme>
+<programme start="20260321180000 +0300" stop="20260321190000 +0300" channel="cnn"><title>L'ora di Amanpour</title></programme>
+<programme start="20260321190000 +0300" stop="20260321193000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260321193000 +0300" stop="20260321200000 +0300" channel="cnn"><title>Il prossimo grande viaggio. L'Angola</title></programme>
+<programme start="20260321200000 +0300" stop="20260321210000 +0300" channel="cnn"><title>Smerconish</title></programme>
+<programme start="20260321210000 +0300" stop="20260321220000 +0300" channel="cnn"><title>Sabato nella sala stampa della CNN</title></programme>
+<programme start="20260321220000 +0300" stop="20260321221500 +0300" channel="cnn"><title>Mercato Europa. Ep. 55</title></programme>
+<programme start="20260321221500 +0300" stop="20260321223000 +0300" channel="cnn"><title>Mercato asiatico. Ep. 54</title></programme>
+<programme start="20260321223000 +0300" stop="20260321230000 +0300" channel="cnn"><title>Il mondo delle meraviglie di Quest. Marzo 2026</title></programme>
+<programme start="20260321230000 +0300" stop="20260322000000 +0300" channel="cnn"><title>L'Arena: sabato. Ep. 14</title></programme>
+<programme start="20260322000000 +0300" stop="20260322003000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260322003000 +0300" stop="20260322010000 +0300" channel="cnn"><title>Creatori della CNN</title></programme>
+<programme start="20260322010000 +0300" stop="20260322030000 +0300" channel="cnn"><title>Sabato nella sala stampa della CNN</title></programme>
+<programme start="20260322030000 +0300" stop="20260322040000 +0300" channel="cnn"><title>Smerconish</title></programme>
+<programme start="20260322040000 +0300" stop="20260322043000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260322043000 +0300" stop="20260322050000 +0300" channel="cnn"><title>Il mondo delle meraviglie di Quest. Marzo 2026</title></programme>
+<programme start="20260322050000 +0300" stop="20260322053000 +0300" channel="cnn"><title>All'interno dell'Africa. Il Progetto Ebony: Camerun</title></programme>
+<programme start="20260322053000 +0300" stop="20260322060000 +0300" channel="cnn"><title>Playmaker di voci africane. Marzo 2026</title></programme>
+<programme start="20260322060000 +0300" stop="20260322063000 +0300" channel="cnn"><title>Il prossimo grande viaggio. L'Angola</title></programme>
+<programme start="20260322063000 +0300" stop="20260322064500 +0300" channel="cnn"><title>Mercato Europa. Ep. 55</title></programme>
+<programme start="20260322064500 +0300" stop="20260322070000 +0300" channel="cnn"><title>Mercato asiatico. Ep. 54</title></programme>
+<programme start="20260322070000 +0300" stop="20260322073000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260322073000 +0300" stop="20260322080000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260322080000 +0300" stop="20260322083000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260322083000 +0300" stop="20260322090000 +0300" channel="cnn"><title>All'interno dell'Africa. Il Progetto Ebony: Camerun</title></programme>
+<programme start="20260322090000 +0300" stop="20260322093000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260322093000 +0300" stop="20260322094500 +0300" channel="cnn"><title>Mercato Europa. Ep. 55</title></programme>
+<programme start="20260322094500 +0300" stop="20260322100000 +0300" channel="cnn"><title>Mercato asiatico. Ep. 54</title></programme>
+<programme start="20260322100000 +0300" stop="20260322103000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260322103000 +0300" stop="20260322110000 +0300" channel="cnn"><title>Il mondo delle meraviglie di Quest. Marzo 2026</title></programme>
+<programme start="20260322110000 +0300" stop="20260322130000 +0300" channel="cnn"><title>Sala stampa della CNN</title></programme>
+<programme start="20260322130000 +0300" stop="20260322133000 +0300" channel="cnn"><title>Il prossimo grande viaggio. L'Angola</title></programme>
+<programme start="20260322133000 +0300" stop="20260322140000 +0300" channel="cnn"><title>All'interno dell'Africa. Il Progetto Ebony: Camerun</title></programme>
+<programme start="20260322140000 +0300" stop="20260322150000 +0300" channel="cnn"><title>CNN questo fine settimana mattutino</title></programme>
+<programme start="20260322150000 +0300" stop="20260322160000 +0300" channel="cnn"><title>Dentro la politica con Manu Raju</title></programme>
+<programme start="20260322160000 +0300" stop="20260322170000 +0300" channel="cnn"><title>Stato dell'Unione con Jake Tapper e Dana Bash</title></programme>
+<programme start="20260322170000 +0300" stop="20260322180000 +0300" channel="cnn"><title>Fareed Zakaria GPS</title></programme>
+<programme start="20260322180000 +0300" stop="20260322190000 +0300" channel="cnn"><title>Dentro la politica con Manu Raju</title></programme>
+<programme start="20260322190000 +0300" stop="20260322193000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260322193000 +0300" stop="20260322200000 +0300" channel="cnn"><title>All'interno dell'Africa. Il Progetto Ebony: Camerun</title></programme>
+<programme start="20260322200000 +0300" stop="20260322203000 +0300" channel="cnn"><title>Playmaker di voci africane. Marzo 2026</title></programme>
+<programme start="20260322203000 +0300" stop="20260322210000 +0300" channel="cnn"><title>Stagioni. L'immaginazione culturale del Giappone</title></programme>
+<programme start="20260322210000 +0300" stop="20260323000000 +0300" channel="cnn"><title>Domenica nella sala stampa della CNN</title></programme>
+<programme start="20260323000000 +0300" stop="20260323003000 +0300" channel="cnn"><title>Sport mondiale</title></programme>
+<programme start="20260323003000 +0300" stop="20260323010000 +0300" channel="cnn"><title>Il prossimo grande viaggio. L'Angola</title></programme>
+<programme start="20260323010000 +0300" stop="20260323020000 +0300" channel="cnn"><title>Domenica nella sala stampa della CNN</title></programme>
 <programme start="20260310200000 +0300" stop="20260310203000 +0300" channel="diema-sport-1"><desc>Lo spettacolo presenta i migliori giocatori di calcio dell'ultimo turno della Efbet League. Il presentatore analizza le loro prestazioni, creando classifiche posizionali e una squadra ideale sulla base di dati statistici</desc><title>Eroi del tour</title></programme>
 <programme start="20260310203000 +0300" stop="20260310210000 +0300" channel="diema-sport-1"><desc>Lo spettacolo presenta le ultime notizie, analisi e commenti NBA che coprono le ultime partite, statistiche e tendenze in tutto il campionato. Lo spettacolo offre uno sguardo approfondito sulle prestazioni dei giocatori bulgari nella NBA, oltre a interviste con esperti ed ex giocatori di basket</desc><title>Diario dell'NBA</title></programme>
 <programme start="20260310210000 +0300" stop="20260310230000 +0300" channel="diema-sport-1"><desc>Il campionato di calcio bulgaro si svolge dal 1924 con eliminazione diretta e dal 1948 sotto forma di campionato unico. I tentativi di formare un campionato di primo livello del calcio bulgaro furono fatti prima del 1948. Tra il 1937 e il 1940, la Bulgaria creò la Divisione Nazionale di Calcio (NFD) con 10 squadre che giocavano l'una contro l'altra a scambi durante una stagione. Il campione NFD è stato dichiarato campione della Bulgaria. È importante notare che A RFG, Premier League, A PFG e l'attuale Prima Lega sono accettate dalla storia e dalle statistiche del calcio come il primo livello del campionato bulgaro dal 1948 ad oggi, la divisione in cui competono i nostri club più forti. Allo stesso tempo, la NFD fu parte integrante del campionato statale fino al 1944 e tre delle sue edizioni non facevano parte del Gruppo A</desc><title>Calcio: EFBET Football League: Turno 25: settembre – Mar Nero</title></programme>
@@ -954,7 +1243,7 @@
 <programme start="20260312030000 +0300" stop="20260312040000 +0300" channel="max-sport-1"><title>Palla contestata - Replay. Un talk show</title></programme>
 <programme start="20260312040000 +0300" stop="20260312060000 +0300" channel="max-sport-1"><title>ATP 1000: Indian Wells - In diretta</title></programme>
 <programme start="20260312060000 +0300" stop="20260312080000 +0300" channel="max-sport-1"><title>Pallavolo - Serie A1: Trento - Lube Civitanova - Replay. Playoff</title></programme>
-<programme start="20260312080000 +0300" stop="20260312100000 +0300" channel="max-sport-1"><title>Еврокупа: Цедевита Любляна – Кемниц – Повторение. Cedevita Lubiana - Chemnitz</title></programme>
+<programme start="20260312080000 +0300" stop="20260312100000 +0300" channel="max-sport-1"><title>Eurocup: Cedevita Lubiana - Chemnitz - Replay. Cedevita Lubiana - Chemnitz</title></programme>
 <programme start="20260312100000 +0300" stop="20260312120000 +0300" channel="max-sport-1"><title>Moto GP: Gran Premio della Tailandia - Replay. Gara del Gran Premio della Tailandia, round 1</title></programme>
 <programme start="20260312120000 +0300" stop="20260312140000 +0300" channel="max-sport-1"><title>ATP 1000: Indian Wells – Replay</title></programme>
 <programme start="20260312140000 +0300" stop="20260312160000 +0300" channel="max-sport-1"><title>ATP 1000: Indian Wells – Replay</title></programme>

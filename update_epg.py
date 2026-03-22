@@ -1,31 +1,27 @@
-import requests
+import urllib.request
 import gzip
-import xml.etree.ElementTree as ET
 
 # Configurazione
-url = "https://iptvx.one/EPG"
-gz_file = "04.xml.gz"
-xml_file = "04.xml"
-output_file = "04.epg"
+URL_SORGENTE = "https://iptvx.one/EPG"
+FILE_OUTPUT = "04.epg"
 
-# 1. Scarica il file compresso
-print("Scaricamento in corso...")
-response = requests.get(url)
-with open(gz_file, "wb") as f:
-    f.write(response.content)
+def main():
+    print(f"Scaricamento da: {URL_SORGENTE}")
+    
+    # 1. Scarica il file (legge tutto il contenuto compresso)
+    response = urllib.request.urlopen(URL_SORGENTE)
+    compressed_data = response.read()
+    
+    # 2. Decomprime i dati
+    print("Decompressione in corso...")
+    uncompressed_data = gzip.decompress(compressed_data)
+    
+    # 3. Salva il file finale
+    print(f"Salvataggio in {FILE_OUTPUT}...")
+    with open(FILE_OUTPUT, "wb") as f:
+        f.write(uncompressed_data)
 
-# 2. Decompressione del file .gz
-print("Decompressione...")
-with gzip.open(gz_file, "rb") as f_in:
-    with open(xml_file, "wb") as f_out:
-        f_out.write(f_in.read())
+    print("Operazione completata.")
 
-# 3. Parsing dell'XML e creazione del file finale .epg
-print("Creazione file 04.epg...")
-tree = ET.parse(xml_file)
-root = tree.getroot()
-
-# Scrittura del file finale
-tree.write(output_file, encoding="utf-8", xml_declaration=True)
-
-print("Operazione completata con successo.")
+if __name__ == "__main__":
+    main()

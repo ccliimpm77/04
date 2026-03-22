@@ -1,35 +1,53 @@
 import urllib.request
 import gzip
 import shutil
-import os
 import sys
+import os
 
-# Configurazione
-URL_SORGENTE = "https://raw.githubusercontent.com/ccliimpm77/04/main/04.xml.gz"
-FILE_OUTPUT = "04.epg"
+# CONFIGURAZIONE
+SOURCE_URL = "https://iptvx.one/EPG"
+OUTPUT_FILE = "04.epg"
 
 def main():
-    print("--- INIZIO PROCESSO ---")
+    print(f"--- AVVIO AGGIORNAMENTO EPG ---")
+    print(f"Sorgente: {SOURCE_URL}")
+    print(f"Destinazione: {OUTPUT_FILE}")
+
     try:
-        # Impostiamo un User-Agent per evitare che GitHub blocchi la richiesta
-        headers = {'User-Agent': 'Mozilla/5.0'}
-        req = urllib.request.Request(URL_SORGENTE, headers=headers)
-        
-        print(f"Scarico il file da: {URL_SORGENTE}")
-        with urllib.request.urlopen(req, timeout=60) as response:
-            # Leggiamo il file compresso e lo decomprimiamo direttamente nel file di output
-            with gzip.GzipFile(fileobj=response) as unzipped:
-                print(f"Decompressione e creazione di {FILE_OUTPUT}...")
-                with open(FILE_OUTPUT, 'wb') as f_out:
-                    # shutil.copyfileobj è il modo più veloce in Python per spostare dati
-                    shutil.copyfileobj(unzipped, f_out)
-        
-        print(f"--- COMPLETATO: {FILE_OUTPUT} creato con successo ---")
+        # 1. Configurazione richiesta con User-Agent per evitare blocchi dal server
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Accept-Encoding': 'gzip'
+        }
+        req = urllib.request.Request(SOURCE_URL, headers=headers)
+
+        # 2. Apertura connessione
+        with urllib.request.urlopen(req, timeout=120) as response:
+            # Controlliamo se il server risponde con dati compressi (gzip)
+            is_gzipped = response.info().get('Content-Encoding') == 'gzip' or SOURCE_URL.lower().endswith('.gz')
+            
+            print("Download e scrittura in corso (metodo streaming veloce)...")
+            
+            with open(OUTPUT_FILE, 'wb') as f_out:
+                if is_gzipped:
+                    # Decompressione al volo mentre scarica
+                    with gzip.GzipFile(fileobj=response) as unzipped:
+                        shutil.copyfileobj(unzipped, f_out)
+                else:
+                    # Scrittura diretta se non è compresso
+                    shutil.copyfileobj(response, f_out)
+
+        # 3. Verifica finale
+        if os.path.exists(OUTPUT_FILE):
+            size = os.path.getsize(OUTPUT_FILE) / (1024 * 1024)
+            print(f"--- COMPLETATO ---")
+            print(f"File creato: {OUTPUT_FILE} ({size:.2f} MB)")
+        else:
+            print("!!! Errore: Il file non è stato creato.")
+            sys.exit(1)
 
     except Exception as e:
-        # Se c'è un errore, lo stampiamo chiaramente prima di chiudere
-        print("\n!!! ERRORE RISCONTRATO !!!")
-        print(f"Dettaglio errore: {e}")
+        print(f"!!! ERRORE CRITICO: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":

@@ -1,0 +1,33 @@
+name: Update EPG 04
+
+on:
+  schedule:
+    # 5:00 AM UTC (corrisponde alle 6:00 o 7:00 in Italia a seconda dell'ora legale)
+    - cron: '0 5 * * *'
+  workflow_dispatch: # Permette l'avvio manuale per test
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run EPG Update script
+        run: python update_epg.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add 04.xml
+          git commit -m "Update EPG 04.xml - $(date)" || echo "No changes to commit"
+          git push

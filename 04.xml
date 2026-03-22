@@ -1,356 +1,1161 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="IptvX|one" generator-info-url="https://iptvx.one/"><channel id="Eurosport 1"><display-name>Eurosport 1</display-name><display-name>Eurosport 1 HD</display-name><display-name>Eurosport 1 HD CEE</display-name><display-name>Eurosport 1 CEE</display-name><icon src="https://iptvx.one/picons/eurosport1.png" /></channel>
-<channel id="Eurosport 2"><display-name>Eurosport 2</display-name><display-name>Eurosport 2 HD</display-name><display-name>Eurosport 2 HD CEE</display-name><display-name>Eurosport 2 CEE</display-name><display-name>Eurosport 2 HD NE</display-name><display-name>Eurosport 2 NE</display-name><icon src="https://iptvx.one/picons/eurosport2.png" /></channel>
-<programme start="20260314184500 +0300" stop="20260314202500 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>⋗ Jumping Осло World cup Мужчины HS 134</title></programme>
-<programme start="20260314202500 +0300" stop="20260314210000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон: World Cup Отепя Гонка преследования Мужчины</title></programme>
-<programme start="20260314210000 +0300" stop="20260314222500 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском сноуборде. спорт</desc><title>⋗ Сноуборд: World Cup Валь-Сен-Ком Day 1 Параллельный гигантский слалом Men and Women</title></programme>
-<programme start="20260314222500 +0300" stop="20260314233000 +0300" channel="Eurosport 1"><desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc><title>Горные лыжи. Кубок мира. Куршевель. Слалом-гигант. 1 попытка. Мужчины</title></programme>
-<programme start="20260314233000 +0300" stop="20260315003000 +0300" channel="Eurosport 1"><desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc><title>Горнолыжный спорт: World Cup Оре Гигантский слалом Run 02 Женщины</title></programme>
-<programme start="20260315003000 +0300" stop="20260315013000 +0300" channel="Eurosport 1"><title>Велоспорт: World Tour «Париж – Ницца» Седьмой этап Men</title></programme>
-<programme start="20260315013000 +0300" stop="20260315020000 +0300" channel="Eurosport 1"><title>Велоспорт: World Tour Тиррено Адриатико Шестой этап Men</title></programme>
-<programme start="20260315020000 +0300" stop="20260315030000 +0300" channel="Eurosport 1"><title>Все виды спорта</title></programme>
-<programme start="20260315030000 +0300" stop="20260315033000 +0300" channel="Eurosport 1"><title>Снукер: German Masters Shaun Murphy – Judd Trump Final</title></programme>
-<programme start="20260315033000 +0300" stop="20260315050000 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Jumping Осло World cup Day 1 Мужчины HS 134</title></programme>
-<programme start="20260315050000 +0300" stop="20260315060600 +0300" channel="Eurosport 1"><title>Велоспорт: World Tour «Париж – Ницца» Седьмой этап Men</title></programme>
-<programme start="20260315060600 +0300" stop="20260315065800 +0300" channel="Eurosport 1"><title>Велоспорт: World Tour Тиррено Адриатико Шестой этап Men</title></programme>
-<programme start="20260315065800 +0300" stop="20260315075900 +0300" channel="Eurosport 1"><desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc><title>Горные лыжи: World Cup Оре Гигантский слалом Run 01 Женщины</title></programme>
-<programme start="20260315075900 +0300" stop="20260315085600 +0300" channel="Eurosport 1"><desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc><title>Горнолыжный спорт: World Cup Оре Гигантский слалом Run 02 Женщины</title></programme>
-<programme start="20260315085600 +0300" stop="20260315100600 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Jumping Осло World cup Day 1 Мужчины HS 134</title></programme>
-<programme start="20260315100600 +0300" stop="20260315110400 +0300" channel="Eurosport 1"><title>Все виды спорта</title></programme>
-<programme start="20260315110400 +0300" stop="20260315111500 +0300" channel="Eurosport 1"><title>Сила Олимпиады</title></programme>
-<programme start="20260315111500 +0300" stop="20260315123000 +0300" channel="Eurosport 1"><desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc><title>⋗ Горнолыжный спорт: World Cup Оре Слалом Run 01 Женщины</title></programme>
-<programme start="20260315123000 +0300" stop="20260315142500 +0300" channel="Eurosport 1"><desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc><title>⋗ Горные лыжи. Кубок мира. Куршевель. Слалом-гигант. 2 попытка. Мужчины</title></programme>
-<programme start="20260315142500 +0300" stop="20260315154000 +0300" channel="Eurosport 1"><desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc><title>⋗ Горные лыжи Кубок мира Оре Слалом 2 заезд Женщины</title></programme>
-<programme start="20260315154000 +0300" stop="20260315162500 +0300" channel="Eurosport 1"><desc>Циклическое соревнование по лыжному двоеборью, проводящееся Международной федерации лыжного спорта (FIS). спорт</desc><title>⋗ Лыжное двоеборье: Кубок мира Осло Gundersen 10km Мужчины</title></programme>
-<programme start="20260315162500 +0300" stop="20260315175500 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>⋗ Биатлон. Кубок мира. Отепя. Смешанная эстафета</title></programme>
-<programme start="20260315175500 +0300" stop="20260315195500 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>⋗ Jumping Осло World cup Day 2 Мужчины HS 134</title></programme>
-<programme start="20260315195500 +0300" stop="20260315212500 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском сноуборде. спорт</desc><title>⋗ Сноуборд: World Cup Валь-Сен-Ком Day 2 Параллельный гигантский слалом Men and Women</title></programme>
-<programme start="20260315212500 +0300" stop="20260315220000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон. Кубок мира. Отепя. Одиночная смешанная эстафета</title></programme>
-<programme start="20260315220000 +0300" stop="20260315224500 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон. Кубок мира. Отепя. Смешанная эстафета</title></programme>
-<programme start="20260315224500 +0300" stop="20260315234500 +0300" channel="Eurosport 1"><desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc><title>Горные лыжи. Кубок мира. Куршевель. Слалом-гигант. 2 попытка. Мужчины</title></programme>
-<programme start="20260315234500 +0300" stop="20260316003000 +0300" channel="Eurosport 1"><desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc><title>Горные лыжи Кубок мира Оре Слалом 2 заезд Женщины</title></programme>
-<programme start="20260316003000 +0300" stop="20260316011500 +0300" channel="Eurosport 1"><title>Велоспорт World Tour Tirreno Adriatico Stage 07 Men</title></programme>
-<programme start="20260316011500 +0300" stop="20260316020000 +0300" channel="Eurosport 1"><title>Велоспорт World Tour Paris Nice Stage 08 Men</title></programme>
-<programme start="20260316020000 +0300" stop="20260316030000 +0300" channel="Eurosport 1"><title>Все виды спорта</title></programme>
-<programme start="20260316030000 +0300" stop="20260316040000 +0300" channel="Eurosport 1"><title>Снукер: Home Nations Series Welsh Open Barry Hawkins – Jack Lisowski Final</title></programme>
-<programme start="20260316040000 +0300" stop="20260316043000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон. Кубок мира. Отепя. Спринт. Мужчины</title></programme>
-<programme start="20260316043000 +0300" stop="20260316050000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон: World Cup Отепя Гонка преследования Мужчины</title></programme>
-<programme start="20260316050000 +0300" stop="20260316050100 +0300" channel="Eurosport 1"><desc>Ежегодное соревнование по лыжным гонкам, проводящееся Международной федерацией лыжного спорта. Проходит с октября по март. спорт</desc><title>Cross country skiing: Кубок мира Осло Мужчины и женщины Масс-старт. 50 км. Свободный стиль</title></programme>
-<programme start="20260316050100 +0300" stop="20260316065600 +0300" channel="Eurosport 1"><desc>Ежегодное соревнование по лыжным гонкам, проводящееся Международной федерацией лыжного спорта. Проходит с октября по март. спорт</desc><title>Cross country skiing: Кубок мира Осло Мужчины и женщины Масс-старт. 50 км. Свободный стиль</title></programme>
-<programme start="20260316065600 +0300" stop="20260316072600 +0300" channel="Eurosport 1"><desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc><title>Горнолыжный спорт: World Cup Оре Гигантский слалом Run 02 Женщины</title></programme>
-<programme start="20260316072600 +0300" stop="20260316080400 +0300" channel="Eurosport 1"><desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc><title>Горные лыжи Кубок мира Оре Слалом 2 заезд Женщины</title></programme>
-<programme start="20260316080400 +0300" stop="20260316090000 +0300" channel="Eurosport 1"><title>Снукер: Home Nations Series Welsh Open Barry Hawkins – Jack Lisowski Final</title></programme>
-<programme start="20260316090000 +0300" stop="20260316120000 +0300" channel="Eurosport 1"><title>⋗ Снукер: World Open Session 2 Round 01</title></programme>
-<programme start="20260316120000 +0300" stop="20260316125700 +0300" channel="Eurosport 1"><title>Все виды спорта</title></programme>
-<programme start="20260316125700 +0300" stop="20260316133000 +0300" channel="Eurosport 1"><desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc><title>Горнолыжный спорт: World Cup Оре Гигантский слалом Run 02 Женщины</title></programme>
-<programme start="20260316133000 +0300" stop="20260316140000 +0300" channel="Eurosport 1"><desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc><title>Горные лыжи Кубок мира Оре Слалом 2 заезд Женщины</title></programme>
-<programme start="20260316140000 +0300" stop="20260316143000 +0300" channel="Eurosport 1"><title>Велоспорт «Тур Тайваня», Первый этап, Мужчины</title></programme>
-<programme start="20260316143000 +0300" stop="20260316173000 +0300" channel="Eurosport 1"><title>⋗ Снукер: World Open Session 3 Round 01</title></programme>
-<programme start="20260316173000 +0300" stop="20260316181500 +0300" channel="Eurosport 1"><title>Велоспорт: World Tour «Париж – Ницца» Седьмой этап Men</title></programme>
-<programme start="20260316181500 +0300" stop="20260316190000 +0300" channel="Eurosport 1"><title>Велоспорт World Tour Paris Nice Stage 08 Men</title></programme>
-<programme start="20260316190000 +0300" stop="20260316200000 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Ski jumping: World Cup Осло Мужчины HS 134 Day 2</title></programme>
-<programme start="20260316200000 +0300" stop="20260316203000 +0300" channel="Eurosport 1"><desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc><title>Горные лыжи: World Cup Оре Гигантский слалом Run 01 Женщины</title></programme>
-<programme start="20260316203000 +0300" stop="20260316210000 +0300" channel="Eurosport 1"><desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc><title>Горнолыжный спорт: World Cup Оре Гигантский слалом Run 02 Женщины</title></programme>
-<programme start="20260316210000 +0300" stop="20260316220000 +0300" channel="Eurosport 1"><desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc><title>Горные лыжи Чемпионат мира Куршевель Скоростной спуск. Мужчины</title></programme>
-<programme start="20260316220000 +0300" stop="20260316230000 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Ski jumping: World Cup Осло Мужчины HS 134 Day 2</title></programme>
-<programme start="20260316230000 +0300" stop="20260317000000 +0300" channel="Eurosport 1"><title>Сноуборд: Snow League Аспен Хафпайп</title></programme>
-<programme start="20260317000000 +0300" stop="20260317010000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском сноуборде. спорт</desc><title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 2</title></programme>
-<programme start="20260317010000 +0300" stop="20260317020000 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Ski jumping: World Cup Осло Мужчины HS 134 Day 2</title></programme>
-<programme start="20260317020000 +0300" stop="20260317040000 +0300" channel="Eurosport 1"><title>Снукер: World Open Session 3 Round 01</title></programme>
-<programme start="20260317040000 +0300" stop="20260317043000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон. Кубок мира. Отепя. Спринт. Женщины</title></programme>
-<programme start="20260317043000 +0300" stop="20260317050000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон: World Cup Отепя Гонка преследования Женщины</title></programme>
-<programme start="20260317050000 +0300" stop="20260317053000 +0300" channel="Eurosport 1"><title>Горные лыжи: World Cup Оре Слалом Run 01 Женщины</title></programme>
-<programme start="20260317053000 +0300" stop="20260317060000 +0300" channel="Eurosport 1"><desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc><title>Горные лыжи Кубок мира Оре Слалом 2 заезд Женщины</title></programme>
-<programme start="20260317060000 +0300" stop="20260317070000 +0300" channel="Eurosport 1"><title>Велоспорт World Tour Tirreno Adriatico Stage 07 Men</title></programme>
-<programme start="20260317070000 +0300" stop="20260317080000 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Ski jumping: World Cup Осло Мужчины HS 134 Day 2</title></programme>
-<programme start="20260317080000 +0300" stop="20260317090000 +0300" channel="Eurosport 1"><title>Снукер: World Open Session 3 Round 01</title></programme>
-<programme start="20260317090000 +0300" stop="20260317120000 +0300" channel="Eurosport 1"><title>⋗ Снукер: World Open Session 5 Round 01</title></programme>
-<programme start="20260317120000 +0300" stop="20260317130000 +0300" channel="Eurosport 1"><desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc><title>Горнолыжный спорт: World Cup Оре Гигантский слалом Run 02 Женщины</title></programme>
-<programme start="20260317130000 +0300" stop="20260317140000 +0300" channel="Eurosport 1"><desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc><title>Горные лыжи Чемпионат мира Куршевель Скоростной спуск. Мужчины</title></programme>
-<programme start="20260317140000 +0300" stop="20260317143000 +0300" channel="Eurosport 1"><title>Велоспорт. «Тур Тайваня». Второй этап</title></programme>
-<programme start="20260317143000 +0300" stop="20260317173000 +0300" channel="Eurosport 1"><title>⋗ Снукер: World Open Session 6 Round 01</title></programme>
-<programme start="20260317173000 +0300" stop="20260317180000 +0300" channel="Eurosport 1"><title>Велоспорт: World Tour Тиррено Адриатико Шестой этап Men</title></programme>
-<programme start="20260317180000 +0300" stop="20260317190000 +0300" channel="Eurosport 1"><title>Велоспорт World Tour Tirreno Adriatico Stage 07 Men</title></programme>
-<programme start="20260317190000 +0300" stop="20260317200000 +0300" channel="Eurosport 1"><desc>Ежегодное соревнование по лыжным гонкам, проводящееся Международной федерацией лыжного спорта. Проходит с октября по март. спорт</desc><title>Cross country skiing: Кубок мира Осло Мужчины и женщины Масс-старт. 50 км. Свободный стиль</title></programme>
-<programme start="20260317200000 +0300" stop="20260317203000 +0300" channel="Eurosport 1"><title>Горные лыжи: World Cup Оре Слалом Run 01 Женщины</title></programme>
-<programme start="20260317203000 +0300" stop="20260317210000 +0300" channel="Eurosport 1"><desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc><title>Горные лыжи Кубок мира Оре Слалом 2 заезд Женщины</title></programme>
-<programme start="20260317210000 +0300" stop="20260317220000 +0300" channel="Eurosport 1"><title>Конный спорт: Турнир Большого шлема Хертогенбосх Jumping</title></programme>
-<programme start="20260317220000 +0300" stop="20260318000000 +0300" channel="Eurosport 1"><title>Снукер: World Open Session 6 Round 01</title></programme>
-<programme start="20260318000000 +0300" stop="20260318010000 +0300" channel="Eurosport 1"><title>Велоспорт World Tour Tirreno Adriatico Stage 07 Men</title></programme>
-<programme start="20260318010000 +0300" stop="20260318020000 +0300" channel="Eurosport 1"><title>Велоспорт World Tour Paris Nice Stage 08 Men</title></programme>
-<programme start="20260318020000 +0300" stop="20260318040000 +0300" channel="Eurosport 1"><title>Снукер: World Open Session 6 Round 01</title></programme>
-<programme start="20260318040000 +0300" stop="20260318043000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон. Кубок мира. Отепя. Одиночная смешанная эстафета</title></programme>
-<programme start="20260318043000 +0300" stop="20260318050000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон. Кубок мира. Отепя. Смешанная эстафета</title></programme>
-<programme start="20260318050000 +0300" stop="20260318050300 +0300" channel="Eurosport 1"><title>Велоспорт World Tour Tirreno Adriatico Stage 07 Men</title></programme>
-<programme start="20260318050300 +0300" stop="20260318060400 +0300" channel="Eurosport 1"><title>Велоспорт World Tour Tirreno Adriatico Stage 07 Men</title></programme>
-<programme start="20260318060400 +0300" stop="20260318070600 +0300" channel="Eurosport 1"><title>Велоспорт World Tour Paris Nice Stage 08 Men</title></programme>
-<programme start="20260318070600 +0300" stop="20260318080000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском сноуборде. спорт</desc><title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 2</title></programme>
-<programme start="20260318080000 +0300" stop="20260318090000 +0300" channel="Eurosport 1"><title>Снукер: World Open Session 6 Round 01</title></programme>
-<programme start="20260318090000 +0300" stop="20260318120000 +0300" channel="Eurosport 1"><title>⋗ Снукер: World Open Session 1. Round 02</title></programme>
-<programme start="20260318120000 +0300" stop="20260318124500 +0300" channel="Eurosport 1"><title>Горные лыжи: World Cup Оре Слалом Run 01 Женщины</title></programme>
-<programme start="20260318124500 +0300" stop="20260318133000 +0300" channel="Eurosport 1"><desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc><title>Горные лыжи Кубок мира Оре Слалом 2 заезд Женщины</title></programme>
-<programme start="20260318133000 +0300" stop="20260318143000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском сноуборде. спорт</desc><title>Сноуборд: World Cup Валь-Сен-Ком Day 1 Параллельный гигантский слалом Men and Women</title></programme>
-<programme start="20260318143000 +0300" stop="20260318173000 +0300" channel="Eurosport 1"><title>⋗ Снукер: World Open Session 2 Round 02</title></programme>
-<programme start="20260318173000 +0300" stop="20260318183000 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Ski jumping: World Cup Осло Мужчины HS 134 Day 2</title></programme>
-<programme start="20260318183000 +0300" stop="20260318190000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон. Кубок мира. Отепя. Одиночная смешанная эстафета</title></programme>
-<programme start="20260318190000 +0300" stop="20260318200000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон. Кубок мира. Отепя. Смешанная эстафета</title></programme>
-<programme start="20260318200000 +0300" stop="20260318203000 +0300" channel="Eurosport 1"><title>Велоспорт. Тур Тайваня. 3 этап</title></programme>
-<programme start="20260318203000 +0300" stop="20260318210000 +0300" channel="Eurosport 1"><title>Велоспорт: Pro series Милан Турин Men</title></programme>
-<programme start="20260318210000 +0300" stop="20260318220000 +0300" channel="Eurosport 1"><desc>Международное соревнование по фехтованию. спорт</desc><title>Велоспорт: Pro Series Nokere Koerse Men</title></programme>
-<programme start="20260318220000 +0300" stop="20260318230000 +0300" channel="Eurosport 1"><title>Конный спорт: Турнир Большого шлема Хертогенбосх Jumping</title></programme>
-<programme start="20260318230000 +0300" stop="20260319020000 +0300" channel="Eurosport 1"><title>⋗ Керлинг: World championship, Calgary Round Robin Women США – Италия</title></programme>
-<programme start="20260319020000 +0300" stop="20260319040000 +0300" channel="Eurosport 1"><title>Снукер: World Open Session 2 Round 02</title></programme>
-<programme start="20260319040000 +0300" stop="20260319050000 +0300" channel="Eurosport 1"><title>Велоспорт: Pro Series Nokere Koerse Women</title></programme>
-<programme start="20260319050000 +0300" stop="20260319060000 +0300" channel="Eurosport 1"><desc>Международное соревнование по фехтованию. спорт</desc><title>Велоспорт: Pro Series Nokere Koerse Men</title></programme>
-<programme start="20260319060000 +0300" stop="20260319070000 +0300" channel="Eurosport 1"><title>Велоспорт: Pro series Милан Турин Men</title></programme>
-<programme start="20260319070000 +0300" stop="20260319073000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон. Кубок мира. Отепя. Одиночная смешанная эстафета</title></programme>
-<programme start="20260319073000 +0300" stop="20260319080000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон. Кубок мира. Отепя. Смешанная эстафета</title></programme>
-<programme start="20260319080000 +0300" stop="20260319090000 +0300" channel="Eurosport 1"><title>Снукер: World Open Session 2 Round 02</title></programme>
-<programme start="20260319090000 +0300" stop="20260319120000 +0300" channel="Eurosport 1"><title>⋗ Снукер: World Open Session 1 Round 03</title></programme>
-<programme start="20260319120000 +0300" stop="20260319130000 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Ski jumping: World Cup Осло Мужчины HS 134 Day 2</title></programme>
-<programme start="20260319130000 +0300" stop="20260319140000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон. Кубок мира. Отепя. Смешанная эстафета</title></programme>
-<programme start="20260319140000 +0300" stop="20260319143000 +0300" channel="Eurosport 1"><title>Велоспорт «Тур Тайваня» Мужчины. Четвертый этап</title></programme>
-<programme start="20260319143000 +0300" stop="20260319173000 +0300" channel="Eurosport 1"><title>⋗ Снукер: World Open Session 2 Round 03</title></programme>
-<programme start="20260319173000 +0300" stop="20260319180000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон. Кубок мира. Отепя. Одиночная смешанная эстафета</title></programme>
-<programme start="20260319180000 +0300" stop="20260319193000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>⋗ Биатлон: Кубок мира. Осло-Спринт Женщины</title></programme>
-<programme start="20260319193000 +0300" stop="20260319223000 +0300" channel="Eurosport 1"><title>⋗ Пауэрлифтинг: European classic championship Valletta Session 1</title></programme>
-<programme start="20260319223000 +0300" stop="20260320000000 +0300" channel="Eurosport 1"><title>Снукер: World Open Session 2 Round 03</title></programme>
-<programme start="20260320000000 +0300" stop="20260320010000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон: World Cup Осло Спринт Женщины</title></programme>
-<programme start="20260320010000 +0300" stop="20260320020000 +0300" channel="Eurosport 1"><title>Конный спорт: Турнир Большого шлема Хертогенбосх Jumping</title></programme>
-<programme start="20260320020000 +0300" stop="20260320040000 +0300" channel="Eurosport 1"><title>Снукер: World Open Session 2 Round 03</title></programme>
-<programme start="20260320040000 +0300" stop="20260320050000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон: World Cup Осло Спринт Женщины</title></programme>
-<programme start="20260320050000 +0300" stop="20260320060000 +0300" channel="Eurosport 1"><title>Велоспорт: Pro Series Гран-при Денена Men</title></programme>
-<programme start="20260320060000 +0300" stop="20260320070000 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Ski jumping: World Cup Осло Мужчины HS 134 Day 2</title></programme>
-<programme start="20260320070000 +0300" stop="20260320080000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон: World Cup Осло Спринт Женщины</title></programme>
-<programme start="20260320080000 +0300" stop="20260320090000 +0300" channel="Eurosport 1"><title>Снукер: World Open Session 2 Round 03</title></programme>
-<programme start="20260320090000 +0300" stop="20260320120000 +0300" channel="Eurosport 1"><title>⋗ Снукер: World Open Session 1 Quarterfinal</title></programme>
-<programme start="20260320120000 +0300" stop="20260320133000 +0300" channel="Eurosport 1"><title>Керлинг: World Championship Calgary Италия – Scotland Round Robin Women</title></programme>
-<programme start="20260320133000 +0300" stop="20260320140000 +0300" channel="Eurosport 1"><title>Велоспорт: Pro Series Гран-при Денена Men</title></programme>
-<programme start="20260320140000 +0300" stop="20260320143000 +0300" channel="Eurosport 1"><title>Велоспорт: «Тур Тайваня» Пятый этап Men</title></programme>
-<programme start="20260320143000 +0300" stop="20260320173000 +0300" channel="Eurosport 1"><title>⋗ Снукер: World Open Session 2 Quarterfinal</title></programme>
-<programme start="20260320173000 +0300" stop="20260320180000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон: World Cup Осло Спринт Женщины</title></programme>
-<programme start="20260320180000 +0300" stop="20260320195000 +0300" channel="Eurosport 1"><title>⋗ Биатлон: Кубок мира. Осло-Спринт Мужчины</title></programme>
-<programme start="20260320195000 +0300" stop="20260320211500 +0300" channel="Eurosport 1"><title>⋗ Лыжные гонки World Cup Лейк-Плэсид Женщины Классический стиль. 10 километров</title></programme>
-<programme start="20260320211500 +0300" stop="20260320215000 +0300" channel="Eurosport 1"><title>Ski jumping: World cup Викерсунд Мужчины HS 240 Day 1 Qualifying</title></programme>
-<programme start="20260320215000 +0300" stop="20260320231500 +0300" channel="Eurosport 1"><title>⋗ Лыжные гонки: World Cup Лейк-Плэсид Классический стиль. 10 км. Мужчины</title></programme>
-<programme start="20260320231500 +0300" stop="20260321020000 +0300" channel="Eurosport 1"><title>⋗ Керлинг: World championship. Calgary Round Robin Women Scotland – Норвегия</title></programme>
-<programme start="20260321020000 +0300" stop="20260321040000 +0300" channel="Eurosport 1"><title>Снукер: World Open Session 2 Quarterfinal</title></programme>
-<programme start="20260321040000 +0300" stop="20260321050000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон: World Cup Осло Спринт Мужчины</title></programme>
-<programme start="20260321050000 +0300" stop="20260321060000 +0300" channel="Eurosport 1"><title>Велоспорт: Pro Series Bredene Koksijde Classic Men</title></programme>
-<programme start="20260321060000 +0300" stop="20260321063000 +0300" channel="Eurosport 1"><desc>Ежегодное соревнование по лыжным гонкам, проводящееся Международной федерацией лыжного спорта. Проходит с октября по март. спорт</desc><title>Лыжные гонки: World Cup Лейк-Плэсид Классический стиль. 10 км. Женщины</title></programme>
-<programme start="20260321063000 +0300" stop="20260321070000 +0300" channel="Eurosport 1"><desc>Ежегодное соревнование по лыжным гонкам, проводящееся Международной федерацией лыжного спорта. Проходит с октября по март. спорт</desc><title>Лыжные гонки: World Cup Лейк-Плэсид Классический стиль. 10 км. Мужчины</title></programme>
-<programme start="20260321070000 +0300" stop="20260321080000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон: World Cup Осло Спринт Мужчины</title></programme>
-<programme start="20260321080000 +0300" stop="20260321090000 +0300" channel="Eurosport 1"><title>Снукер: World Open Session 2 Quarterfinal</title></programme>
-<programme start="20260321090000 +0300" stop="20260321123000 +0300" channel="Eurosport 1"><title>⋗ Снукер: World Open Semifinal. Match 1</title></programme>
-<programme start="20260321123000 +0300" stop="20260321140000 +0300" channel="Eurosport 1"><title>⋗ Горные лыжи: World Cup Лиллехаммер Скоростной спуск Мужчины</title></programme>
-<programme start="20260321140000 +0300" stop="20260321153000 +0300" channel="Eurosport 1"><title>⋗ Горные лыжи: World Cup Лиллехаммер Скоростной спуск Женщины</title></programme>
-<programme start="20260321153000 +0300" stop="20260321180000 +0300" channel="Eurosport 1"><title>⋗ Снукер: World Open Semifinal Session 2</title></programme>
-<programme start="20260321180000 +0300" stop="20260321190000 +0300" channel="Eurosport 1"><desc>Международные биатлонные соревнования, проходящие с 1958 года. Современные чемпионаты мира включают в себя выступления в спринте, гонке преследования, индивидуальной гонке, смешанной эстафете, эстафете, масс-старте, одиночной смешанной эстафете. спорт</desc><title>⋗ Биатлон: Чемпионат Мира. Осло-Мужчины Гонка преследования</title></programme>
-<programme start="20260321190000 +0300" stop="20260321204500 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>⋗ Ski jumping: World cup Викерсунд Мужчины HS 240 Day 1</title></programme>
-<programme start="20260321204500 +0300" stop="20260321214500 +0300" channel="Eurosport 1"><desc>Ежегодное соревнование по лыжным гонкам, проводящееся Международной федерацией лыжного спорта. Проходит с октября по март. спорт</desc><title>⋗ Лыжные гонки: World Cup Лейк-Плэсид Спринт вольным стилем Мужчины и женщины</title></programme>
-<programme start="20260321214500 +0300" stop="20260321223000 +0300" channel="Eurosport 1"><desc>Международные биатлонные соревнования, проходящие с 1958 года. Современные чемпионаты мира включают в себя выступления в спринте, гонке преследования, индивидуальной гонке, смешанной эстафете, эстафете, масс-старте, одиночной смешанной эстафете. спорт</desc><title>Биатлон: Чемпионат Мира. Осло-Женщины Гонка Преследования</title></programme>
-<programme start="20260321223000 +0300" stop="20260321230000 +0300" channel="Eurosport 1"><title>Велоспорт. World Tour Milan San Remo Men</title></programme>
-<programme start="20260321230000 +0300" stop="20260322020000 +0300" channel="Eurosport 1"><title>Пауэрлифтинг: European classic championship Valletta Session 2</title></programme>
-<programme start="20260322020000 +0300" stop="20260322024000 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Ski jumping: World cup Викерсунд Мужчины HS 240 Day 1</title></programme>
-<programme start="20260322024000 +0300" stop="20260322044500 +0300" channel="Eurosport 1"><title>⋗ Конный спорт: League Of Nations Окала Jumping</title></programme>
-<programme start="20260322044500 +0300" stop="20260322060000 +0300" channel="Eurosport 1"><title>Велоспорт. World Tour Milan San Remo Women</title></programme>
-<programme start="20260322055800 +0300" stop="20260322065600 +0300" channel="Eurosport 1"><title>Велоспорт. World Tour Milan San Remo Men</title></programme>
-<programme start="20260322065600 +0300" stop="20260322075900 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Ski jumping: World cup Викерсунд Мужчины HS 240 Day 1</title></programme>
-<programme start="20260322075900 +0300" stop="20260322090000 +0300" channel="Eurosport 1"><title>Снукер: World Open Judd Trump – Thepchaiya Un-Nooh Semifinal</title></programme>
-<programme start="20260322090000 +0300" stop="20260322115900 +0300" channel="Eurosport 1"><title>⋗ Снукер: World Open Ronnie O'Sullivan – Thepchaiya Un-Nooh Final</title></programme>
-<programme start="20260322115900 +0300" stop="20260322123000 +0300" channel="Eurosport 1"><title>Горные лыжи: World Cup Лиллехаммер Скоростной спуск Женщины</title></programme>
-<programme start="20260322123000 +0300" stop="20260322140000 +0300" channel="Eurosport 1"><title>⋗ Горные лыжи: World Cup Лиллехаммер Супергигант Женщины</title></programme>
-<programme start="20260322140000 +0300" stop="20260322153000 +0300" channel="Eurosport 1"><title>⋗ Горные лыжи: World Cup Лиллехаммер Супергигант Мужчины</title></programme>
-<programme start="20260322153000 +0300" stop="20260322173000 +0300" channel="Eurosport 1"><title>⋗ Снукер: World Open Ronnie O'Sullivan – Thepchaiya Un-Nooh Final</title></programme>
-<programme start="20260322173000 +0300" stop="20260322181500 +0300" channel="Eurosport 1"><title>Горные лыжи: World Cup Лиллехаммер Супергигант Мужчины</title></programme>
-<programme start="20260322181500 +0300" stop="20260322191500 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>⋗ Биатлон: World Cup Осло Масс-старт Мужчины</title></programme>
-<programme start="20260322191500 +0300" stop="20260322205500 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>⋗ Ski jumping: World cup Викерсунд Мужчины HS 240 Day 2</title></programme>
-<programme start="20260322205500 +0300" stop="20260322212000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон: World Cup Осло Масс-старт Женщины</title></programme>
-<programme start="20260322212000 +0300" stop="20260322223000 +0300" channel="Eurosport 1"><desc>Ежегодное соревнование по лыжным гонкам, проводящееся Международной федерацией лыжного спорта. Проходит с октября по март. спорт</desc><title>⋗ Лыжные гонки: World Cup Лейк-Плэсид Масс-старт. 20 км. Свободный стиль Женщины</title></programme>
-<programme start="20260322223000 +0300" stop="20260322230000 +0300" channel="Eurosport 1"><title>Снукер: World Open Ronnie O'Sullivan – Thepchaiya Un-Nooh Final</title></programme>
-<programme start="20260322230000 +0300" stop="20260323000000 +0300" channel="Eurosport 1"><title>Конкур: Grand Prix Hermes Equestrianism Париж</title></programme>
-<programme start="20260323000000 +0300" stop="20260323010000 +0300" channel="Eurosport 1"><title>Конкур: Saut Hermes Париж</title></programme>
-<programme start="20260323010000 +0300" stop="20260323020000 +0300" channel="Eurosport 1"><title>Конкур: Париж Jumping</title></programme>
-<programme start="20260323020000 +0300" stop="20260323033000 +0300" channel="Eurosport 1"><title>Снукер: World Open Ronnie O'Sullivan – Thepchaiya Un-Nooh Final</title></programme>
-<programme start="20260323033000 +0300" stop="20260323041500 +0300" channel="Eurosport 1"><title>Горные лыжи: World Cup Лиллехаммер Супергигант Женщины</title></programme>
-<programme start="20260323041500 +0300" stop="20260323050000 +0300" channel="Eurosport 1"><title>Горные лыжи: World Cup Лиллехаммер Супергигант Мужчины</title></programme>
-<programme start="20260323050000 +0300" stop="20260323063000 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Прыжки на лыжах с трамплина: World Cup Викерсунд Day 2 HS 240 Мужчины</title></programme>
-<programme start="20260323063000 +0300" stop="20260323080000 +0300" channel="Eurosport 1"><title>Снукер: World Open Ronnie O'Sullivan – Thepchaiya Un-Nooh Final</title></programme>
-<programme start="20260323080000 +0300" stop="20260323084500 +0300" channel="Eurosport 1"><title>Горные лыжи: World Cup Лиллехаммер Супергигант Женщины</title></programme>
-<programme start="20260323084500 +0300" stop="20260323093000 +0300" channel="Eurosport 1"><title>Горные лыжи: World Cup Лиллехаммер Супергигант Мужчины</title></programme>
-<programme start="20260323093000 +0300" stop="20260323103000 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Ski jumping: World cup Викерсунд Мужчины HS 240 Day 1</title></programme>
-<programme start="20260323103000 +0300" stop="20260323120000 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Прыжки на лыжах с трамплина: World Cup Викерсунд Day 2 HS 240 Мужчины</title></programme>
-<programme start="20260323120000 +0300" stop="20260323140000 +0300" channel="Eurosport 1"><desc>Чемпионаты мира по керлингу – соревнования сильнейших национальных мужских и женских сборных стран-членов Всемирной федерации керлинга. Проводятся ежегодно для мужских команд с 1959, для женских – с 1979 года. спорт</desc><title>Керлинг: World Championship Calgary Semifinal Sweden – Switzerland Women</title></programme>
-<programme start="20260323140000 +0300" stop="20260323160000 +0300" channel="Eurosport 1"><desc>Чемпионаты мира по керлингу – соревнования сильнейших национальных мужских и женских сборных стран-членов Всемирной федерации керлинга. Проводятся ежегодно для мужских команд с 1959, для женских – с 1979 года. спорт</desc><title>Керлинг: World Championship Calgary Final Women</title></programme>
-<programme start="20260323160000 +0300" stop="20260323164500 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон: World Cup Осло Масс-старт Женщины</title></programme>
-<programme start="20260323164500 +0300" stop="20260323173000 +0300" channel="Eurosport 1"><desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc><title>Биатлон. Кубок мира. Осло. Масс-старт. Мужчины</title></programme>
-<programme start="20260323173000 +0300" stop="20260323183000 +0300" channel="Eurosport 1"><desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc><title>Прыжки на лыжах с трамплина: World Cup Викерсунд Day 2 HS 240 Мужчины</title></programme>
-<programme start="20260314190000 +0300" stop="20260314193000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Гигантский слалом. 2 попытка</title></programme>
-<programme start="20260314193000 +0300" stop="20260314203000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 7</title></programme>
-<programme start="20260314203000 +0300" stop="20260314210000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 6</title></programme>
-<programme start="20260314210000 +0300" stop="20260315020000 +0300" channel="Eurosport 2"><title>⋗ Гольф. Тур PGA. The Players Championship в США. День 3</title></programme>
-<programme start="20260315020000 +0300" stop="20260315030000 +0300" channel="Eurosport 2"><title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 1</title></programme>
-<programme start="20260315030000 +0300" stop="20260315043000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 7</title></programme>
-<programme start="20260315043000 +0300" stop="20260315050000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 6</title></programme>
-<programme start="20260315050000 +0300" stop="20260315060000 +0300" channel="Eurosport 2"><title>Лыжные гонки. Кубок мира. Этап 9 в Осло-Холменколлене, Норвегия. Женщины, мужчины. Масс-старт. 50 км. Свободный стиль</title></programme>
-<programme start="20260315060000 +0300" stop="20260315080000 +0300" channel="Eurosport 2"><title>Снукер. German Masters в Берлине. Финал. Сессия 2</title></programme>
-<programme start="20260315080000 +0300" stop="20260315093000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 7</title></programme>
-<programme start="20260315093000 +0300" stop="20260315100000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 6</title></programme>
-<programme start="20260315100000 +0300" stop="20260315105500 +0300" channel="Eurosport 2"><title>Лыжные гонки. Кубок мира. Этап 9 в Осло-Холменколлене, Норвегия. Женщины, мужчины. Масс-старт. 50 км. Свободный стиль</title></programme>
-<programme start="20260315105500 +0300" stop="20260315120000 +0300" channel="Eurosport 2"><title>⋗ Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. Квалификация 2</title></programme>
-<programme start="20260315120000 +0300" stop="20260315122000 +0300" channel="Eurosport 2"><title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 1</title></programme>
-<programme start="20260315122000 +0300" stop="20260315130500 +0300" channel="Eurosport 2"><title>⋗ Лыжное двоеборье. Женщины. Кубок мира. Финал в Осло-Холменколлене, Норвегия. День 2. HS 134</title></programme>
-<programme start="20260315130500 +0300" stop="20260315142000 +0300" channel="Eurosport 2"><title>⋗ Лыжное двоеборье. Кубок мира. Финал в Осло-Холменколлене, Норвегия. День 2. HS 134</title></programme>
-<programme start="20260315142000 +0300" stop="20260315152000 +0300" channel="Eurosport 2"><title>⋗ Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Одиночная смешанная эстафета</title></programme>
-<programme start="20260315152000 +0300" stop="20260315174500 +0300" channel="Eurosport 2"><title>⋗ Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title></programme>
-<programme start="20260315174500 +0300" stop="20260315190000 +0300" channel="Eurosport 2"><title>⋗ Велоспорт. Гонка Париж-Ницца во Франции. Этап 8</title></programme>
-<programme start="20260315190000 +0300" stop="20260315200000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title></programme>
-<programme start="20260315200000 +0300" stop="20260316010000 +0300" channel="Eurosport 2"><title>⋗ Гольф. Тур PGA. The Players Championship в США. День 4</title></programme>
-<programme start="20260316010000 +0300" stop="20260316020000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Куршевеле, Франция. Мужчины. Супергигант. День 2</title></programme>
-<programme start="20260316020000 +0300" stop="20260316023000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 1 попытка</title></programme>
-<programme start="20260316023000 +0300" stop="20260316030000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 2 попытка</title></programme>
-<programme start="20260316030000 +0300" stop="20260316040000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Куршевеле, Франция. Мужчины. Супергигант. День 2</title></programme>
-<programme start="20260316040000 +0300" stop="20260316050000 +0300" channel="Eurosport 2"><title>Снукер. Home Nations. Открытый чемпионат Уэльса в Лландидно, Великобритания. Финал. Сессия 2</title></programme>
-<programme start="20260316060000 +0300" stop="20260316070000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title></programme>
-<programme start="20260316070000 +0300" stop="20260316080000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 8</title></programme>
-<programme start="20260316080000 +0300" stop="20260316083000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Мужчины. Спринт. 10 км</title></programme>
-<programme start="20260316083000 +0300" stop="20260316090000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Мужчины. Гонка преследования. 12,5 км</title></programme>
-<programme start="20260316090000 +0300" stop="20260316110000 +0300" channel="Eurosport 2"><title>Лыжные гонки. Кубок мира. Этап 9 в Осло-Холменколлене, Норвегия. Женщины, мужчины. Масс-старт. 50 км. Свободный стиль</title></programme>
-<programme start="20260316110000 +0300" stop="20260316120000 +0300" channel="Eurosport 2"><title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 2</title></programme>
-<programme start="20260316120000 +0300" stop="20260316123000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Одиночная смешанная эстафета</title></programme>
-<programme start="20260316123000 +0300" stop="20260316130000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Смешанная эстафета</title></programme>
-<programme start="20260316130000 +0300" stop="20260316143000 +0300" channel="Eurosport 2"><title>Лыжные гонки. Кубок мира. Этап 9 в Осло-Холменколлене, Норвегия. Женщины, мужчины. Масс-старт. 50 км. Свободный стиль</title></programme>
-<programme start="20260316143000 +0300" stop="20260316153000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 7</title></programme>
-<programme start="20260316153000 +0300" stop="20260316163000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 8</title></programme>
-<programme start="20260316163000 +0300" stop="20260316170000 +0300" channel="Eurosport 2"><title>Велоспорт. Тур Тайваня. Этап 1. Обзор</title></programme>
-<programme start="20260316170000 +0300" stop="20260316173000 +0300" channel="Eurosport 2"><title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title></programme>
-<programme start="20260316173000 +0300" stop="20260316181500 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Гигантский слалом. 1 попытка</title></programme>
-<programme start="20260316181500 +0300" stop="20260316190000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Гигантский слалом. 2 попытка</title></programme>
-<programme start="20260316190000 +0300" stop="20260316200000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Куршевеле, Франция. Мужчины. Скоростной спуск</title></programme>
-<programme start="20260316200000 +0300" stop="20260316220000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. Раунд 1</title></programme>
-<programme start="20260316220000 +0300" stop="20260316230000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title></programme>
-<programme start="20260316230000 +0300" stop="20260317000000 +0300" channel="Eurosport 2"><title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title></programme>
-<programme start="20260317000000 +0300" stop="20260317020000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. Раунд 1</title></programme>
-<programme start="20260317020000 +0300" stop="20260317030000 +0300" channel="Eurosport 2"><title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title></programme>
-<programme start="20260317030000 +0300" stop="20260317040000 +0300" channel="Eurosport 2"><title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 2</title></programme>
-<programme start="20260317040000 +0300" stop="20260317060000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. Раунд 1</title></programme>
-<programme start="20260317060000 +0300" stop="20260317063000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 1 попытка</title></programme>
-<programme start="20260317063000 +0300" stop="20260317070000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 2 попытка</title></programme>
-<programme start="20260317070000 +0300" stop="20260317080000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Куршевеле, Франция. Мужчины. Супергигант. День 2</title></programme>
-<programme start="20260317080000 +0300" stop="20260317083000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Женщины. Спринт. 7,5 км</title></programme>
-<programme start="20260317083000 +0300" stop="20260317090000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Женщины. Гонка преследования. 10 км</title></programme>
-<programme start="20260317090000 +0300" stop="20260317100000 +0300" channel="Eurosport 2"><title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title></programme>
-<programme start="20260317100000 +0300" stop="20260317110000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title></programme>
-<programme start="20260317110000 +0300" stop="20260317120000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 8</title></programme>
-<programme start="20260317120000 +0300" stop="20260317130000 +0300" channel="Eurosport 2"><title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 1</title></programme>
-<programme start="20260317130000 +0300" stop="20260317140000 +0300" channel="Eurosport 2"><title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title></programme>
-<programme start="20260317140000 +0300" stop="20260317143000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 2 попытка</title></programme>
-<programme start="20260317143000 +0300" stop="20260317160000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 6</title></programme>
-<programme start="20260317160000 +0300" stop="20260317163000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title></programme>
-<programme start="20260317163000 +0300" stop="20260317170000 +0300" channel="Eurosport 2"><title>Велоспорт. Тур Тайваня. Этап 2. Обзор</title></programme>
-<programme start="20260317170000 +0300" stop="20260317173000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Мужчины. Гонка преследования. 12,5 км</title></programme>
-<programme start="20260317173000 +0300" stop="20260317180000 +0300" channel="Eurosport 2"><title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 2</title></programme>
-<programme start="20260317180000 +0300" stop="20260317183000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 1 попытка</title></programme>
-<programme start="20260317183000 +0300" stop="20260317190000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 2 попытка</title></programme>
-<programme start="20260317190000 +0300" stop="20260317200000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Куршевеле, Франция. Мужчины. Супергигант. День 2</title></programme>
-<programme start="20260317200000 +0300" stop="20260317220000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. Раунд 1</title></programme>
-<programme start="20260317220000 +0300" stop="20260317230000 +0300" channel="Eurosport 2"><title>Сноуборд. Snow League. Этап 3 в Аспене, США. Хафпайп</title></programme>
-<programme start="20260317230000 +0300" stop="20260318000000 +0300" channel="Eurosport 2"><title>Лыжные гонки. Кубок мира. Этап 9 в Осло-Холменколлене, Норвегия. Женщины, мужчины. Масс-старт. 50 км. Свободный стиль</title></programme>
-<programme start="20260318000000 +0300" stop="20260318020000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. Раунд 1</title></programme>
-<programme start="20260318020000 +0300" stop="20260318030000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title></programme>
-<programme start="20260318030000 +0300" stop="20260318040000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 8</title></programme>
-<programme start="20260318040000 +0300" stop="20260318060000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. Раунд 1</title></programme>
-<programme start="20260318060000 +0300" stop="20260318070000 +0300" channel="Eurosport 2"><title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 2</title></programme>
-<programme start="20260318070000 +0300" stop="20260318080000 +0300" channel="Eurosport 2"><title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title></programme>
-<programme start="20260318080000 +0300" stop="20260318083000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Одиночная смешанная эстафета</title></programme>
-<programme start="20260318083000 +0300" stop="20260318090000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Смешанная эстафета</title></programme>
-<programme start="20260318090000 +0300" stop="20260318093000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 1 попытка</title></programme>
-<programme start="20260318093000 +0300" stop="20260318100000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 2 попытка</title></programme>
-<programme start="20260318100000 +0300" stop="20260318110000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Куршевеле, Франция. Мужчины. Супергигант. День 2</title></programme>
-<programme start="20260318110000 +0300" stop="20260318120000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title></programme>
-<programme start="20260318120000 +0300" stop="20260318130000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 8</title></programme>
-<programme start="20260318130000 +0300" stop="20260318134500 +0300" channel="Eurosport 2"><title>Велоспорт. Женщины. Гонка Страде Бьянке в Италии</title></programme>
-<programme start="20260318134500 +0300" stop="20260318141500 +0300" channel="Eurosport 2"><title>Велоспорт. Тур Тайваня. Этап 3. Обзор</title></programme>
-<programme start="20260318141500 +0300" stop="20260318160000 +0300" channel="Eurosport 2"><title>⋗ Велоспорт. Женщины. Гонка Нокере Курсе в Бельгии</title></programme>
-<programme start="20260318160000 +0300" stop="20260318162000 +0300" channel="Eurosport 2"><title>Велоспорт. Велошоу</title></programme>
-<programme start="20260318162000 +0300" stop="20260318180000 +0300" channel="Eurosport 2"><title>⋗ Велоспорт. Гонка Милан-Турин в Италии</title></programme>
-<programme start="20260318180000 +0300" stop="20260318193000 +0300" channel="Eurosport 2"><title>⋗ Велоспорт. Гонка Нокере Курсе в Бельгии</title></programme>
-<programme start="20260318193000 +0300" stop="20260318200000 +0300" channel="Eurosport 2"><title>Велоспорт. Женщины. Гонка Нокере Курсе в Бельгии</title></programme>
-<programme start="20260318200000 +0300" stop="20260318220000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. Раунд 2</title></programme>
-<programme start="20260318220000 +0300" stop="20260318223000 +0300" channel="Eurosport 2"><title>Велоспорт. Женщины. Гонка Нокере Курсе в Бельгии</title></programme>
-<programme start="20260318223000 +0300" stop="20260318230000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Нокере Курсе в Бельгии</title></programme>
-<programme start="20260318230000 +0300" stop="20260319000000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Милан-Турин в Италии</title></programme>
-<programme start="20260319000000 +0300" stop="20260319003000 +0300" channel="Eurosport 2"><title>Гольф. Тележурнал Discovery Golf</title></programme>
-<programme start="20260319003000 +0300" stop="20260319020000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. Раунд 2</title></programme>
-<programme start="20260319020000 +0300" stop="20260319030000 +0300" channel="Eurosport 2"><title>Велоспорт. Женщины. Гонка Нокере Курсе в Бельгии</title></programme>
-<programme start="20260319030000 +0300" stop="20260319040000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Нокере Курсе в Бельгии</title></programme>
-<programme start="20260319040000 +0300" stop="20260319060000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. Раунд 2</title></programme>
-<programme start="20260319060000 +0300" stop="20260319070000 +0300" channel="Eurosport 2"><title>Лыжные гонки. Кубок мира. Этап 9 в Осло-Холменколлене, Норвегия. Женщины, мужчины. Масс-старт. 50 км. Свободный стиль</title></programme>
-<programme start="20260319070000 +0300" stop="20260319073000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 1 попытка</title></programme>
-<programme start="20260319073000 +0300" stop="20260319080000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 2 попытка</title></programme>
-<programme start="20260319080000 +0300" stop="20260319090000 +0300" channel="Eurosport 2"><title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 1</title></programme>
-<programme start="20260319090000 +0300" stop="20260319100000 +0300" channel="Eurosport 2"><title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title></programme>
-<programme start="20260319100000 +0300" stop="20260319110000 +0300" channel="Eurosport 2"><title>Велоспорт. Женщины. Гонка Нокере Курсе в Бельгии</title></programme>
-<programme start="20260319110000 +0300" stop="20260319115000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Этап в Куршевеле, Франция. Мужчины. Супергигант. День 2</title></programme>
-<programme start="20260319115000 +0300" stop="20260319135000 +0300" channel="Eurosport 2"><title>Кёрлинг. Женщины. Чемпионат мира в Калгари, Канада. Шотландия – Канада</title></programme>
-<programme start="20260319135000 +0300" stop="20260319160000 +0300" channel="Eurosport 2"><title>⋗ Фристайл. Кубок мира. Этап в Тине, Франция. Слоупстайл</title></programme>
-<programme start="20260319160000 +0300" stop="20260319180000 +0300" channel="Eurosport 2"><title>⋗ Велошоссе. Кубок Франции. Гран-при Денена</title></programme>
-<programme start="20260319180000 +0300" stop="20260319191500 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Милан-Турин в Италии</title></programme>
-<programme start="20260319191500 +0300" stop="20260319194500 +0300" channel="Eurosport 2"><title>Велоспорт. Тур Тайваня. Этап 4. Обзор</title></programme>
-<programme start="20260319194500 +0300" stop="20260319203000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. Раунд 3</title></programme>
-<programme start="20260319203000 +0300" stop="20260319210000 +0300" channel="Eurosport 2"><title>Гольф. Тележурнал Discovery Golf</title></programme>
-<programme start="20260319210000 +0300" stop="20260320010000 +0300" channel="Eurosport 2"><title>⋗ Гольф. Тур PGA. Valspar Championship в США. День 1</title></programme>
-<programme start="20260320010000 +0300" stop="20260320020000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. Раунд 3</title></programme>
-<programme start="20260320020000 +0300" stop="20260320030000 +0300" channel="Eurosport 2"><title>Велошоссе. Кубок Франции. Гран-при Денена</title></programme>
-<programme start="20260320030000 +0300" stop="20260320040000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Финальный этап в Осло-Холменколлене, Норвегия. Женщины. Спринт. 7,5 км</title></programme>
-<programme start="20260320040000 +0300" stop="20260320060000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. Раунд 3</title></programme>
-<programme start="20260320060000 +0300" stop="20260320070000 +0300" channel="Eurosport 2"><title>Велошоссе. Кубок Франции. Гран-при Денена</title></programme>
-<programme start="20260320070000 +0300" stop="20260320080000 +0300" channel="Eurosport 2"><title>Фристайл. Кубок мира. Этап в Тине, Франция. Слоупстайл</title></programme>
-<programme start="20260320080000 +0300" stop="20260320090000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Финальный этап в Осло-Холменколлене, Норвегия. Женщины. Спринт. 7,5 км</title></programme>
-<programme start="20260320090000 +0300" stop="20260320093000 +0300" channel="Eurosport 2"><title>Велошоссе. Кубок Франции. Гран-при Денена</title></programme>
-<programme start="20260320093000 +0300" stop="20260320110000 +0300" channel="Eurosport 2"><title>Кёрлинг. Женщины. Чемпионат мира в Калгари, Канада. Италия – Шотландия</title></programme>
-<programme start="20260320110000 +0300" stop="20260320140000 +0300" channel="Eurosport 2"><title>Пауэрлифтинг. Чемпионат мира по классическому троеборью в Валлетте, Мальта. День 1</title></programme>
-<programme start="20260320140000 +0300" stop="20260320150000 +0300" channel="Eurosport 2"><title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title></programme>
-<programme start="20260320150000 +0300" stop="20260320154500 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Нокере Курсе в Бельгии</title></programme>
-<programme start="20260320154500 +0300" stop="20260320163000 +0300" channel="Eurosport 2"><title>Велошоссе. Кубок Франции. Гран-при Денена</title></programme>
-<programme start="20260320163000 +0300" stop="20260320170000 +0300" channel="Eurosport 2"><title>Велоспорт. Тур Тайваня. Этап 5. Обзор</title></programme>
-<programme start="20260320170000 +0300" stop="20260320190000 +0300" channel="Eurosport 2"><title>⋗ Велоспорт. Гонка Бредене-Коксейде Классик в Бельгии</title></programme>
-<programme start="20260320190000 +0300" stop="20260320200000 +0300" channel="Eurosport 2"><title>⋗ Прыжки на лыжах с трамплина. Кубок мира. Этап 17 в Викерсуне, Норвегия. HS 240. Квалификация 1</title></programme>
-<programme start="20260320200000 +0300" stop="20260320210000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. 1/4 финала</title></programme>
-<programme start="20260320210000 +0300" stop="20260321010000 +0300" channel="Eurosport 2"><title>⋗ Гольф. Тур PGA. Valspar Championship в США. День 2</title></programme>
-<programme start="20260321010000 +0300" stop="20260321020000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. 1/4 финала</title></programme>
-<programme start="20260321020000 +0300" stop="20260321030000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Бредене-Коксейде Классик в Бельгии</title></programme>
-<programme start="20260321030000 +0300" stop="20260321040000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Финальный этап в Осло-Холменколлене, Норвегия. Мужчины. Спринт. 10 км</title></programme>
-<programme start="20260321040000 +0300" stop="20260321060000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. 1/4 финала</title></programme>
-<programme start="20260321060000 +0300" stop="20260321063000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Бредене-Коксейде Классик в Бельгии</title></programme>
-<programme start="20260321063000 +0300" stop="20260321103000 +0300" channel="Eurosport 2"><title>⋗ Триатлон. T100 Triathlon World Tour. Этап 1 в Голд-Коусте, Австралия. Женщины, мужчины</title></programme>
-<programme start="20260321103000 +0300" stop="20260321114500 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Бредене-Коксейде Классик в Бельгии</title></programme>
-<programme start="20260321114500 +0300" stop="20260321143000 +0300" channel="Eurosport 2"><title>⋗ Велоспорт. Гонка Милан – Сан-Ремо в Италии</title></programme>
-<programme start="20260321143000 +0300" stop="20260321163000 +0300" channel="Eurosport 2"><title>⋗ Велоспорт. Женщины. Гонка Милан – Сан-Ремо в Италии</title></programme>
-<programme start="20260321163000 +0300" stop="20260321193000 +0300" channel="Eurosport 2"><title>⋗ Велоспорт. Гонка Милан – Сан-Ремо в Италии</title></programme>
-<programme start="20260321193000 +0300" stop="20260321200000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Финал в Квитфьелле, Норвегия. Женщины. Скоростной спуск</title></programme>
-<programme start="20260321200000 +0300" stop="20260322010000 +0300" channel="Eurosport 2"><title>⋗ Гольф. Тур PGA. Valspar Championship в США. День 3</title></programme>
-<programme start="20260322010000 +0300" stop="20260322040000 +0300" channel="Eurosport 2"><title>⋗ Кёрлинг. Женщины. Чемпионат мира в Калгари, Канада. 1/2 финала</title></programme>
-<programme start="20260322040000 +0300" stop="20260322060000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. 1/2 финала</title></programme>
-<programme start="20260322060000 +0300" stop="20260322063000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Финал в Квитфьелле, Норвегия. Мужчины. Скоростной спуск</title></programme>
-<programme start="20260322063000 +0300" stop="20260322070000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Финал в Квитфьелле, Норвегия. Женщины. Скоростной спуск</title></programme>
-<programme start="20260322070000 +0300" stop="20260322073000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Финальный этап в Осло-Холменколлене, Норвегия. Мужчины. Гонка преследования. 12,5 км</title></programme>
-<programme start="20260322073000 +0300" stop="20260322080000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Финальный этап в Осло-Холменколлене, Норвегия. Женщины. Гонка преследования. 10 км</title></programme>
-<programme start="20260322080000 +0300" stop="20260322090000 +0300" channel="Eurosport 2"><title>Велоспорт. Женщины. Гонка Милан – Сан-Ремо в Италии</title></programme>
-<programme start="20260322090000 +0300" stop="20260322094500 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Финал в Квитфьелле, Норвегия. Мужчины. Скоростной спуск</title></programme>
-<programme start="20260322094500 +0300" stop="20260322102000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Финал в Квитфьелле, Норвегия. Женщины. Скоростной спуск</title></programme>
-<programme start="20260322102000 +0300" stop="20260322112000 +0300" channel="Eurosport 2"><title>Автоспорт. Формула E. Этап 5 в Мадриде, Испания. Гонка</title></programme>
-<programme start="20260322112000 +0300" stop="20260322124000 +0300" channel="Eurosport 2"><title>⋗ Прыжки на лыжах с трамплина. Женщины. Кубок мира. Этап 12 в Викерсуне, Норвегия. HS 240</title></programme>
-<programme start="20260322124000 +0300" stop="20260322140000 +0300" channel="Eurosport 2"><title>Велоспорт. Гонка Милан – Сан-Ремо в Италии</title></programme>
-<programme start="20260322140000 +0300" stop="20260322150000 +0300" channel="Eurosport 2"><title>Велоспорт. Женщины. Гонка Милан – Сан-Ремо в Италии</title></programme>
-<programme start="20260322150000 +0300" stop="20260322153000 +0300" channel="Eurosport 2"><title>Биатлон. Кубок мира. Финальный этап в Осло-Холменколлене, Норвегия. Женщины. Гонка преследования. 10 км</title></programme>
-<programme start="20260322153000 +0300" stop="20260322163000 +0300" channel="Eurosport 2"><title>⋗ Биатлон. Кубок мира. Финальный этап в Осло-Холменколлене, Норвегия. Женщины. Масс-старт. 12,5 км</title></programme>
-<programme start="20260322163000 +0300" stop="20260322183000 +0300" channel="Eurosport 2"><title>⋗ Велоспорт. Кубок Бельгии. Гран-при Жан-Пьера Монсере</title></programme>
-<programme start="20260322183000 +0300" stop="20260322192000 +0300" channel="Eurosport 2"><title>Велоспорт. Женщины. Гонка Милан – Сан-Ремо в Италии</title></programme>
-<programme start="20260322192000 +0300" stop="20260322203000 +0300" channel="Eurosport 2"><title>⋗ Лыжные гонки. Кубок мира. Финал в Лэйк-Плэсиде, США. Мужчины. Масс-старт. 20 км. Свободный стиль</title></programme>
-<programme start="20260322203000 +0300" stop="20260323010000 +0300" channel="Eurosport 2"><title>⋗ Гольф. Тур PGA. Valspar Championship в США. День 4</title></programme>
-<programme start="20260323010000 +0300" stop="20260323014500 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Финал в Квитфьелле, Норвегия. Женщины. Супергигант</title></programme>
-<programme start="20260323014500 +0300" stop="20260323023000 +0300" channel="Eurosport 2"><title>Горнолыжный спорт. Кубок мира. Финал в Квитфьелле, Норвегия. Мужчины. Супергигант</title></programme>
-<programme start="20260323023000 +0300" stop="20260323033000 +0300" channel="Eurosport 2"><title>Прыжки на лыжах с трамплина. Кубок мира. Этап 17 в Викерсуне, Норвегия. HS 240. День 2</title></programme>
-<programme start="20260323033000 +0300" stop="20260323043000 +0300" channel="Eurosport 2"><title>Снукер. World Open в Юйшане, Китай. Финал. Сессия 2</title></programme>
+<tv generator-info-name="IptvX|one" generator-info-url="https://iptvx.one/">
+  <channel id="Eurosport 1">
+    <display-name>Eurosport 1</display-name>
+    <display-name>Eurosport 1 HD</display-name>
+    <display-name>Eurosport 1 HD CEE</display-name>
+    <display-name>Eurosport 1 CEE</display-name>
+    <icon src="https://iptvx.one/picons/eurosport1.png" />
+  </channel>
+  <channel id="Eurosport 2">
+    <display-name>Eurosport 2</display-name>
+    <display-name>Eurosport 2 HD</display-name>
+    <display-name>Eurosport 2 HD CEE</display-name>
+    <display-name>Eurosport 2 CEE</display-name>
+    <display-name>Eurosport 2 HD NE</display-name>
+    <display-name>Eurosport 2 NE</display-name>
+    <icon src="https://iptvx.one/picons/eurosport2.png" />
+  </channel>
+  <programme start="20260314184500 +0300" stop="20260314202500 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>⋗ Jumping Осло World cup Мужчины HS 134</title>
+  </programme>
+  <programme start="20260314202500 +0300" stop="20260314210000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон: World Cup Отепя Гонка преследования Мужчины</title>
+  </programme>
+  <programme start="20260314210000 +0300" stop="20260314222500 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском сноуборде. спорт</desc>
+    <title>⋗ Сноуборд: World Cup Валь-Сен-Ком Day 1 Параллельный гигантский слалом Men and Women</title>
+  </programme>
+  <programme start="20260314222500 +0300" stop="20260314233000 +0300" channel="Eurosport 1">
+    <desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc>
+    <title>Горные лыжи. Кубок мира. Куршевель. Слалом-гигант. 1 попытка. Мужчины</title>
+  </programme>
+  <programme start="20260314233000 +0300" stop="20260315003000 +0300" channel="Eurosport 1">
+    <desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc>
+    <title>Горнолыжный спорт: World Cup Оре Гигантский слалом Run 02 Женщины</title>
+  </programme>
+  <programme start="20260315003000 +0300" stop="20260315013000 +0300" channel="Eurosport 1">
+    <title>Велоспорт: World Tour «Париж – Ницца» Седьмой этап Men</title>
+  </programme>
+  <programme start="20260315013000 +0300" stop="20260315020000 +0300" channel="Eurosport 1">
+    <title>Велоспорт: World Tour Тиррено Адриатико Шестой этап Men</title>
+  </programme>
+  <programme start="20260315020000 +0300" stop="20260315030000 +0300" channel="Eurosport 1">
+    <title>Все виды спорта</title>
+  </programme>
+  <programme start="20260315030000 +0300" stop="20260315033000 +0300" channel="Eurosport 1">
+    <title>Снукер: German Masters Shaun Murphy – Judd Trump Final</title>
+  </programme>
+  <programme start="20260315033000 +0300" stop="20260315050000 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Jumping Осло World cup Day 1 Мужчины HS 134</title>
+  </programme>
+  <programme start="20260315050000 +0300" stop="20260315060600 +0300" channel="Eurosport 1">
+    <title>Велоспорт: World Tour «Париж – Ницца» Седьмой этап Men</title>
+  </programme>
+  <programme start="20260315060600 +0300" stop="20260315065800 +0300" channel="Eurosport 1">
+    <title>Велоспорт: World Tour Тиррено Адриатико Шестой этап Men</title>
+  </programme>
+  <programme start="20260315065800 +0300" stop="20260315075900 +0300" channel="Eurosport 1">
+    <desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc>
+    <title>Горные лыжи: World Cup Оре Гигантский слалом Run 01 Женщины</title>
+  </programme>
+  <programme start="20260315075900 +0300" stop="20260315085600 +0300" channel="Eurosport 1">
+    <desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc>
+    <title>Горнолыжный спорт: World Cup Оре Гигантский слалом Run 02 Женщины</title>
+  </programme>
+  <programme start="20260315085600 +0300" stop="20260315100600 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Jumping Осло World cup Day 1 Мужчины HS 134</title>
+  </programme>
+  <programme start="20260315100600 +0300" stop="20260315110400 +0300" channel="Eurosport 1">
+    <title>Все виды спорта</title>
+  </programme>
+  <programme start="20260315110400 +0300" stop="20260315111500 +0300" channel="Eurosport 1">
+    <title>Сила Олимпиады</title>
+  </programme>
+  <programme start="20260315111500 +0300" stop="20260315123000 +0300" channel="Eurosport 1">
+    <desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc>
+    <title>⋗ Горнолыжный спорт: World Cup Оре Слалом Run 01 Женщины</title>
+  </programme>
+  <programme start="20260315123000 +0300" stop="20260315142500 +0300" channel="Eurosport 1">
+    <desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc>
+    <title>⋗ Горные лыжи. Кубок мира. Куршевель. Слалом-гигант. 2 попытка. Мужчины</title>
+  </programme>
+  <programme start="20260315142500 +0300" stop="20260315154000 +0300" channel="Eurosport 1">
+    <desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc>
+    <title>⋗ Горные лыжи Кубок мира Оре Слалом 2 заезд Женщины</title>
+  </programme>
+  <programme start="20260315154000 +0300" stop="20260315162500 +0300" channel="Eurosport 1">
+    <desc>Циклическое соревнование по лыжному двоеборью, проводящееся Международной федерации лыжного спорта (FIS). спорт</desc>
+    <title>⋗ Лыжное двоеборье: Кубок мира Осло Gundersen 10km Мужчины</title>
+  </programme>
+  <programme start="20260315162500 +0300" stop="20260315175500 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>⋗ Биатлон. Кубок мира. Отепя. Смешанная эстафета</title>
+  </programme>
+  <programme start="20260315175500 +0300" stop="20260315195500 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>⋗ Jumping Осло World cup Day 2 Мужчины HS 134</title>
+  </programme>
+  <programme start="20260315195500 +0300" stop="20260315212500 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском сноуборде. спорт</desc>
+    <title>⋗ Сноуборд: World Cup Валь-Сен-Ком Day 2 Параллельный гигантский слалом Men and Women</title>
+  </programme>
+  <programme start="20260315212500 +0300" stop="20260315220000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон. Кубок мира. Отепя. Одиночная смешанная эстафета</title>
+  </programme>
+  <programme start="20260315220000 +0300" stop="20260315224500 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон. Кубок мира. Отепя. Смешанная эстафета</title>
+  </programme>
+  <programme start="20260315224500 +0300" stop="20260315234500 +0300" channel="Eurosport 1">
+    <desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc>
+    <title>Горные лыжи. Кубок мира. Куршевель. Слалом-гигант. 2 попытка. Мужчины</title>
+  </programme>
+  <programme start="20260315234500 +0300" stop="20260316003000 +0300" channel="Eurosport 1">
+    <desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc>
+    <title>Горные лыжи Кубок мира Оре Слалом 2 заезд Женщины</title>
+  </programme>
+  <programme start="20260316003000 +0300" stop="20260316011500 +0300" channel="Eurosport 1">
+    <title>Велоспорт World Tour Tirreno Adriatico Stage 07 Men</title>
+  </programme>
+  <programme start="20260316011500 +0300" stop="20260316020000 +0300" channel="Eurosport 1">
+    <title>Велоспорт World Tour Paris Nice Stage 08 Men</title>
+  </programme>
+  <programme start="20260316020000 +0300" stop="20260316030000 +0300" channel="Eurosport 1">
+    <title>Все виды спорта</title>
+  </programme>
+  <programme start="20260316030000 +0300" stop="20260316040000 +0300" channel="Eurosport 1">
+    <title>Снукер: Home Nations Series Welsh Open Barry Hawkins – Jack Lisowski Final</title>
+  </programme>
+  <programme start="20260316040000 +0300" stop="20260316043000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон. Кубок мира. Отепя. Спринт. Мужчины</title>
+  </programme>
+  <programme start="20260316043000 +0300" stop="20260316050000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон: World Cup Отепя Гонка преследования Мужчины</title>
+  </programme>
+  <programme start="20260316050000 +0300" stop="20260316050100 +0300" channel="Eurosport 1">
+    <desc>Ежегодное соревнование по лыжным гонкам, проводящееся Международной федерацией лыжного спорта. Проходит с октября по март. спорт</desc>
+    <title>Cross country skiing: Кубок мира Осло Мужчины и женщины Масс-старт. 50 км. Свободный стиль</title>
+  </programme>
+  <programme start="20260316050100 +0300" stop="20260316065600 +0300" channel="Eurosport 1">
+    <desc>Ежегодное соревнование по лыжным гонкам, проводящееся Международной федерацией лыжного спорта. Проходит с октября по март. спорт</desc>
+    <title>Cross country skiing: Кубок мира Осло Мужчины и женщины Масс-старт. 50 км. Свободный стиль</title>
+  </programme>
+  <programme start="20260316065600 +0300" stop="20260316072600 +0300" channel="Eurosport 1">
+    <desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc>
+    <title>Горнолыжный спорт: World Cup Оре Гигантский слалом Run 02 Женщины</title>
+  </programme>
+  <programme start="20260316072600 +0300" stop="20260316080400 +0300" channel="Eurosport 1">
+    <desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc>
+    <title>Горные лыжи Кубок мира Оре Слалом 2 заезд Женщины</title>
+  </programme>
+  <programme start="20260316080400 +0300" stop="20260316090000 +0300" channel="Eurosport 1">
+    <title>Снукер: Home Nations Series Welsh Open Barry Hawkins – Jack Lisowski Final</title>
+  </programme>
+  <programme start="20260316090000 +0300" stop="20260316120000 +0300" channel="Eurosport 1">
+    <title>⋗ Снукер: World Open Session 2 Round 01</title>
+  </programme>
+  <programme start="20260316120000 +0300" stop="20260316125700 +0300" channel="Eurosport 1">
+    <title>Все виды спорта</title>
+  </programme>
+  <programme start="20260316125700 +0300" stop="20260316133000 +0300" channel="Eurosport 1">
+    <desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc>
+    <title>Горнолыжный спорт: World Cup Оре Гигантский слалом Run 02 Женщины</title>
+  </programme>
+  <programme start="20260316133000 +0300" stop="20260316140000 +0300" channel="Eurosport 1">
+    <desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc>
+    <title>Горные лыжи Кубок мира Оре Слалом 2 заезд Женщины</title>
+  </programme>
+  <programme start="20260316140000 +0300" stop="20260316143000 +0300" channel="Eurosport 1">
+    <title>Велоспорт «Тур Тайваня», Первый этап, Мужчины</title>
+  </programme>
+  <programme start="20260316143000 +0300" stop="20260316173000 +0300" channel="Eurosport 1">
+    <title>⋗ Снукер: World Open Session 3 Round 01</title>
+  </programme>
+  <programme start="20260316173000 +0300" stop="20260316181500 +0300" channel="Eurosport 1">
+    <title>Велоспорт: World Tour «Париж – Ницца» Седьмой этап Men</title>
+  </programme>
+  <programme start="20260316181500 +0300" stop="20260316190000 +0300" channel="Eurosport 1">
+    <title>Велоспорт World Tour Paris Nice Stage 08 Men</title>
+  </programme>
+  <programme start="20260316190000 +0300" stop="20260316200000 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Ski jumping: World Cup Осло Мужчины HS 134 Day 2</title>
+  </programme>
+  <programme start="20260316200000 +0300" stop="20260316203000 +0300" channel="Eurosport 1">
+    <desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc>
+    <title>Горные лыжи: World Cup Оре Гигантский слалом Run 01 Женщины</title>
+  </programme>
+  <programme start="20260316203000 +0300" stop="20260316210000 +0300" channel="Eurosport 1">
+    <desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc>
+    <title>Горнолыжный спорт: World Cup Оре Гигантский слалом Run 02 Женщины</title>
+  </programme>
+  <programme start="20260316210000 +0300" stop="20260316220000 +0300" channel="Eurosport 1">
+    <desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc>
+    <title>Горные лыжи Чемпионат мира Куршевель Скоростной спуск. Мужчины</title>
+  </programme>
+  <programme start="20260316220000 +0300" stop="20260316230000 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Ski jumping: World Cup Осло Мужчины HS 134 Day 2</title>
+  </programme>
+  <programme start="20260316230000 +0300" stop="20260317000000 +0300" channel="Eurosport 1">
+    <title>Сноуборд: Snow League Аспен Хафпайп</title>
+  </programme>
+  <programme start="20260317000000 +0300" stop="20260317010000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском сноуборде. спорт</desc>
+    <title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 2</title>
+  </programme>
+  <programme start="20260317010000 +0300" stop="20260317020000 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Ski jumping: World Cup Осло Мужчины HS 134 Day 2</title>
+  </programme>
+  <programme start="20260317020000 +0300" stop="20260317040000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Session 3 Round 01</title>
+  </programme>
+  <programme start="20260317040000 +0300" stop="20260317043000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон. Кубок мира. Отепя. Спринт. Женщины</title>
+  </programme>
+  <programme start="20260317043000 +0300" stop="20260317050000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон: World Cup Отепя Гонка преследования Женщины</title>
+  </programme>
+  <programme start="20260317050000 +0300" stop="20260317053000 +0300" channel="Eurosport 1">
+    <title>Горные лыжи: World Cup Оре Слалом Run 01 Женщины</title>
+  </programme>
+  <programme start="20260317053000 +0300" stop="20260317060000 +0300" channel="Eurosport 1">
+    <desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc>
+    <title>Горные лыжи Кубок мира Оре Слалом 2 заезд Женщины</title>
+  </programme>
+  <programme start="20260317060000 +0300" stop="20260317070000 +0300" channel="Eurosport 1">
+    <title>Велоспорт World Tour Tirreno Adriatico Stage 07 Men</title>
+  </programme>
+  <programme start="20260317070000 +0300" stop="20260317080000 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Ski jumping: World Cup Осло Мужчины HS 134 Day 2</title>
+  </programme>
+  <programme start="20260317080000 +0300" stop="20260317090000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Session 3 Round 01</title>
+  </programme>
+  <programme start="20260317090000 +0300" stop="20260317120000 +0300" channel="Eurosport 1">
+    <title>⋗ Снукер: World Open Session 5 Round 01</title>
+  </programme>
+  <programme start="20260317120000 +0300" stop="20260317130000 +0300" channel="Eurosport 1">
+    <desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc>
+    <title>Горнолыжный спорт: World Cup Оре Гигантский слалом Run 02 Женщины</title>
+  </programme>
+  <programme start="20260317130000 +0300" stop="20260317140000 +0300" channel="Eurosport 1">
+    <desc>Международные соревнования, проводимые под эгидой Международной федерации лыжного спорта (ФИС). спорт</desc>
+    <title>Горные лыжи Чемпионат мира Куршевель Скоростной спуск. Мужчины</title>
+  </programme>
+  <programme start="20260317140000 +0300" stop="20260317143000 +0300" channel="Eurosport 1">
+    <title>Велоспорт. «Тур Тайваня». Второй этап</title>
+  </programme>
+  <programme start="20260317143000 +0300" stop="20260317173000 +0300" channel="Eurosport 1">
+    <title>⋗ Снукер: World Open Session 6 Round 01</title>
+  </programme>
+  <programme start="20260317173000 +0300" stop="20260317180000 +0300" channel="Eurosport 1">
+    <title>Велоспорт: World Tour Тиррено Адриатико Шестой этап Men</title>
+  </programme>
+  <programme start="20260317180000 +0300" stop="20260317190000 +0300" channel="Eurosport 1">
+    <title>Велоспорт World Tour Tirreno Adriatico Stage 07 Men</title>
+  </programme>
+  <programme start="20260317190000 +0300" stop="20260317200000 +0300" channel="Eurosport 1">
+    <desc>Ежегодное соревнование по лыжным гонкам, проводящееся Международной федерацией лыжного спорта. Проходит с октября по март. спорт</desc>
+    <title>Cross country skiing: Кубок мира Осло Мужчины и женщины Масс-старт. 50 км. Свободный стиль</title>
+  </programme>
+  <programme start="20260317200000 +0300" stop="20260317203000 +0300" channel="Eurosport 1">
+    <title>Горные лыжи: World Cup Оре Слалом Run 01 Женщины</title>
+  </programme>
+  <programme start="20260317203000 +0300" stop="20260317210000 +0300" channel="Eurosport 1">
+    <desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc>
+    <title>Горные лыжи Кубок мира Оре Слалом 2 заезд Женщины</title>
+  </programme>
+  <programme start="20260317210000 +0300" stop="20260317220000 +0300" channel="Eurosport 1">
+    <title>Конный спорт: Турнир Большого шлема Хертогенбосх Jumping</title>
+  </programme>
+  <programme start="20260317220000 +0300" stop="20260318000000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Session 6 Round 01</title>
+  </programme>
+  <programme start="20260318000000 +0300" stop="20260318010000 +0300" channel="Eurosport 1">
+    <title>Велоспорт World Tour Tirreno Adriatico Stage 07 Men</title>
+  </programme>
+  <programme start="20260318010000 +0300" stop="20260318020000 +0300" channel="Eurosport 1">
+    <title>Велоспорт World Tour Paris Nice Stage 08 Men</title>
+  </programme>
+  <programme start="20260318020000 +0300" stop="20260318040000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Session 6 Round 01</title>
+  </programme>
+  <programme start="20260318040000 +0300" stop="20260318043000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон. Кубок мира. Отепя. Одиночная смешанная эстафета</title>
+  </programme>
+  <programme start="20260318043000 +0300" stop="20260318050000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон. Кубок мира. Отепя. Смешанная эстафета</title>
+  </programme>
+  <programme start="20260318050000 +0300" stop="20260318050300 +0300" channel="Eurosport 1">
+    <title>Велоспорт World Tour Tirreno Adriatico Stage 07 Men</title>
+  </programme>
+  <programme start="20260318050300 +0300" stop="20260318060400 +0300" channel="Eurosport 1">
+    <title>Велоспорт World Tour Tirreno Adriatico Stage 07 Men</title>
+  </programme>
+  <programme start="20260318060400 +0300" stop="20260318070600 +0300" channel="Eurosport 1">
+    <title>Велоспорт World Tour Paris Nice Stage 08 Men</title>
+  </programme>
+  <programme start="20260318070600 +0300" stop="20260318080000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском сноуборде. спорт</desc>
+    <title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 2</title>
+  </programme>
+  <programme start="20260318080000 +0300" stop="20260318090000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Session 6 Round 01</title>
+  </programme>
+  <programme start="20260318090000 +0300" stop="20260318120000 +0300" channel="Eurosport 1">
+    <title>⋗ Снукер: World Open Session 1. Round 02</title>
+  </programme>
+  <programme start="20260318120000 +0300" stop="20260318124500 +0300" channel="Eurosport 1">
+    <title>Горные лыжи: World Cup Оре Слалом Run 01 Женщины</title>
+  </programme>
+  <programme start="20260318124500 +0300" stop="20260318133000 +0300" channel="Eurosport 1">
+    <desc>Ежегодный цикл горнолыжных соревнований, в ходе которых сильнейшие горнолыжники мира по очковой системе выявляют победителей в общем зачете и отдельных горнолыжных дисциплинах среди мужчин и женщин. спорт</desc>
+    <title>Горные лыжи Кубок мира Оре Слалом 2 заезд Женщины</title>
+  </programme>
+  <programme start="20260318133000 +0300" stop="20260318143000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском сноуборде. спорт</desc>
+    <title>Сноуборд: World Cup Валь-Сен-Ком Day 1 Параллельный гигантский слалом Men and Women</title>
+  </programme>
+  <programme start="20260318143000 +0300" stop="20260318173000 +0300" channel="Eurosport 1">
+    <title>⋗ Снукер: World Open Session 2 Round 02</title>
+  </programme>
+  <programme start="20260318173000 +0300" stop="20260318183000 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Ski jumping: World Cup Осло Мужчины HS 134 Day 2</title>
+  </programme>
+  <programme start="20260318183000 +0300" stop="20260318190000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон. Кубок мира. Отепя. Одиночная смешанная эстафета</title>
+  </programme>
+  <programme start="20260318190000 +0300" stop="20260318200000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон. Кубок мира. Отепя. Смешанная эстафета</title>
+  </programme>
+  <programme start="20260318200000 +0300" stop="20260318203000 +0300" channel="Eurosport 1">
+    <title>Велоспорт. Тур Тайваня. 3 этап</title>
+  </programme>
+  <programme start="20260318203000 +0300" stop="20260318210000 +0300" channel="Eurosport 1">
+    <title>Велоспорт: Pro series Милан Турин Men</title>
+  </programme>
+  <programme start="20260318210000 +0300" stop="20260318220000 +0300" channel="Eurosport 1">
+    <desc>Международное соревнование по фехтованию. спорт</desc>
+    <title>Велоспорт: Pro Series Nokere Koerse Men</title>
+  </programme>
+  <programme start="20260318220000 +0300" stop="20260318230000 +0300" channel="Eurosport 1">
+    <title>Конный спорт: Турнир Большого шлема Хертогенбосх Jumping</title>
+  </programme>
+  <programme start="20260318230000 +0300" stop="20260319020000 +0300" channel="Eurosport 1">
+    <title>⋗ Керлинг: World championship, Calgary Round Robin Women США – Италия</title>
+  </programme>
+  <programme start="20260319020000 +0300" stop="20260319040000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Session 2 Round 02</title>
+  </programme>
+  <programme start="20260319040000 +0300" stop="20260319050000 +0300" channel="Eurosport 1">
+    <title>Велоспорт: Pro Series Nokere Koerse Women</title>
+  </programme>
+  <programme start="20260319050000 +0300" stop="20260319060000 +0300" channel="Eurosport 1">
+    <desc>Международное соревнование по фехтованию. спорт</desc>
+    <title>Велоспорт: Pro Series Nokere Koerse Men</title>
+  </programme>
+  <programme start="20260319060000 +0300" stop="20260319070000 +0300" channel="Eurosport 1">
+    <title>Велоспорт: Pro series Милан Турин Men</title>
+  </programme>
+  <programme start="20260319070000 +0300" stop="20260319073000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон. Кубок мира. Отепя. Одиночная смешанная эстафета</title>
+  </programme>
+  <programme start="20260319073000 +0300" stop="20260319080000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон. Кубок мира. Отепя. Смешанная эстафета</title>
+  </programme>
+  <programme start="20260319080000 +0300" stop="20260319090000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Session 2 Round 02</title>
+  </programme>
+  <programme start="20260319090000 +0300" stop="20260319120000 +0300" channel="Eurosport 1">
+    <title>⋗ Снукер: World Open Session 1 Round 03</title>
+  </programme>
+  <programme start="20260319120000 +0300" stop="20260319130000 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Ski jumping: World Cup Осло Мужчины HS 134 Day 2</title>
+  </programme>
+  <programme start="20260319130000 +0300" stop="20260319140000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон. Кубок мира. Отепя. Смешанная эстафета</title>
+  </programme>
+  <programme start="20260319140000 +0300" stop="20260319143000 +0300" channel="Eurosport 1">
+    <title>Велоспорт «Тур Тайваня» Мужчины. Четвертый этап</title>
+  </programme>
+  <programme start="20260319143000 +0300" stop="20260319173000 +0300" channel="Eurosport 1">
+    <title>⋗ Снукер: World Open Session 2 Round 03</title>
+  </programme>
+  <programme start="20260319173000 +0300" stop="20260319180000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон. Кубок мира. Отепя. Одиночная смешанная эстафета</title>
+  </programme>
+  <programme start="20260319180000 +0300" stop="20260319193000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>⋗ Биатлон: Кубок мира. Осло-Спринт Женщины</title>
+  </programme>
+  <programme start="20260319193000 +0300" stop="20260319223000 +0300" channel="Eurosport 1">
+    <title>⋗ Пауэрлифтинг: European classic championship Valletta Session 1</title>
+  </programme>
+  <programme start="20260319223000 +0300" stop="20260320000000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Session 2 Round 03</title>
+  </programme>
+  <programme start="20260320000000 +0300" stop="20260320010000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон: World Cup Осло Спринт Женщины</title>
+  </programme>
+  <programme start="20260320010000 +0300" stop="20260320020000 +0300" channel="Eurosport 1">
+    <title>Конный спорт: Турнир Большого шлема Хертогенбосх Jumping</title>
+  </programme>
+  <programme start="20260320020000 +0300" stop="20260320040000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Session 2 Round 03</title>
+  </programme>
+  <programme start="20260320040000 +0300" stop="20260320050000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон: World Cup Осло Спринт Женщины</title>
+  </programme>
+  <programme start="20260320050000 +0300" stop="20260320060000 +0300" channel="Eurosport 1">
+    <title>Велоспорт: Pro Series Гран-при Денена Men</title>
+  </programme>
+  <programme start="20260320060000 +0300" stop="20260320070000 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Ski jumping: World Cup Осло Мужчины HS 134 Day 2</title>
+  </programme>
+  <programme start="20260320070000 +0300" stop="20260320080000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон: World Cup Осло Спринт Женщины</title>
+  </programme>
+  <programme start="20260320080000 +0300" stop="20260320090000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Session 2 Round 03</title>
+  </programme>
+  <programme start="20260320090000 +0300" stop="20260320120000 +0300" channel="Eurosport 1">
+    <title>⋗ Снукер: World Open Session 1 Quarterfinal</title>
+  </programme>
+  <programme start="20260320120000 +0300" stop="20260320133000 +0300" channel="Eurosport 1">
+    <title>Керлинг: World Championship Calgary Италия – Scotland Round Robin Women</title>
+  </programme>
+  <programme start="20260320133000 +0300" stop="20260320140000 +0300" channel="Eurosport 1">
+    <title>Велоспорт: Pro Series Гран-при Денена Men</title>
+  </programme>
+  <programme start="20260320140000 +0300" stop="20260320143000 +0300" channel="Eurosport 1">
+    <title>Велоспорт: «Тур Тайваня» Пятый этап Men</title>
+  </programme>
+  <programme start="20260320143000 +0300" stop="20260320173000 +0300" channel="Eurosport 1">
+    <title>⋗ Снукер: World Open Session 2 Quarterfinal</title>
+  </programme>
+  <programme start="20260320173000 +0300" stop="20260320180000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон: World Cup Осло Спринт Женщины</title>
+  </programme>
+  <programme start="20260320180000 +0300" stop="20260320195000 +0300" channel="Eurosport 1">
+    <title>⋗ Биатлон: Кубок мира. Осло-Спринт Мужчины</title>
+  </programme>
+  <programme start="20260320195000 +0300" stop="20260320211500 +0300" channel="Eurosport 1">
+    <title>⋗ Лыжные гонки World Cup Лейк-Плэсид Женщины Классический стиль. 10 километров</title>
+  </programme>
+  <programme start="20260320211500 +0300" stop="20260320215000 +0300" channel="Eurosport 1">
+    <title>Ski jumping: World cup Викерсунд Мужчины HS 240 Day 1 Qualifying</title>
+  </programme>
+  <programme start="20260320215000 +0300" stop="20260320231500 +0300" channel="Eurosport 1">
+    <title>⋗ Лыжные гонки: World Cup Лейк-Плэсид Классический стиль. 10 км. Мужчины</title>
+  </programme>
+  <programme start="20260320231500 +0300" stop="20260321020000 +0300" channel="Eurosport 1">
+    <title>⋗ Керлинг: World championship. Calgary Round Robin Women Scotland – Норвегия</title>
+  </programme>
+  <programme start="20260321020000 +0300" stop="20260321040000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Session 2 Quarterfinal</title>
+  </programme>
+  <programme start="20260321040000 +0300" stop="20260321050000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон: World Cup Осло Спринт Мужчины</title>
+  </programme>
+  <programme start="20260321050000 +0300" stop="20260321060000 +0300" channel="Eurosport 1">
+    <title>Велоспорт: Pro Series Bredene Koksijde Classic Men</title>
+  </programme>
+  <programme start="20260321060000 +0300" stop="20260321063000 +0300" channel="Eurosport 1">
+    <desc>Ежегодное соревнование по лыжным гонкам, проводящееся Международной федерацией лыжного спорта. Проходит с октября по март. спорт</desc>
+    <title>Лыжные гонки: World Cup Лейк-Плэсид Классический стиль. 10 км. Женщины</title>
+  </programme>
+  <programme start="20260321063000 +0300" stop="20260321070000 +0300" channel="Eurosport 1">
+    <desc>Ежегодное соревнование по лыжным гонкам, проводящееся Международной федерацией лыжного спорта. Проходит с октября по март. спорт</desc>
+    <title>Лыжные гонки: World Cup Лейк-Плэсид Классический стиль. 10 км. Мужчины</title>
+  </programme>
+  <programme start="20260321070000 +0300" stop="20260321080000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон: World Cup Осло Спринт Мужчины</title>
+  </programme>
+  <programme start="20260321080000 +0300" stop="20260321090000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Session 2 Quarterfinal</title>
+  </programme>
+  <programme start="20260321090000 +0300" stop="20260321123000 +0300" channel="Eurosport 1">
+    <title>⋗ Снукер: World Open Semifinal. Match 1</title>
+  </programme>
+  <programme start="20260321123000 +0300" stop="20260321140000 +0300" channel="Eurosport 1">
+    <title>⋗ Горные лыжи: World Cup Лиллехаммер Скоростной спуск Мужчины</title>
+  </programme>
+  <programme start="20260321140000 +0300" stop="20260321153000 +0300" channel="Eurosport 1">
+    <title>⋗ Горные лыжи: World Cup Лиллехаммер Скоростной спуск Женщины</title>
+  </programme>
+  <programme start="20260321153000 +0300" stop="20260321180000 +0300" channel="Eurosport 1">
+    <title>⋗ Снукер: World Open Semifinal Session 2</title>
+  </programme>
+  <programme start="20260321180000 +0300" stop="20260321190000 +0300" channel="Eurosport 1">
+    <desc>Международные биатлонные соревнования, проходящие с 1958 года. Современные чемпионаты мира включают в себя выступления в спринте, гонке преследования, индивидуальной гонке, смешанной эстафете, эстафете, масс-старте, одиночной смешанной эстафете. спорт</desc>
+    <title>⋗ Биатлон: Чемпионат Мира. Осло-Мужчины Гонка преследования</title>
+  </programme>
+  <programme start="20260321190000 +0300" stop="20260321204500 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>⋗ Ski jumping: World cup Викерсунд Мужчины HS 240 Day 1</title>
+  </programme>
+  <programme start="20260321204500 +0300" stop="20260321214500 +0300" channel="Eurosport 1">
+    <desc>Ежегодное соревнование по лыжным гонкам, проводящееся Международной федерацией лыжного спорта. Проходит с октября по март. спорт</desc>
+    <title>⋗ Лыжные гонки: World Cup Лейк-Плэсид Спринт вольным стилем Мужчины и женщины</title>
+  </programme>
+  <programme start="20260321214500 +0300" stop="20260321223000 +0300" channel="Eurosport 1">
+    <desc>Международные биатлонные соревнования, проходящие с 1958 года. Современные чемпионаты мира включают в себя выступления в спринте, гонке преследования, индивидуальной гонке, смешанной эстафете, эстафете, масс-старте, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон: Чемпионат Мира. Осло-Женщины Гонка Преследования</title>
+  </programme>
+  <programme start="20260321223000 +0300" stop="20260321230000 +0300" channel="Eurosport 1">
+    <title>Велоспорт. World Tour Milan San Remo Men</title>
+  </programme>
+  <programme start="20260321230000 +0300" stop="20260322020000 +0300" channel="Eurosport 1">
+    <title>Пауэрлифтинг: European classic championship Valletta Session 2</title>
+  </programme>
+  <programme start="20260322020000 +0300" stop="20260322024000 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Ski jumping: World cup Викерсунд Мужчины HS 240 Day 1</title>
+  </programme>
+  <programme start="20260322024000 +0300" stop="20260322044500 +0300" channel="Eurosport 1">
+    <title>⋗ Конный спорт: League Of Nations Окала Jumping</title>
+  </programme>
+  <programme start="20260322044500 +0300" stop="20260322060000 +0300" channel="Eurosport 1">
+    <title>Велоспорт. World Tour Milan San Remo Women</title>
+  </programme>
+  <programme start="20260322055800 +0300" stop="20260322065600 +0300" channel="Eurosport 1">
+    <title>Велоспорт. World Tour Milan San Remo Men</title>
+  </programme>
+  <programme start="20260322065600 +0300" stop="20260322075900 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Ski jumping: World cup Викерсунд Мужчины HS 240 Day 1</title>
+  </programme>
+  <programme start="20260322075900 +0300" stop="20260322090000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Judd Trump – Thepchaiya Un-Nooh Semifinal</title>
+  </programme>
+  <programme start="20260322090000 +0300" stop="20260322115900 +0300" channel="Eurosport 1">
+    <title>⋗ Снукер: World Open Ronnie O'Sullivan – Thepchaiya Un-Nooh Final</title>
+  </programme>
+  <programme start="20260322115900 +0300" stop="20260322123000 +0300" channel="Eurosport 1">
+    <title>Горные лыжи: World Cup Лиллехаммер Скоростной спуск Женщины</title>
+  </programme>
+  <programme start="20260322123000 +0300" stop="20260322140000 +0300" channel="Eurosport 1">
+    <title>⋗ Горные лыжи: World Cup Лиллехаммер Супергигант Женщины</title>
+  </programme>
+  <programme start="20260322140000 +0300" stop="20260322153000 +0300" channel="Eurosport 1">
+    <title>⋗ Горные лыжи: World Cup Лиллехаммер Супергигант Мужчины</title>
+  </programme>
+  <programme start="20260322153000 +0300" stop="20260322173000 +0300" channel="Eurosport 1">
+    <title>⋗ Снукер: World Open Ronnie O'Sullivan – Thepchaiya Un-Nooh Final</title>
+  </programme>
+  <programme start="20260322173000 +0300" stop="20260322181500 +0300" channel="Eurosport 1">
+    <title>Горные лыжи: World Cup Лиллехаммер Супергигант Мужчины</title>
+  </programme>
+  <programme start="20260322181500 +0300" stop="20260322191500 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>⋗ Биатлон: World Cup Осло Масс-старт Мужчины</title>
+  </programme>
+  <programme start="20260322191500 +0300" stop="20260322205500 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>⋗ Ski jumping: World cup Викерсунд Мужчины HS 240 Day 2</title>
+  </programme>
+  <programme start="20260322205500 +0300" stop="20260322212000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон: World Cup Осло Масс-старт Женщины</title>
+  </programme>
+  <programme start="20260322212000 +0300" stop="20260322223000 +0300" channel="Eurosport 1">
+    <desc>Ежегодное соревнование по лыжным гонкам, проводящееся Международной федерацией лыжного спорта. Проходит с октября по март. спорт</desc>
+    <title>⋗ Лыжные гонки: World Cup Лейк-Плэсид Масс-старт. 20 км. Свободный стиль Женщины</title>
+  </programme>
+  <programme start="20260322223000 +0300" stop="20260322230000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Ronnie O'Sullivan – Thepchaiya Un-Nooh Final</title>
+  </programme>
+  <programme start="20260322230000 +0300" stop="20260323000000 +0300" channel="Eurosport 1">
+    <title>Конкур: Grand Prix Hermes Equestrianism Париж</title>
+  </programme>
+  <programme start="20260323000000 +0300" stop="20260323010000 +0300" channel="Eurosport 1">
+    <title>Конкур: Saut Hermes Париж</title>
+  </programme>
+  <programme start="20260323010000 +0300" stop="20260323020000 +0300" channel="Eurosport 1">
+    <title>Конкур: Париж Jumping</title>
+  </programme>
+  <programme start="20260323020000 +0300" stop="20260323033000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Ronnie O'Sullivan – Thepchaiya Un-Nooh Final</title>
+  </programme>
+  <programme start="20260323033000 +0300" stop="20260323041500 +0300" channel="Eurosport 1">
+    <title>Горные лыжи: World Cup Лиллехаммер Супергигант Женщины</title>
+  </programme>
+  <programme start="20260323041500 +0300" stop="20260323050000 +0300" channel="Eurosport 1">
+    <title>Горные лыжи: World Cup Лиллехаммер Супергигант Мужчины</title>
+  </programme>
+  <programme start="20260323050000 +0300" stop="20260323063000 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Прыжки на лыжах с трамплина: World Cup Викерсунд Day 2 HS 240 Мужчины</title>
+  </programme>
+  <programme start="20260323063000 +0300" stop="20260323080000 +0300" channel="Eurosport 1">
+    <title>Снукер: World Open Ronnie O'Sullivan – Thepchaiya Un-Nooh Final</title>
+  </programme>
+  <programme start="20260323080000 +0300" stop="20260323084500 +0300" channel="Eurosport 1">
+    <title>Горные лыжи: World Cup Лиллехаммер Супергигант Женщины</title>
+  </programme>
+  <programme start="20260323084500 +0300" stop="20260323093000 +0300" channel="Eurosport 1">
+    <title>Горные лыжи: World Cup Лиллехаммер Супергигант Мужчины</title>
+  </programme>
+  <programme start="20260323093000 +0300" stop="20260323103000 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Ski jumping: World cup Викерсунд Мужчины HS 240 Day 1</title>
+  </programme>
+  <programme start="20260323103000 +0300" stop="20260323120000 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Прыжки на лыжах с трамплина: World Cup Викерсунд Day 2 HS 240 Мужчины</title>
+  </programme>
+  <programme start="20260323120000 +0300" stop="20260323140000 +0300" channel="Eurosport 1">
+    <desc>Чемпионаты мира по керлингу – соревнования сильнейших национальных мужских и женских сборных стран-членов Всемирной федерации керлинга. Проводятся ежегодно для мужских команд с 1959, для женских – с 1979 года. спорт</desc>
+    <title>Керлинг: World Championship Calgary Semifinal Sweden – Switzerland Women</title>
+  </programme>
+  <programme start="20260323140000 +0300" stop="20260323160000 +0300" channel="Eurosport 1">
+    <desc>Чемпионаты мира по керлингу – соревнования сильнейших национальных мужских и женских сборных стран-членов Всемирной федерации керлинга. Проводятся ежегодно для мужских команд с 1959, для женских – с 1979 года. спорт</desc>
+    <title>Керлинг: World Championship Calgary Final Women</title>
+  </programme>
+  <programme start="20260323160000 +0300" stop="20260323164500 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон: World Cup Осло Масс-старт Женщины</title>
+  </programme>
+  <programme start="20260323164500 +0300" stop="20260323173000 +0300" channel="Eurosport 1">
+    <desc>Серия крупнейших кубковых международных соревнований в мужском и женском биатлоне. Соревнования включают в себя выступления в индивидуальной гонке, спринте, гонке преследования, масс-старте, эстафете, смешанной эстафете, одиночной смешанной эстафете. спорт</desc>
+    <title>Биатлон. Кубок мира. Осло. Масс-старт. Мужчины</title>
+  </programme>
+  <programme start="20260323173000 +0300" stop="20260323183000 +0300" channel="Eurosport 1">
+    <desc>Ежегодные соревнования, проводимые Международной федерацией лыжного спорта в зимнее время. спорт</desc>
+    <title>Прыжки на лыжах с трамплина: World Cup Викерсунд Day 2 HS 240 Мужчины</title>
+  </programme>
+  <programme start="20260314190000 +0300" stop="20260314193000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Гигантский слалом. 2 попытка</title>
+  </programme>
+  <programme start="20260314193000 +0300" stop="20260314203000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 7</title>
+  </programme>
+  <programme start="20260314203000 +0300" stop="20260314210000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 6</title>
+  </programme>
+  <programme start="20260314210000 +0300" stop="20260315020000 +0300" channel="Eurosport 2">
+    <title>⋗ Гольф. Тур PGA. The Players Championship в США. День 3</title>
+  </programme>
+  <programme start="20260315020000 +0300" stop="20260315030000 +0300" channel="Eurosport 2">
+    <title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 1</title>
+  </programme>
+  <programme start="20260315030000 +0300" stop="20260315043000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 7</title>
+  </programme>
+  <programme start="20260315043000 +0300" stop="20260315050000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 6</title>
+  </programme>
+  <programme start="20260315050000 +0300" stop="20260315060000 +0300" channel="Eurosport 2">
+    <title>Лыжные гонки. Кубок мира. Этап 9 в Осло-Холменколлене, Норвегия. Женщины, мужчины. Масс-старт. 50 км. Свободный стиль</title>
+  </programme>
+  <programme start="20260315060000 +0300" stop="20260315080000 +0300" channel="Eurosport 2">
+    <title>Снукер. German Masters в Берлине. Финал. Сессия 2</title>
+  </programme>
+  <programme start="20260315080000 +0300" stop="20260315093000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 7</title>
+  </programme>
+  <programme start="20260315093000 +0300" stop="20260315100000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 6</title>
+  </programme>
+  <programme start="20260315100000 +0300" stop="20260315105500 +0300" channel="Eurosport 2">
+    <title>Лыжные гонки. Кубок мира. Этап 9 в Осло-Холменколлене, Норвегия. Женщины, мужчины. Масс-старт. 50 км. Свободный стиль</title>
+  </programme>
+  <programme start="20260315105500 +0300" stop="20260315120000 +0300" channel="Eurosport 2">
+    <title>⋗ Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. Квалификация 2</title>
+  </programme>
+  <programme start="20260315120000 +0300" stop="20260315122000 +0300" channel="Eurosport 2">
+    <title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 1</title>
+  </programme>
+  <programme start="20260315122000 +0300" stop="20260315130500 +0300" channel="Eurosport 2">
+    <title>⋗ Лыжное двоеборье. Женщины. Кубок мира. Финал в Осло-Холменколлене, Норвегия. День 2. HS 134</title>
+  </programme>
+  <programme start="20260315130500 +0300" stop="20260315142000 +0300" channel="Eurosport 2">
+    <title>⋗ Лыжное двоеборье. Кубок мира. Финал в Осло-Холменколлене, Норвегия. День 2. HS 134</title>
+  </programme>
+  <programme start="20260315142000 +0300" stop="20260315152000 +0300" channel="Eurosport 2">
+    <title>⋗ Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Одиночная смешанная эстафета</title>
+  </programme>
+  <programme start="20260315152000 +0300" stop="20260315174500 +0300" channel="Eurosport 2">
+    <title>⋗ Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title>
+  </programme>
+  <programme start="20260315174500 +0300" stop="20260315190000 +0300" channel="Eurosport 2">
+    <title>⋗ Велоспорт. Гонка Париж-Ницца во Франции. Этап 8</title>
+  </programme>
+  <programme start="20260315190000 +0300" stop="20260315200000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title>
+  </programme>
+  <programme start="20260315200000 +0300" stop="20260316010000 +0300" channel="Eurosport 2">
+    <title>⋗ Гольф. Тур PGA. The Players Championship в США. День 4</title>
+  </programme>
+  <programme start="20260316010000 +0300" stop="20260316020000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Куршевеле, Франция. Мужчины. Супергигант. День 2</title>
+  </programme>
+  <programme start="20260316020000 +0300" stop="20260316023000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 1 попытка</title>
+  </programme>
+  <programme start="20260316023000 +0300" stop="20260316030000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 2 попытка</title>
+  </programme>
+  <programme start="20260316030000 +0300" stop="20260316040000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Куршевеле, Франция. Мужчины. Супергигант. День 2</title>
+  </programme>
+  <programme start="20260316040000 +0300" stop="20260316050000 +0300" channel="Eurosport 2">
+    <title>Снукер. Home Nations. Открытый чемпионат Уэльса в Лландидно, Великобритания. Финал. Сессия 2</title>
+  </programme>
+  <programme start="20260316060000 +0300" stop="20260316070000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title>
+  </programme>
+  <programme start="20260316070000 +0300" stop="20260316080000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 8</title>
+  </programme>
+  <programme start="20260316080000 +0300" stop="20260316083000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Мужчины. Спринт. 10 км</title>
+  </programme>
+  <programme start="20260316083000 +0300" stop="20260316090000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Мужчины. Гонка преследования. 12,5 км</title>
+  </programme>
+  <programme start="20260316090000 +0300" stop="20260316110000 +0300" channel="Eurosport 2">
+    <title>Лыжные гонки. Кубок мира. Этап 9 в Осло-Холменколлене, Норвегия. Женщины, мужчины. Масс-старт. 50 км. Свободный стиль</title>
+  </programme>
+  <programme start="20260316110000 +0300" stop="20260316120000 +0300" channel="Eurosport 2">
+    <title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 2</title>
+  </programme>
+  <programme start="20260316120000 +0300" stop="20260316123000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Одиночная смешанная эстафета</title>
+  </programme>
+  <programme start="20260316123000 +0300" stop="20260316130000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Смешанная эстафета</title>
+  </programme>
+  <programme start="20260316130000 +0300" stop="20260316143000 +0300" channel="Eurosport 2">
+    <title>Лыжные гонки. Кубок мира. Этап 9 в Осло-Холменколлене, Норвегия. Женщины, мужчины. Масс-старт. 50 км. Свободный стиль</title>
+  </programme>
+  <programme start="20260316143000 +0300" stop="20260316153000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 7</title>
+  </programme>
+  <programme start="20260316153000 +0300" stop="20260316163000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 8</title>
+  </programme>
+  <programme start="20260316163000 +0300" stop="20260316170000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Тур Тайваня. Этап 1. Обзор</title>
+  </programme>
+  <programme start="20260316170000 +0300" stop="20260316173000 +0300" channel="Eurosport 2">
+    <title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title>
+  </programme>
+  <programme start="20260316173000 +0300" stop="20260316181500 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Гигантский слалом. 1 попытка</title>
+  </programme>
+  <programme start="20260316181500 +0300" stop="20260316190000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Гигантский слалом. 2 попытка</title>
+  </programme>
+  <programme start="20260316190000 +0300" stop="20260316200000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Куршевеле, Франция. Мужчины. Скоростной спуск</title>
+  </programme>
+  <programme start="20260316200000 +0300" stop="20260316220000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. Раунд 1</title>
+  </programme>
+  <programme start="20260316220000 +0300" stop="20260316230000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title>
+  </programme>
+  <programme start="20260316230000 +0300" stop="20260317000000 +0300" channel="Eurosport 2">
+    <title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title>
+  </programme>
+  <programme start="20260317000000 +0300" stop="20260317020000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. Раунд 1</title>
+  </programme>
+  <programme start="20260317020000 +0300" stop="20260317030000 +0300" channel="Eurosport 2">
+    <title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title>
+  </programme>
+  <programme start="20260317030000 +0300" stop="20260317040000 +0300" channel="Eurosport 2">
+    <title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 2</title>
+  </programme>
+  <programme start="20260317040000 +0300" stop="20260317060000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. Раунд 1</title>
+  </programme>
+  <programme start="20260317060000 +0300" stop="20260317063000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 1 попытка</title>
+  </programme>
+  <programme start="20260317063000 +0300" stop="20260317070000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 2 попытка</title>
+  </programme>
+  <programme start="20260317070000 +0300" stop="20260317080000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Куршевеле, Франция. Мужчины. Супергигант. День 2</title>
+  </programme>
+  <programme start="20260317080000 +0300" stop="20260317083000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Женщины. Спринт. 7,5 км</title>
+  </programme>
+  <programme start="20260317083000 +0300" stop="20260317090000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Женщины. Гонка преследования. 10 км</title>
+  </programme>
+  <programme start="20260317090000 +0300" stop="20260317100000 +0300" channel="Eurosport 2">
+    <title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title>
+  </programme>
+  <programme start="20260317100000 +0300" stop="20260317110000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title>
+  </programme>
+  <programme start="20260317110000 +0300" stop="20260317120000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 8</title>
+  </programme>
+  <programme start="20260317120000 +0300" stop="20260317130000 +0300" channel="Eurosport 2">
+    <title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 1</title>
+  </programme>
+  <programme start="20260317130000 +0300" stop="20260317140000 +0300" channel="Eurosport 2">
+    <title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title>
+  </programme>
+  <programme start="20260317140000 +0300" stop="20260317143000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 2 попытка</title>
+  </programme>
+  <programme start="20260317143000 +0300" stop="20260317160000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 6</title>
+  </programme>
+  <programme start="20260317160000 +0300" stop="20260317163000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title>
+  </programme>
+  <programme start="20260317163000 +0300" stop="20260317170000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Тур Тайваня. Этап 2. Обзор</title>
+  </programme>
+  <programme start="20260317170000 +0300" stop="20260317173000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Мужчины. Гонка преследования. 12,5 км</title>
+  </programme>
+  <programme start="20260317173000 +0300" stop="20260317180000 +0300" channel="Eurosport 2">
+    <title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 2</title>
+  </programme>
+  <programme start="20260317180000 +0300" stop="20260317183000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 1 попытка</title>
+  </programme>
+  <programme start="20260317183000 +0300" stop="20260317190000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 2 попытка</title>
+  </programme>
+  <programme start="20260317190000 +0300" stop="20260317200000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Куршевеле, Франция. Мужчины. Супергигант. День 2</title>
+  </programme>
+  <programme start="20260317200000 +0300" stop="20260317220000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. Раунд 1</title>
+  </programme>
+  <programme start="20260317220000 +0300" stop="20260317230000 +0300" channel="Eurosport 2">
+    <title>Сноуборд. Snow League. Этап 3 в Аспене, США. Хафпайп</title>
+  </programme>
+  <programme start="20260317230000 +0300" stop="20260318000000 +0300" channel="Eurosport 2">
+    <title>Лыжные гонки. Кубок мира. Этап 9 в Осло-Холменколлене, Норвегия. Женщины, мужчины. Масс-старт. 50 км. Свободный стиль</title>
+  </programme>
+  <programme start="20260318000000 +0300" stop="20260318020000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. Раунд 1</title>
+  </programme>
+  <programme start="20260318020000 +0300" stop="20260318030000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title>
+  </programme>
+  <programme start="20260318030000 +0300" stop="20260318040000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 8</title>
+  </programme>
+  <programme start="20260318040000 +0300" stop="20260318060000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. Раунд 1</title>
+  </programme>
+  <programme start="20260318060000 +0300" stop="20260318070000 +0300" channel="Eurosport 2">
+    <title>Сноуборд. Кубок мира. Этап в Валь-Сен-Коме, Канада. Параллельный гигантский слалом. День 2</title>
+  </programme>
+  <programme start="20260318070000 +0300" stop="20260318080000 +0300" channel="Eurosport 2">
+    <title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title>
+  </programme>
+  <programme start="20260318080000 +0300" stop="20260318083000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Одиночная смешанная эстафета</title>
+  </programme>
+  <programme start="20260318083000 +0300" stop="20260318090000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Этап 8 в Отепяэ, Эстония. Смешанная эстафета</title>
+  </programme>
+  <programme start="20260318090000 +0300" stop="20260318093000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 1 попытка</title>
+  </programme>
+  <programme start="20260318093000 +0300" stop="20260318100000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 2 попытка</title>
+  </programme>
+  <programme start="20260318100000 +0300" stop="20260318110000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Куршевеле, Франция. Мужчины. Супергигант. День 2</title>
+  </programme>
+  <programme start="20260318110000 +0300" stop="20260318120000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Тиррено-Адриатико в Италии. Этап 7</title>
+  </programme>
+  <programme start="20260318120000 +0300" stop="20260318130000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Париж-Ницца во Франции. Этап 8</title>
+  </programme>
+  <programme start="20260318130000 +0300" stop="20260318134500 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Женщины. Гонка Страде Бьянке в Италии</title>
+  </programme>
+  <programme start="20260318134500 +0300" stop="20260318141500 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Тур Тайваня. Этап 3. Обзор</title>
+  </programme>
+  <programme start="20260318141500 +0300" stop="20260318160000 +0300" channel="Eurosport 2">
+    <title>⋗ Велоспорт. Женщины. Гонка Нокере Курсе в Бельгии</title>
+  </programme>
+  <programme start="20260318160000 +0300" stop="20260318162000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Велошоу</title>
+  </programme>
+  <programme start="20260318162000 +0300" stop="20260318180000 +0300" channel="Eurosport 2">
+    <title>⋗ Велоспорт. Гонка Милан-Турин в Италии</title>
+  </programme>
+  <programme start="20260318180000 +0300" stop="20260318193000 +0300" channel="Eurosport 2">
+    <title>⋗ Велоспорт. Гонка Нокере Курсе в Бельгии</title>
+  </programme>
+  <programme start="20260318193000 +0300" stop="20260318200000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Женщины. Гонка Нокере Курсе в Бельгии</title>
+  </programme>
+  <programme start="20260318200000 +0300" stop="20260318220000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. Раунд 2</title>
+  </programme>
+  <programme start="20260318220000 +0300" stop="20260318223000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Женщины. Гонка Нокере Курсе в Бельгии</title>
+  </programme>
+  <programme start="20260318223000 +0300" stop="20260318230000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Нокере Курсе в Бельгии</title>
+  </programme>
+  <programme start="20260318230000 +0300" stop="20260319000000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Милан-Турин в Италии</title>
+  </programme>
+  <programme start="20260319000000 +0300" stop="20260319003000 +0300" channel="Eurosport 2">
+    <title>Гольф. Тележурнал Discovery Golf</title>
+  </programme>
+  <programme start="20260319003000 +0300" stop="20260319020000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. Раунд 2</title>
+  </programme>
+  <programme start="20260319020000 +0300" stop="20260319030000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Женщины. Гонка Нокере Курсе в Бельгии</title>
+  </programme>
+  <programme start="20260319030000 +0300" stop="20260319040000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Нокере Курсе в Бельгии</title>
+  </programme>
+  <programme start="20260319040000 +0300" stop="20260319060000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. Раунд 2</title>
+  </programme>
+  <programme start="20260319060000 +0300" stop="20260319070000 +0300" channel="Eurosport 2">
+    <title>Лыжные гонки. Кубок мира. Этап 9 в Осло-Холменколлене, Норвегия. Женщины, мужчины. Масс-старт. 50 км. Свободный стиль</title>
+  </programme>
+  <programme start="20260319070000 +0300" stop="20260319073000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 1 попытка</title>
+  </programme>
+  <programme start="20260319073000 +0300" stop="20260319080000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Оре, Швеция. Женщины. Слалом. 2 попытка</title>
+  </programme>
+  <programme start="20260319080000 +0300" stop="20260319090000 +0300" channel="Eurosport 2">
+    <title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 1</title>
+  </programme>
+  <programme start="20260319090000 +0300" stop="20260319100000 +0300" channel="Eurosport 2">
+    <title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title>
+  </programme>
+  <programme start="20260319100000 +0300" stop="20260319110000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Женщины. Гонка Нокере Курсе в Бельгии</title>
+  </programme>
+  <programme start="20260319110000 +0300" stop="20260319115000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Этап в Куршевеле, Франция. Мужчины. Супергигант. День 2</title>
+  </programme>
+  <programme start="20260319115000 +0300" stop="20260319135000 +0300" channel="Eurosport 2">
+    <title>Кёрлинг. Женщины. Чемпионат мира в Калгари, Канада. Шотландия – Канада</title>
+  </programme>
+  <programme start="20260319135000 +0300" stop="20260319160000 +0300" channel="Eurosport 2">
+    <title>⋗ Фристайл. Кубок мира. Этап в Тине, Франция. Слоупстайл</title>
+  </programme>
+  <programme start="20260319160000 +0300" stop="20260319180000 +0300" channel="Eurosport 2">
+    <title>⋗ Велошоссе. Кубок Франции. Гран-при Денена</title>
+  </programme>
+  <programme start="20260319180000 +0300" stop="20260319191500 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Милан-Турин в Италии</title>
+  </programme>
+  <programme start="20260319191500 +0300" stop="20260319194500 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Тур Тайваня. Этап 4. Обзор</title>
+  </programme>
+  <programme start="20260319194500 +0300" stop="20260319203000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. Раунд 3</title>
+  </programme>
+  <programme start="20260319203000 +0300" stop="20260319210000 +0300" channel="Eurosport 2">
+    <title>Гольф. Тележурнал Discovery Golf</title>
+  </programme>
+  <programme start="20260319210000 +0300" stop="20260320010000 +0300" channel="Eurosport 2">
+    <title>⋗ Гольф. Тур PGA. Valspar Championship в США. День 1</title>
+  </programme>
+  <programme start="20260320010000 +0300" stop="20260320020000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. Раунд 3</title>
+  </programme>
+  <programme start="20260320020000 +0300" stop="20260320030000 +0300" channel="Eurosport 2">
+    <title>Велошоссе. Кубок Франции. Гран-при Денена</title>
+  </programme>
+  <programme start="20260320030000 +0300" stop="20260320040000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Финальный этап в Осло-Холменколлене, Норвегия. Женщины. Спринт. 7,5 км</title>
+  </programme>
+  <programme start="20260320040000 +0300" stop="20260320060000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. Раунд 3</title>
+  </programme>
+  <programme start="20260320060000 +0300" stop="20260320070000 +0300" channel="Eurosport 2">
+    <title>Велошоссе. Кубок Франции. Гран-при Денена</title>
+  </programme>
+  <programme start="20260320070000 +0300" stop="20260320080000 +0300" channel="Eurosport 2">
+    <title>Фристайл. Кубок мира. Этап в Тине, Франция. Слоупстайл</title>
+  </programme>
+  <programme start="20260320080000 +0300" stop="20260320090000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Финальный этап в Осло-Холменколлене, Норвегия. Женщины. Спринт. 7,5 км</title>
+  </programme>
+  <programme start="20260320090000 +0300" stop="20260320093000 +0300" channel="Eurosport 2">
+    <title>Велошоссе. Кубок Франции. Гран-при Денена</title>
+  </programme>
+  <programme start="20260320093000 +0300" stop="20260320110000 +0300" channel="Eurosport 2">
+    <title>Кёрлинг. Женщины. Чемпионат мира в Калгари, Канада. Италия – Шотландия</title>
+  </programme>
+  <programme start="20260320110000 +0300" stop="20260320140000 +0300" channel="Eurosport 2">
+    <title>Пауэрлифтинг. Чемпионат мира по классическому троеборью в Валлетте, Мальта. День 1</title>
+  </programme>
+  <programme start="20260320140000 +0300" stop="20260320150000 +0300" channel="Eurosport 2">
+    <title>Прыжки на лыжах с трамплина. Кубок мира. Этап 16 в Осло-Холменколлене, Норвегия. HS 134. День 2</title>
+  </programme>
+  <programme start="20260320150000 +0300" stop="20260320154500 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Нокере Курсе в Бельгии</title>
+  </programme>
+  <programme start="20260320154500 +0300" stop="20260320163000 +0300" channel="Eurosport 2">
+    <title>Велошоссе. Кубок Франции. Гран-при Денена</title>
+  </programme>
+  <programme start="20260320163000 +0300" stop="20260320170000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Тур Тайваня. Этап 5. Обзор</title>
+  </programme>
+  <programme start="20260320170000 +0300" stop="20260320190000 +0300" channel="Eurosport 2">
+    <title>⋗ Велоспорт. Гонка Бредене-Коксейде Классик в Бельгии</title>
+  </programme>
+  <programme start="20260320190000 +0300" stop="20260320200000 +0300" channel="Eurosport 2">
+    <title>⋗ Прыжки на лыжах с трамплина. Кубок мира. Этап 17 в Викерсуне, Норвегия. HS 240. Квалификация 1</title>
+  </programme>
+  <programme start="20260320200000 +0300" stop="20260320210000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. 1/4 финала</title>
+  </programme>
+  <programme start="20260320210000 +0300" stop="20260321010000 +0300" channel="Eurosport 2">
+    <title>⋗ Гольф. Тур PGA. Valspar Championship в США. День 2</title>
+  </programme>
+  <programme start="20260321010000 +0300" stop="20260321020000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. 1/4 финала</title>
+  </programme>
+  <programme start="20260321020000 +0300" stop="20260321030000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Бредене-Коксейде Классик в Бельгии</title>
+  </programme>
+  <programme start="20260321030000 +0300" stop="20260321040000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Финальный этап в Осло-Холменколлене, Норвегия. Мужчины. Спринт. 10 км</title>
+  </programme>
+  <programme start="20260321040000 +0300" stop="20260321060000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. 1/4 финала</title>
+  </programme>
+  <programme start="20260321060000 +0300" stop="20260321063000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Бредене-Коксейде Классик в Бельгии</title>
+  </programme>
+  <programme start="20260321063000 +0300" stop="20260321103000 +0300" channel="Eurosport 2">
+    <title>⋗ Триатлон. T100 Triathlon World Tour. Этап 1 в Голд-Коусте, Австралия. Женщины, мужчины</title>
+  </programme>
+  <programme start="20260321103000 +0300" stop="20260321114500 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Бредене-Коксейде Классик в Бельгии</title>
+  </programme>
+  <programme start="20260321114500 +0300" stop="20260321143000 +0300" channel="Eurosport 2">
+    <title>⋗ Велоспорт. Гонка Милан – Сан-Ремо в Италии</title>
+  </programme>
+  <programme start="20260321143000 +0300" stop="20260321163000 +0300" channel="Eurosport 2">
+    <title>⋗ Велоспорт. Женщины. Гонка Милан – Сан-Ремо в Италии</title>
+  </programme>
+  <programme start="20260321163000 +0300" stop="20260321193000 +0300" channel="Eurosport 2">
+    <title>⋗ Велоспорт. Гонка Милан – Сан-Ремо в Италии</title>
+  </programme>
+  <programme start="20260321193000 +0300" stop="20260321200000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Финал в Квитфьелле, Норвегия. Женщины. Скоростной спуск</title>
+  </programme>
+  <programme start="20260321200000 +0300" stop="20260322010000 +0300" channel="Eurosport 2">
+    <title>⋗ Гольф. Тур PGA. Valspar Championship в США. День 3</title>
+  </programme>
+  <programme start="20260322010000 +0300" stop="20260322040000 +0300" channel="Eurosport 2">
+    <title>⋗ Кёрлинг. Женщины. Чемпионат мира в Калгари, Канада. 1/2 финала</title>
+  </programme>
+  <programme start="20260322040000 +0300" stop="20260322060000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. 1/2 финала</title>
+  </programme>
+  <programme start="20260322060000 +0300" stop="20260322063000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Финал в Квитфьелле, Норвегия. Мужчины. Скоростной спуск</title>
+  </programme>
+  <programme start="20260322063000 +0300" stop="20260322070000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Финал в Квитфьелле, Норвегия. Женщины. Скоростной спуск</title>
+  </programme>
+  <programme start="20260322070000 +0300" stop="20260322073000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Финальный этап в Осло-Холменколлене, Норвегия. Мужчины. Гонка преследования. 12,5 км</title>
+  </programme>
+  <programme start="20260322073000 +0300" stop="20260322080000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Финальный этап в Осло-Холменколлене, Норвегия. Женщины. Гонка преследования. 10 км</title>
+  </programme>
+  <programme start="20260322080000 +0300" stop="20260322090000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Женщины. Гонка Милан – Сан-Ремо в Италии</title>
+  </programme>
+  <programme start="20260322090000 +0300" stop="20260322094500 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Финал в Квитфьелле, Норвегия. Мужчины. Скоростной спуск</title>
+  </programme>
+  <programme start="20260322094500 +0300" stop="20260322102000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Финал в Квитфьелле, Норвегия. Женщины. Скоростной спуск</title>
+  </programme>
+  <programme start="20260322102000 +0300" stop="20260322112000 +0300" channel="Eurosport 2">
+    <title>Автоспорт. Формула E. Этап 5 в Мадриде, Испания. Гонка</title>
+  </programme>
+  <programme start="20260322112000 +0300" stop="20260322124000 +0300" channel="Eurosport 2">
+    <title>⋗ Прыжки на лыжах с трамплина. Женщины. Кубок мира. Этап 12 в Викерсуне, Норвегия. HS 240</title>
+  </programme>
+  <programme start="20260322124000 +0300" stop="20260322140000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Гонка Милан – Сан-Ремо в Италии</title>
+  </programme>
+  <programme start="20260322140000 +0300" stop="20260322150000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Женщины. Гонка Милан – Сан-Ремо в Италии</title>
+  </programme>
+  <programme start="20260322150000 +0300" stop="20260322153000 +0300" channel="Eurosport 2">
+    <title>Биатлон. Кубок мира. Финальный этап в Осло-Холменколлене, Норвегия. Женщины. Гонка преследования. 10 км</title>
+  </programme>
+  <programme start="20260322153000 +0300" stop="20260322163000 +0300" channel="Eurosport 2">
+    <title>⋗ Биатлон. Кубок мира. Финальный этап в Осло-Холменколлене, Норвегия. Женщины. Масс-старт. 12,5 км</title>
+  </programme>
+  <programme start="20260322163000 +0300" stop="20260322183000 +0300" channel="Eurosport 2">
+    <title>⋗ Велоспорт. Кубок Бельгии. Гран-при Жан-Пьера Монсере</title>
+  </programme>
+  <programme start="20260322183000 +0300" stop="20260322192000 +0300" channel="Eurosport 2">
+    <title>Велоспорт. Женщины. Гонка Милан – Сан-Ремо в Италии</title>
+  </programme>
+  <programme start="20260322192000 +0300" stop="20260322203000 +0300" channel="Eurosport 2">
+    <title>⋗ Лыжные гонки. Кубок мира. Финал в Лэйк-Плэсиде, США. Мужчины. Масс-старт. 20 км. Свободный стиль</title>
+  </programme>
+  <programme start="20260322203000 +0300" stop="20260323010000 +0300" channel="Eurosport 2">
+    <title>⋗ Гольф. Тур PGA. Valspar Championship в США. День 4</title>
+  </programme>
+  <programme start="20260323010000 +0300" stop="20260323014500 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Финал в Квитфьелле, Норвегия. Женщины. Супергигант</title>
+  </programme>
+  <programme start="20260323014500 +0300" stop="20260323023000 +0300" channel="Eurosport 2">
+    <title>Горнолыжный спорт. Кубок мира. Финал в Квитфьелле, Норвегия. Мужчины. Супергигант</title>
+  </programme>
+  <programme start="20260323023000 +0300" stop="20260323033000 +0300" channel="Eurosport 2">
+    <title>Прыжки на лыжах с трамплина. Кубок мира. Этап 17 в Викерсуне, Норвегия. HS 240. День 2</title>
+  </programme>
+  <programme start="20260323033000 +0300" stop="20260323043000 +0300" channel="Eurosport 2">
+    <title>Снукер. World Open в Юйшане, Китай. Финал. Сессия 2</title>
+  </programme>
 </tv>

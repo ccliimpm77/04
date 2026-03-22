@@ -28,9 +28,12 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      # â”€â”€ 3. Installa dipendenze â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-      - name: Installa dipendenze Python
-        run: pip install anthropic
+      # â”€â”€ 3. Installa dipendenze di sistema e Python â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+      - name: Installa dipendenze
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y curl
+          pip install anthropic
 
       # â”€â”€ 4. Esegui il generatore EPG â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
       - name: Genera 04.epg

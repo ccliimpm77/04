@@ -1,0 +1,33 @@
+name: Aggiorna 04.xml EPG
+
+on:
+  schedule:
+    - cron: '0 4 * * *'     # 5:00 AM ora italiana (CET/CEST ≈ UTC+1/+2)
+  workflow_dispatch:        # per eseguire manualmente quando vuoi
+
+permissions:
+  contents: write
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Scarica EPG ufficiale iptvx.one
+        run: |
+          curl -L -o epg.xml.gz https://iptvx.one/epg/epg.xml.gz
+          gunzip epg.xml.gz
+
+      - name: Elabora EPG (filtra + sostituisci ID)
+        run: python3 process_epg.py
+
+      - name: Commit & push 04.xml
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add 04.xml
+          git commit -m "EPG 04.xml aggiornato $(date +'%Y-%m-%d %H:%M')" || echo "Nessun cambiamento"
+          git push

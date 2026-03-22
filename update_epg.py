@@ -3,72 +3,78 @@ import gzip
 import xml.etree.ElementTree as ET
 from datetime import datetime
 import io
-import concurrent.futures # Per l'esecuzione parallela
+import concurrent.futures
 
-# Configurazione
+# --- CONFIGURAZIONE: INSERISCI QUI TUTTE LE TUE URL ---
 SOURCES = [
     "https://raw.githubusercontent.com/ccliimpm77/04/main/04.xml.gz",
-    # Aggiungi qui altre URL se presenti nel tuo file originale
+    # Aggiungi qui le altre URL che avevi nel file originale, separate da virgola
 ]
 
 OUTPUT_FILE = "04.epg"
 
-def fetch_and_process(url):
-    """Scarica e processa una singola sorgente"""
+def fetch_and_extract(url):
+    """Scarica, decompressa e trova canali/programmi indipendentemente dal namespace"""
     try:
-        session = requests.Session()
-        response = session.get(url, timeout=30)
-        response.raise_for_status()
-        
-        # Decompressione in memoria
-        with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gzipped:
-            xml_content = gzipped.read()
+        print(f"Scarico: {url}")
+        with requests.Session() as s:
+            r = s.get(url, timeout=60)
+            r.raise_for_status()
             
-        root = ET.fromstring(xml_content)
-        channels = root.findall('channel')
-        programs = root.findall('programme')
+        with gzip.GzipFile(fileobj=io.BytesIO(r.content)) as gzipped:
+            xml_data = gzipped.read()
+            
+        # Parsing flessibile per ignorare i namespace
+        root = ET.fromstring(xml_data)
         
+        # Cerchiamo i tag ignorando i namespace (metodo più sicuro)
+        # Alcuni file EPG usano <channel>, altri <ns:channel>
+        channels = [elem for elem in root if 'channel' in elem.tag]
+        programs = [elem for elem in root if 'programme' in elem.tag]
+        
+        print(f"Trovati {len(channels)} canali e {len(programs)} programmi in {url}")
         return channels, programs
     except Exception as e:
-        print(f"Errore durante l'elaborazione di {url}: {e}")
+        print(f"Errore su {url}: {e}")
         return [], []
 
 def main():
     start_time = datetime.now()
-    print(f"Inizio aggiornamento EPG: {start_time}")
-
+    
     all_channels = []
     all_programs = []
 
-    # Utilizzo di ThreadPoolExecutor per scaricare i file in parallelo
-    # max_workers=5 è un buon compromesso per non sovraccaricare la rete
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-        results = list(executor.map(fetch_and_process, SOURCES))
+    # Parallelismo per massimizzare la velocità di download
+    with concurrent.futures.ThreadPoolExecutor(max_workers=len(SOURCES)) as executor:
+        future_to_url = {executor.submit(fetch_and_extract, url): url for url in SOURCES}
+        for future in concurrent.futures.as_completed(future_to_url):
+            channels, programs = future.result()
+            all_channels.extend(channels)
+            all_programs.extend(programs)
 
-    # Accorpa i risultati
-    for channels, programs in results:
-        all_channels.extend(channels)
-        all_programs.extend(programs)
+    if not all_channels and not all_programs:
+        print("ATTENZIONE: Nessun dato trovato. Verifica le URL o la struttura XML.")
+        return
 
-    # Creazione del nuovo file XML (EPG)
+    # Costruzione veloce dell'XML finale
     new_root = ET.Element("tv")
-    new_root.set("generator-info-name", "Custom EPG Generator Optimized")
+    new_root.set("generator-info-name", "EPG-Optimizer-v2")
 
-    # Aggiunta canali e programmi
-    for channel in all_channels:
-        new_root.append(channel)
-    for program in all_programs:
-        new_root.append(program)
+    # Aggiungiamo i dati trovati
+    new_root.extend(all_channels)
+    new_root.extend(all_programs)
 
-    # Scrittura veloce su file
+    # Scrittura su file
     tree = ET.ElementTree(new_root)
     with open(OUTPUT_FILE, "wb") as f:
-        # L'uso di encoding='utf-8' e xml_declaration=True è standard
         tree.write(f, encoding="utf-8", xml_declaration=True)
 
     end_time = datetime.now()
-    duration = end_time - start_time
-    print(f"File {OUTPUT_FILE} creato con successo in {duration.total_seconds():.2f} secondi.")
+    print(f"\n--- COMPLETATO ---")
+    print(f"File creato: {OUTPUT_FILE}")
+    print(f"Totale canali: {len(all_channels)}")
+    print(f"Totale programmi: {len(all_programs)}")
+    print(f"Tempo impiegato: {(end_time - start_time).total_seconds():.2f} secondi.")
 
 if __name__ == "__main__":
     main()

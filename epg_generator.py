@@ -30,15 +30,58 @@ def load_canali(path: str) -> list[str]:
 
 
 def download_epg(url: str) -> bytes:
-    """Scarica l'EPG (supporta gzip)."""
-    import urllib.request
+    """
+    Scarica l'EPG usando curl (bypassa Cloudflare meglio di urllib/requests).
+    Supporta gzip automaticamente tramite --compressed.
+    """
+    import subprocess
+    import tempfile
+
     print(f"[*] Scarico EPG da {url} ...")
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 EPG-Grabber/1.0"})
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        data = resp.read()
-    # Prova a decomprimere se gzip
+
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".xml") as tmp:
+        tmp_path = tmp.name
+
+    cmd = [
+        "curl",
+        "--silent",
+        "--fail",
+        "--location",           # segui redirect
+        "--compressed",         # decomprime gzip automaticamente
+        "--max-time", "180",
+        "--retry", "3",
+        "--retry-delay", "5",
+        "--user-agent", (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "--header", "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "--header", "Accept-Language: it-IT,it;q=0.9,en;q=0.8",
+        "--header", "Accept-Encoding: gzip, deflate, br",
+        "--header", "Connection: keep-alive",
+        "-o", tmp_path,
+        url,
+    ]
+
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        raise RuntimeError(
+            f"curl fallito (exit {result.returncode}): {result.stderr.strip()}"
+        )
+
+    with open(tmp_path, "rb") as f:
+        data = f.read()
+
+    os.unlink(tmp_path)
+
+    # Sicurezza: decomprime se ancora gzip (curl --compressed a volte non basta)
     if data[:2] == b'\x1f\x8b':
         data = gzip.decompress(data)
+
+    if not data:
+        raise RuntimeError("File EPG scaricato è vuoto.")
+
     print(f"[*] EPG scaricato ({len(data)//1024} KB)")
     return data
 

@@ -1,28 +1,26 @@
-import requests
+import urllib.request
 import gzip
-import xml.etree.ElementTree as ET
+import shutil
+import os
 
-# Definizione URL e nomi file
-url = "https://raw.githubusercontent.com/ccliimpm77/04/main/04.xml.gz"
-gz_file = "04.xml.gz"
-xml_file = "04.xml"
-output_file = "04.epg"
+# Configurazione
+URL_SORGENTE = "https://raw.githubusercontent.com/ccliimpm77/04/main/04.xml.gz"
+FILE_OUTPUT = "04.epg"
 
-# 1. Scarica il file .gz
-response = requests.get(url)
-with open(gz_file, "wb") as f:
-    f.write(response.content)
+def main():
+    print(f"Inizio download e creazione di {FILE_OUTPUT}...")
+    try:
+        # Scarichiamo e decomprimiamo al volo senza caricare tutto in RAM
+        # Questo è il metodo più veloce possibile in Python
+        with urllib.request.urlopen(URL_SORGENTE) as response:
+            with gzip.GzipFile(fileobj=response) as unzipped:
+                with open(FILE_OUTPUT, 'wb') as f_out:
+                    shutil.copyfileobj(unzipped, f_out)
+        
+        print(f"Successo! File {FILE_OUTPUT} creato correttamente.")
+    except Exception as e:
+        print(f"Errore: {e}")
+        exit(1)
 
-# 2. Decompressione del file .gz in un file .xml
-with gzip.open(gz_file, "rb") as f_in:
-    with open(xml_file, "wb") as f_out:
-        f_out.write(f_in.read())
-
-# 3. Lettura dell'XML e scrittura del file finale .epg
-tree = ET.parse(xml_file)
-root = tree.getroot()
-
-# Scrittura finale
-tree.write(output_file, encoding="utf-8", xml_declaration=True)
-
-print("Operazione completata con il metodo originale.")
+if __name__ == "__main__":
+    main()

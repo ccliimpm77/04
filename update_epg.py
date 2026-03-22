@@ -1,39 +1,28 @@
 import requests
 import gzip
 import xml.etree.ElementTree as ET
-import os
 
-# Configurazione
-URL_SORGENTE = "https://raw.githubusercontent.com/ccliimpm77/04/main/04.xml.gz"
-FILE_OUTPUT = "04.epg"
+# Definizione URL e nomi file
+url = "https://raw.githubusercontent.com/ccliimpm77/04/main/04.xml.gz"
+gz_file = "04.xml.gz"
+xml_file = "04.xml"
+output_file = "04.epg"
 
-def main():
-    try:
-        print(f"1. Scaricamento file da: {URL_SORGENTE}")
-        # Scarichiamo tutto il file in memoria
-        response = requests.get(URL_SORGENTE, timeout=30)
-        response.raise_for_status()
+# 1. Scarica il file .gz
+response = requests.get(url)
+with open(gz_file, "wb") as f:
+    f.write(response.content)
 
-        print("2. Decompressione in corso...")
-        # Decomprimiamo i dati gzip
-        xml_data = gzip.decompress(response.content)
+# 2. Decompressione del file .gz in un file .xml
+with gzip.open(gz_file, "rb") as f_in:
+    with open(xml_file, "wb") as f_out:
+        f_out.write(f_in.read())
 
-        print("3. Analisi XML (Parsing)...")
-        # Analizziamo l'XML nel modo standard
-        root = ET.fromstring(xml_data)
+# 3. Lettura dell'XML e scrittura del file finale .epg
+tree = ET.parse(xml_file)
+root = tree.getroot()
 
-        print(f"4. Scrittura del file {FILE_OUTPUT}...")
-        # Creiamo l'albero XML e lo salviamo
-        albero = ET.ElementTree(root)
-        with open(FILE_OUTPUT, "wb") as f:
-            albero.write(f, encoding="utf-8", xml_declaration=True)
+# Scrittura finale
+tree.write(output_file, encoding="utf-8", xml_declaration=True)
 
-        print("--- OPERAZIONE COMPLETATA CON SUCCESSO ---")
-
-    except Exception as e:
-        print(f"ERRORE: {e}")
-        # Se c'è un errore, usciamo segnalandolo al sistema
-        exit(1)
-
-if __name__ == "__main__":
-    main()
+print("Operazione completata con il metodo originale.")

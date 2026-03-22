@@ -12,6 +12,7 @@ jobs:
   genera-epg:
     name: Scarica, filtra e traduce EPG
     runs-on: ubuntu-latest
+    timeout-minutes: 25
 
     permissions:
       contents: write   # necessario per fare il commit del file generato

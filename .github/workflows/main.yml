@@ -2,19 +2,19 @@ name: Update EPG 04
 
 on:
   schedule:
-    # 5:00 AM UTC (corrisponde alle 6:00 o 7:00 in Italia a seconda dell'ora legale)
+    # Esecuzione alle 05:00 UTC (06:00 o 07:00 in Italia)
     - cron: '0 5 * * *'
-  workflow_dispatch: # Permette l'avvio manuale per test
+  workflow_dispatch: # Permette l'avvio manuale dalla scheda "Actions"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Versione aggiornata
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # Versione aggiornata
         with:
           python-version: '3.x'
 

@@ -5,74 +5,84 @@ from io import BytesIO
 
 # Configurazione
 EPG_URL = "https://iptvx.one/epg/epg.xml.gz"
-CHANNELS_LIST_URL = "https://raw.githubusercontent.com/ccliimpm77/04/refs/heads/main/canali.txt"
 OUTPUT_FILE = "04.epg"
 
-# Mappa di conversione: 
-# A SINISTRA: ID che troviamo nell'EPG originale
-# A DESTRA: Come vogliamo che appaiano nel tuo file 04.epg
-REPLACEMENT_MAP = {
-    "eurosport1": "Eurosport 1",
-    "eurosport2": "Eurosport 2",
-    "cnni": "CNN International",
-    "cnn_international": "CNN International", # Aggiunto ID alternativo
-    "cnn": "CNN International"                # Aggiunto ID alternativo
+# Mappa di ricerca: se l'ID del sito contiene la "CHIAVE", lo rinominiamo nel "VALORE"
+SEARCH_MAP = {
+    "cnn_international": "CNN International",
+    "eurosport_1": "Eurosport 1",
+    "eurosport_2": "Eurosport 2"
 }
 
-HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 
 def main():
-    print("--- 1. Download canali da GitHub ---")
+    print("--- 1. Download EPG (iptvx.one) ---")
     try:
-        r = requests.get(CHANNELS_LIST_URL, headers=HEADERS)
-        # Carichiamo gli ID dal tuo file e aggiungiamo le varianti CNN per sicurezza
-        target_ids = set(line.strip().lower() for line in r.text.splitlines() if line.strip())
-        target_ids.update(["cnn_international", "cnn", "cnni"]) # Forza la ricerca di CNN
-        print(f"ID ricercati: {target_ids}")
+        response = requests.get(EPG_URL, headers=HEADERS, timeout=60)
+        response.raise_for_status()
+        gz_data = BytesIO(response.content)
     except Exception as e:
-        print(f"Errore canali.txt: {e}")
+        print(f"Errore download: {e}")
         return
 
-    print("\n--- 2. Elaborazione EPG ---")
+    # Inizializziamo i contatori e una lista per gli ID effettivamente trovati
+    found_source_ids = {} # Mappa: ID_Sorgente -> Nome_Nuovo
+    count_ch = 0
+    count_pr = 0
+
+    print("--- 2. Filtraggio e Rinomina in corso ---")
     try:
-        response = requests.get(EPG_URL, headers=HEADERS, stream=True)
-        response.raise_for_status()
-        
-        with gzip.GzipFile(fileobj=BytesIO(response.content)) as gz:
+        with gzip.GzipFile(fileobj=gz_data) as gz:
             with open(OUTPUT_FILE, 'wb') as f_out:
                 f_out.write(b'<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n')
                 
-                count_ch = 0
-                count_pr = 0
+                # Usiamo iterparse per processare il file enorme riga per riga
+                context = ET.iterparse(gz, events=('start', 'end'))
                 
-                context = ET.iterparse(gz, events=('end',))
                 for event, elem in context:
-                    
-                    if elem.tag == 'channel':
-                        orig_id = elem.get('id', '').lower()
-                        if orig_id in target_ids:
-                            new_id = REPLACEMENT_MAP.get(orig_id, orig_id)
-                            elem.set('id', new_id)
-                            f_out.write(ET.tostring(elem, encoding='utf-8'))
-                            count_ch += 1
-                            print(f"Trovato canale: {orig_id} -> rinominato in {new_id}")
-                    
-                    elif elem.tag == 'programme':
-                        orig_id = elem.get('channel', '').lower()
-                        if orig_id in target_ids:
-                            new_id = REPLACEMENT_MAP.get(orig_id, orig_id)
-                            elem.set('channel', new_id)
+                    # FASE A: Identifichiamo i CANALI e salviamo l'ID esatto usato dal sito
+                    if event == 'end' and elem.tag == 'channel':
+                        orig_id = elem.get('id', '')
+                        orig_id_low = orig_id.lower()
+                        
+                        for key, new_name in SEARCH_MAP.items():
+                            if key in orig_id_low:
+                                found_source_ids[orig_id] = new_name
+                                elem.set('id', new_name)
+                                # Rinominiamo anche il nome visualizzato se esiste
+                                display_name = elem.find('display-name')
+                                if display_name is not None:
+                                    display_name.text = new_name
+                                
+                                f_out.write(ET.tostring(elem, encoding='utf-8'))
+                                count_ch += 1
+                                print(f"Canale agganciato: {orig_id} -> {new_name}")
+                        elem.clear()
+
+                    # FASE B: Identifichiamo i PROGRAMMI usando la mappa creata sopra
+                    elif event == 'end' and elem.tag == 'programme':
+                        prog_channel = elem.get('channel', '')
+                        
+                        if prog_channel in found_source_ids:
+                            # Rinominiamo l'attributo channel con il nome "pulito"
+                            elem.set('channel', found_source_ids[prog_channel])
                             f_out.write(ET.tostring(elem, encoding='utf-8'))
                             count_pr += 1
-                    
-                    elem.clear()
-                
+                        elem.clear()
+
                 f_out.write(b'</tv>\n')
 
-        print(f"\nFINITO! Programmi estratti: {count_pr}")
+        print(f"\n--- RISULTATO FINALE ---")
+        print(f"Canali scritti: {count_ch}")
+        print(f"Programmi scritti: {count_pr}")
+        
+        if count_pr == 0:
+            print("ERRORE: Nonostante i canali, non sono stati trovati programmi.")
+            print("Questo succede se l'ID dei programmi è diverso da quello dei canali nell'XML.")
 
     except Exception as e:
-        print(f"Errore: {e}")
+        print(f"Errore analisi XML: {e}")
 
 if __name__ == "__main__":
     main()

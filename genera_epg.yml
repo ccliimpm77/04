@@ -1,0 +1,54 @@
+name: Genera EPG 04
+
+on:
+  # Esecuzione automatica ogni notte alle 04:00 UTC
+  schedule:
+    - cron: "0 4 * * *"
+
+  # Permette di eseguire manualmente dalla tab Actions
+  workflow_dispatch:
+
+jobs:
+  genera-epg:
+    name: Scarica, filtra e traduce EPG
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # necessario per fare il commit del file generato
+
+    steps:
+      # ── 1. Checkout del repo ───────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── 2. Setup Python ───────────────────────────────────────────────────
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      # ── 3. Installa dipendenze ────────────────────────────────────────────
+      - name: Installa dipendenze Python
+        run: pip install anthropic
+
+      # ── 4. Esegui il generatore EPG ───────────────────────────────────────
+      - name: Genera 04.epg
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python epg_generator.py
+
+      # ── 5. Commit e push del file generato ───────────────────────────────
+      - name: Commit 04.epg
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add 04.epg
+          # Commit solo se il file è cambiato
+          git diff --cached --quiet || git commit -m "🤖 Aggiorna 04.epg [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+
+      - name: Push
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

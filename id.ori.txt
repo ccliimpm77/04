@@ -1,0 +1,3 @@
+cnn-int
+eurosport1
+eurosport2
